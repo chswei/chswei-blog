@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html
+  lang="zh-TW"
+  itemscope
+  itemtype="http://schema.org/Blog"
+>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+    />
+
+    <link rel="stylesheet" href="https://chswei.netlify.app/site/styles/site.css?h=19065fbe92d80ca58e7852a6e3a7c7b96beccf3f2831362569fc8d920edc6ad5">
+    <title>Python 中 sys.argv[] 配合 Shell Script 的使用方法 - Chswei&#x27;s Blog</title>
+
+    
+    <meta
+      name="description"
+      itemprop="about"
+      content=" 最近在寫李宏毅老師的 ML 課程作業時，第一次接觸了shell script，也終於弄懂 sys.argv[] 的用法。過程中看了網路上許多參考資料的介紹，總覺得對於我這個新手來說太過複雜，故在此稍作整理並紀錄。
+  "
+    />
+    <meta
+      name="keywords"
+      itemprop="keywords"
+      content="醫學, 閱讀, 登山, 程式"
+    />
+    <meta name="author" itemprop="author" content="chswei" />
+    <meta itemprop="headline" content="Chswei&#x27;s Blog" />
+    <meta itemprop="copyrightYear" content="2022" />
+    <link rel="icon" href="https://chswei.netlify.app/site/images/favicon-32x32.png?h=59227f3723df6ad7b697ad43b9be38be8a62e2a581be7e34cfea92691bd024ca"
+    type="image/x-icon"> <link rel="apple-touch-icon" sizes="57x57" href="https://chswei.netlify.app/site/images/apple-icon-57x57.png?h=408d830a68a6226fbd7f63b71b83d4324e9cf87b474f9af17ccd944fac48f5a1"> <link
+    rel="apple-touch-icon" sizes="60x60" href="https://chswei.netlify.app/site/images/apple-icon-60x60.png?h=7b16952e0d30e9f4516f9146dd4d4447da55517250fbbb9618b63f7ef4edaf10"> <link
+    rel="apple-touch-icon" sizes="72x72" href="https://chswei.netlify.app/site/images/apple-icon-72x72.png?h=0ead6766307c21bbf9ef8a833436477f121e804d4f6abdce34534078868c8d7c"> <link
+    rel="apple-touch-icon" sizes="76x76" href="https://chswei.netlify.app/site/images/apple-icon-76x76.png?h=c23d60c28dae6b3a0e3cd8293bd1f06a829d6342cfc549d0f002b49e199ae859"> <link
+    rel="apple-touch-icon" sizes="114x114" href="https://chswei.netlify.app/site/images/apple-icon-114x114.png?h=f95034ae0d37d2cb2028e815c142d8e6a4cabbc4b061d23fa764f173aa41bc1b"> <link
+    rel="apple-touch-icon" sizes="120x120" href="https://chswei.netlify.app/site/images/apple-icon-120x120.png?h=d8ff6545cf8b66feb22cb62848c6ac6221e5903d900e23c12f1ec5a28efa2180"> <link
+    rel="apple-touch-icon" sizes="144x144" href="https://chswei.netlify.app/site/images/apple-icon-144x144.png?h=e3e7d49b544ab1ffb18d8f2a9ee690e99880a7fda89649abfd91d6de84c54b6f"> <link
+    rel="apple-touch-icon" sizes="152x152" href="https://chswei.netlify.app/site/images/apple-icon-152x152.png?h=ec080d1e6535eda34b86f64fe827900a8a5cb2e0f3d84a612fb47f61476a2427"> <link
+    rel="apple-touch-icon" sizes="180x180" href="https://chswei.netlify.app/site/images/apple-icon-180x180.png?h=453789d9d0e60dd2af117bd520ccbd11152685ba535fc744562a1580b7106c3e"> <link rel="icon"
+    type="image/png" sizes="192x192" href="https://chswei.netlify.app/site/images/android-icon-192x192.png?h=e511fd3bbc573548be28cce3e85f7c3f4400a168e49ca39ce93c211b35bc53eb"> <link rel="icon"
+    type="image/png" sizes="32x32" href="https://chswei.netlify.app/site/images/favicon-32x32.png?h=59227f3723df6ad7b697ad43b9be38be8a62e2a581be7e34cfea92691bd024ca"> <link rel="icon"
+    type="image/png" sizes="96x96" href="https://chswei.netlify.app/site/images/favicon-96x96.png?h=d7375531934aeccaacefe9e7351013eda12e236fa782899f7c22d552bf35769d"> <link rel="icon"
+    type="image/png" sizes="16x16" href="https://chswei.netlify.app/site/images/favicon-16x16.png?h=2fd128be34f69cfcdb2a2ed7a78c3ff39ad44efcc2d5880576b01e9cbcccc345"> <link rel="manifest"
+    href="https://chswei.netlify.app/site/images/manifest.json">
+    <meta
+      name="msapplication-TileColor"
+      content="#6fd684"
+    />
+    <meta name="msapplication-TileImage" content="https://chswei.netlify.app/site/images/ms-icon-144x144.png?h=bb0b31801a4277bdb744215d551f2dfb3ddb71b825c154c46d07f9e8764eeb7b">
+    <meta name="theme-color" content="#6fd684" />
+
+    <meta
+      property="og:title"
+      content="Python 中 sys.argv[] 配合 Shell Script 的使用方法 - Chswei&#x27;s Blog"
+    />
+    <meta
+      property="og:description"
+      content=" 最近在寫李宏毅老師的 ML 課程作業時，第一次接觸了shell script，也終於弄懂 sys.argv[] 的用法。過程中看了網路上許多參考資料的介紹，總覺得對於我這個新手來說太過複雜，故在此稍作整理並紀錄。
+  "
+    />
+    <meta
+      property="og:url"
+      content="https:&#x2F;&#x2F;chswei.netlify.app/sysargv-shell"
+    />
+    <meta property="og:site_name" content="Chswei&#x27;s Blog" />
+    
+    <meta
+      property="og:image"
+      content=""
+    />
+    
+    <meta name="twitter:card" content="summary" />
+    
+    <meta name="twitter:site" content="wujiyaker" />
+    <meta name="twitter:creator" content="wujiyaker" />
+    <meta
+      name="twitter:image:alt"
+      content="Chswei&#x27;s Blog"
+    />
+     
+    <meta name="title" content="Python 中 sys.argv[] 配合 Shell Script 的使用方法">
+<style>
+  .sidebar{
+    display: none;
+  }
+  @media (min-width: 67.5rem) {
+    .sidebar{
+      display: block;
+    }
+  }
+</style>
+
+  </head>
+
+  <body>
+    <section id="top"></section>
+    <section id="root" >
+      <main class="body-zone flex justify-between flex-1">
+          <section class="main flex-1">
+            <div class="main-inner px">
+              
+      <header id="overview">
+        <div class="pt">
+          <span>&gt;&gt;</span>
+          <a href="https://chswei.netlify.app/">首頁</a>
+          
+          <span class="divider">/</span>
+          <a class="category" href="https://chswei.netlify.app/categories/xing-qu/">興趣</a>
+          
+          <span class="divider">/</span>
+          
+          <a href="https://chswei.netlify.app/tags/programming/">programming</a>,
+          
+          <a href="https://chswei.netlify.app/tags/python/">Python</a>
+          
+          
+          
+          </div>
+        
+        <div>
+          <h1 style="font-size:2rem;">Python 中 sys.argv[] 配合 Shell Script 的使用方法</h1>
+          <div class="muted">
+            <div>
+              發布於 2018-07-12 | 最後更新時間 2018-07-12 </div>
+        </div>
+  
+        </div>
+        
+        
+      </header>
+      <section>
+      
+        <section class="main">
+          
+          <div class="main-toc pt">
+            <details>
+              <summary>目錄</summary>
+              
+<section class="sidebar-table-content">
+  <ul >
+    <li><a href="#start">本文開始</a></li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/sysargv-shell/#di-yi-bu-jian-li-han-you-sys-argv-de-py-wen-jian">第一步：建立含有 sys.argv[] 的 .py 文件</a>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/sysargv-shell/#di-er-bu-jian-li-sh-wen-jian">第二步：建立 .sh 文件</a>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/sysargv-shell/#di-san-bu-chuan-di-can-shu-passing-arguments">第三步：傳遞參數 (passing arguments)</a>
+          
+              <ul>
+                  
+                      <li>
+                          <a href="https://chswei.netlify.app/blog/sysargv-shell/#references">References</a>
+                      </li>
+                  
+              </ul>
+          
+      </li>
+  
+  </ul>
+</section>
+
+            </details>
+
+          </div>
+          
+          <section id="start"></section>
+          <article>
+            <p>最近在寫李宏毅老師的 <a rel="noopener" target="_blank" href="https://ntumlta.github.io/2017fall-ml-hw2/">ML 課程作業</a>時，第一次接觸了shell script，也終於弄懂 sys.argv[] 的用法。過程中看了網路上許多參考資料的介紹，總覺得對於我這個新手來說太過複雜，故在此稍作整理並紀錄。</p>
+<span id="continue-reading"></span><h3 id="di-yi-bu-jian-li-han-you-sys-argv-de-py-wen-jian">第一步：建立含有 sys.argv[] 的 .py 文件</h3>
+<p><img src="https://drive.google.com/uc?export=view&amp;id=1my49WdrYo4gpdlEVB3e9pQM4PWiGZXUd" alt="shell-1" /></p>
+<p>使用任意文字編輯器建立 .py 文件，如圖中的 test_code.py。</p>
+<h3 id="di-er-bu-jian-li-sh-wen-jian">第二步：建立 .sh 文件</h3>
+<p><img src="https://drive.google.com/uc?export=view&amp;id=1OVYz4Ru-PpKyodKcYXLuoN4fkYKbbdH0" alt="shell-2" /></p>
+<p>在 terminal 或 cmd 輸入以下指令：</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>touch shell_name
+</span></code></pre>
+<p>touch 指令可以建立新的 .sh 文件，後面接你要的文件名稱，如圖中的 test_shell（注意這邊不用打副檔名 .sh）。</p>
+<p>好的，到目前為止，資料夾中已有兩個檔案：test_code.py 和 test_shell.sh</p>
+<p><img src="https://drive.google.com/uc?export=view&amp;id=1Sjn1cfv8Ra605qp6wsjcV34qg4izp1tT" alt="shell-3" /></p>
+<p>接下來我們要在 test_shell.sh 中打一些東西：</p>
+<p><img src="https://drive.google.com/uc?export=view&amp;id=1aBRQ3QrskXmil4xSpl5fDHd843oxuYkq" alt="shell-4" /></p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>#!/bin/bash
+</span><span>python3 your_code.py $1...
+</span></code></pre>
+<ol>
+<li>#!/bin/bash 這行告訴系統以 bash（一種 shell）執行這個 .sh 檔。</li>
+<li>python3 後面接要執行的 .py 文件，再後面接 $1、$2 … ，看你 .py 中 sys.argv[] 數字到多少就打到多少，因為 $1 之後會對應 sys.argv[1]、$2 會對應 sys.argv[2] … 以此類推。</li>
+</ol>
+<h3 id="di-san-bu-chuan-di-can-shu-passing-arguments">第三步：傳遞參數 (passing arguments)</h3>
+<p><img src="https://drive.google.com/uc?export=view&amp;id=1FYqp00RH_QW33bKQ_6c8O9AzSux19xi3" alt="shell-5" /></p>
+<p>在 terminal 或 cmd 輸入以下指令：</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>sh ./shell_name arg1 arg2
+</span></code></pre>
+<p>sh 後面接 .sh 文件的路徑，再後面接你要傳遞給 sys.argv[1] 和 sys.argv[2] 的參數。<strong>也就是說，terminal 中的 arg1 傳遞參數給 .sh 文件中的 $1，$1 再傳遞給 .py 文件中的 sys.argv[1]。</strong></p>
+<p>那你可能會想，那 sys.argv[0] 呢？答案就在上面的輸出結果中。</p>
+<p>沒錯，sys.argv[0] 就是 test_shell.sh 中執行的 <strong>.py 文件名稱</strong> (test_code.py)</p>
+<h4 id="references">References</h4>
+<ol>
+<li><a rel="noopener" target="_blank" href="https://www.cnblogs.com/aland-1415/p/6613449.html">Python中 sys.argv[]的用法简明解释</a></li>
+<li><a rel="noopener" target="_blank" href="https://docs.google.com/presentation/d/1nOJkDRXDdORwkwibzX55w7jGOyB-rPjCOeRpwaZ82as/edit#slide=id.g1d460c2d77_0_60">李宏毅老師 ML 課程 HW2 TA Hour Slide</a></li>
+</ol>
+
+          </article>
+
+          
+          <div id="email-comment" class="muted text-sm">
+            <hr class="w-full">
+            
+            <p>
+              如果你對於本文有任何想討論或分享的，歡迎<a href="mailto:mimir@hey.com?subject=%E5%9B%9E%E8%A6%86%EF%BC%9APython%20%E4%B8%AD%20sys.argv%5B%5D%20%E9%85%8D%E5%90%88%20Shell%20Script%20%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95">來信</a>到：<code>mimir@hey.com</code> 找我聊聊！
+            </p>
+            
+            
+
+          </div>
+          
+
+        </section>
+        
+       
+      </section>
+
+
+              </div>
+            </section>
+
+          
+<aside class="sidebar px ">
+
+<h2>目錄</h2>
+
+<section class="sidebar-table-content">
+  <ul >
+    <li><a href="#start">本文開始</a></li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/sysargv-shell/#di-yi-bu-jian-li-han-you-sys-argv-de-py-wen-jian">第一步：建立含有 sys.argv[] 的 .py 文件</a>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/sysargv-shell/#di-er-bu-jian-li-sh-wen-jian">第二步：建立 .sh 文件</a>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/sysargv-shell/#di-san-bu-chuan-di-can-shu-passing-arguments">第三步：傳遞參數 (passing arguments)</a>
+          
+              <ul>
+                  
+                      <li>
+                          <a href="https://chswei.netlify.app/blog/sysargv-shell/#references">References</a>
+                      </li>
+                  
+              </ul>
+          
+      </li>
+  
+  </ul>
+</section>
+
+
+</aside>
+
+
+
+      </main>
+      </section>
+    <section id="bottom"></section>
+  </body>
+</html>

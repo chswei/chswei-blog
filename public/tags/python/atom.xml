@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW">
+	<title>Chswei&#x27;s Blog - Python</title>
+	<subtitle>Chswei&#x27;s Blog</subtitle>
+	<link href="https://chswei.netlify.app/tags/python/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://chswei.netlify.app"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2018-07-12T00:00:00+00:00</updated>
+	<id>https://chswei.netlify.app/tags/python/atom.xml</id>
+	<entry xml:lang="zh-TW">
+		<title>Python 中 sys.argv[] 配合 Shell Script 的使用方法</title>
+		<published>2018-07-12T00:00:00+00:00</published>
+		<updated>2018-07-12T00:00:00+00:00</updated>
+		<link href="https://chswei.netlify.app/blog/sysargv-shell/" type="text/html"/>
+		<id>https://chswei.netlify.app/blog/sysargv-shell/</id>
+		<content type="html">&lt;p&gt;最近在寫李宏毅老師的 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;ntumlta.github.io&#x2F;2017fall-ml-hw2&#x2F;&quot;&gt;ML 課程作業&lt;&#x2F;a&gt;時，第一次接觸了shell script，也終於弄懂 sys.argv[] 的用法。過程中看了網路上許多參考資料的介紹，總覺得對於我這個新手來說太過複雜，故在此稍作整理並紀錄。&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h3 id=&quot;di-yi-bu-jian-li-han-you-sys-argv-de-py-wen-jian&quot;&gt;第一步：建立含有 sys.argv[] 的 .py 文件&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;drive.google.com&#x2F;uc?export=view&amp;amp;id=1my49WdrYo4gpdlEVB3e9pQM4PWiGZXUd&quot; alt=&quot;shell-1&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;使用任意文字編輯器建立 .py 文件，如圖中的 test_code.py。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;di-er-bu-jian-li-sh-wen-jian&quot;&gt;第二步：建立 .sh 文件&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;drive.google.com&#x2F;uc?export=view&amp;amp;id=1OVYz4Ru-PpKyodKcYXLuoN4fkYKbbdH0&quot; alt=&quot;shell-2&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;在 terminal 或 cmd 輸入以下指令：&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;touch shell_name
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;touch 指令可以建立新的 .sh 文件，後面接你要的文件名稱，如圖中的 test_shell（注意這邊不用打副檔名 .sh）。&lt;&#x2F;p&gt;
+&lt;p&gt;好的，到目前為止，資料夾中已有兩個檔案：test_code.py 和 test_shell.sh&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;drive.google.com&#x2F;uc?export=view&amp;amp;id=1Sjn1cfv8Ra605qp6wsjcV34qg4izp1tT&quot; alt=&quot;shell-3&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;接下來我們要在 test_shell.sh 中打一些東西：&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;drive.google.com&#x2F;uc?export=view&amp;amp;id=1aBRQ3QrskXmil4xSpl5fDHd843oxuYkq&quot; alt=&quot;shell-4&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;#!&#x2F;bin&#x2F;bash
+&lt;&#x2F;span&gt;&lt;span&gt;python3 your_code.py $1...
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;ol&gt;
+&lt;li&gt;#!&#x2F;bin&#x2F;bash 這行告訴系統以 bash（一種 shell）執行這個 .sh 檔。&lt;&#x2F;li&gt;
+&lt;li&gt;python3 後面接要執行的 .py 文件，再後面接 $1、$2 … ，看你 .py 中 sys.argv[] 數字到多少就打到多少，因為 $1 之後會對應 sys.argv[1]、$2 會對應 sys.argv[2] … 以此類推。&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h3 id=&quot;di-san-bu-chuan-di-can-shu-passing-arguments&quot;&gt;第三步：傳遞參數 (passing arguments)&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;drive.google.com&#x2F;uc?export=view&amp;amp;id=1FYqp00RH_QW33bKQ_6c8O9AzSux19xi3&quot; alt=&quot;shell-5&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;在 terminal 或 cmd 輸入以下指令：&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;sh .&#x2F;shell_name arg1 arg2
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;sh 後面接 .sh 文件的路徑，再後面接你要傳遞給 sys.argv[1] 和 sys.argv[2] 的參數。&lt;strong&gt;也就是說，terminal 中的 arg1 傳遞參數給 .sh 文件中的 $1，$1 再傳遞給 .py 文件中的 sys.argv[1]。&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;那你可能會想，那 sys.argv[0] 呢？答案就在上面的輸出結果中。&lt;&#x2F;p&gt;
+&lt;p&gt;沒錯，sys.argv[0] 就是 test_shell.sh 中執行的 &lt;strong&gt;.py 文件名稱&lt;&#x2F;strong&gt; (test_code.py)&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.cnblogs.com&#x2F;aland-1415&#x2F;p&#x2F;6613449.html&quot;&gt;Python中 sys.argv[]的用法简明解释&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;docs.google.com&#x2F;presentation&#x2F;d&#x2F;1nOJkDRXDdORwkwibzX55w7jGOyB-rPjCOeRpwaZ82as&#x2F;edit#slide=id.g1d460c2d77_0_60&quot;&gt;李宏毅老師 ML 課程 HW2 TA Hour Slide&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+</content>
+	</entry>
+</feed>

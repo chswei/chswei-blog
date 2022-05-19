@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html
+  lang="zh-TW"
+  itemscope
+  itemtype="http://schema.org/Blog"
+>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+    />
+
+    <link rel="stylesheet" href="https://chswei.netlify.app/site/styles/site.css?h=19065fbe92d80ca58e7852a6e3a7c7b96beccf3f2831362569fc8d920edc6ad5">
+    <title>使用 Hackmd 製作系上共筆的可行性？ - Chswei&#x27;s Blog</title>
+
+    
+    <meta
+      name="description"
+      itemprop="about"
+      content=" 前幾天排版共筆排得很煩躁，腦中突然冒出用 Hackmd 製作系上共筆的想法。網上搜尋了一下，發現沒有人寫類似的文章（大概也沒有人會公布自己系上製作共筆的方式吧，除了以前黃豆泥學長有推廣過使用 Google Docs 製作共筆）。所以趁著整合考剛結束，理了一下想法，順手打下。
+  "
+    />
+    <meta
+      name="keywords"
+      itemprop="keywords"
+      content="醫學, 閱讀, 登山, 程式"
+    />
+    <meta name="author" itemprop="author" content="chswei" />
+    <meta itemprop="headline" content="Chswei&#x27;s Blog" />
+    <meta itemprop="copyrightYear" content="2022" />
+    <link rel="icon" href="https://chswei.netlify.app/site/images/favicon-32x32.png?h=59227f3723df6ad7b697ad43b9be38be8a62e2a581be7e34cfea92691bd024ca"
+    type="image/x-icon"> <link rel="apple-touch-icon" sizes="57x57" href="https://chswei.netlify.app/site/images/apple-icon-57x57.png?h=408d830a68a6226fbd7f63b71b83d4324e9cf87b474f9af17ccd944fac48f5a1"> <link
+    rel="apple-touch-icon" sizes="60x60" href="https://chswei.netlify.app/site/images/apple-icon-60x60.png?h=7b16952e0d30e9f4516f9146dd4d4447da55517250fbbb9618b63f7ef4edaf10"> <link
+    rel="apple-touch-icon" sizes="72x72" href="https://chswei.netlify.app/site/images/apple-icon-72x72.png?h=0ead6766307c21bbf9ef8a833436477f121e804d4f6abdce34534078868c8d7c"> <link
+    rel="apple-touch-icon" sizes="76x76" href="https://chswei.netlify.app/site/images/apple-icon-76x76.png?h=c23d60c28dae6b3a0e3cd8293bd1f06a829d6342cfc549d0f002b49e199ae859"> <link
+    rel="apple-touch-icon" sizes="114x114" href="https://chswei.netlify.app/site/images/apple-icon-114x114.png?h=f95034ae0d37d2cb2028e815c142d8e6a4cabbc4b061d23fa764f173aa41bc1b"> <link
+    rel="apple-touch-icon" sizes="120x120" href="https://chswei.netlify.app/site/images/apple-icon-120x120.png?h=d8ff6545cf8b66feb22cb62848c6ac6221e5903d900e23c12f1ec5a28efa2180"> <link
+    rel="apple-touch-icon" sizes="144x144" href="https://chswei.netlify.app/site/images/apple-icon-144x144.png?h=e3e7d49b544ab1ffb18d8f2a9ee690e99880a7fda89649abfd91d6de84c54b6f"> <link
+    rel="apple-touch-icon" sizes="152x152" href="https://chswei.netlify.app/site/images/apple-icon-152x152.png?h=ec080d1e6535eda34b86f64fe827900a8a5cb2e0f3d84a612fb47f61476a2427"> <link
+    rel="apple-touch-icon" sizes="180x180" href="https://chswei.netlify.app/site/images/apple-icon-180x180.png?h=453789d9d0e60dd2af117bd520ccbd11152685ba535fc744562a1580b7106c3e"> <link rel="icon"
+    type="image/png" sizes="192x192" href="https://chswei.netlify.app/site/images/android-icon-192x192.png?h=e511fd3bbc573548be28cce3e85f7c3f4400a168e49ca39ce93c211b35bc53eb"> <link rel="icon"
+    type="image/png" sizes="32x32" href="https://chswei.netlify.app/site/images/favicon-32x32.png?h=59227f3723df6ad7b697ad43b9be38be8a62e2a581be7e34cfea92691bd024ca"> <link rel="icon"
+    type="image/png" sizes="96x96" href="https://chswei.netlify.app/site/images/favicon-96x96.png?h=d7375531934aeccaacefe9e7351013eda12e236fa782899f7c22d552bf35769d"> <link rel="icon"
+    type="image/png" sizes="16x16" href="https://chswei.netlify.app/site/images/favicon-16x16.png?h=2fd128be34f69cfcdb2a2ed7a78c3ff39ad44efcc2d5880576b01e9cbcccc345"> <link rel="manifest"
+    href="https://chswei.netlify.app/site/images/manifest.json">
+    <meta
+      name="msapplication-TileColor"
+      content="#6fd684"
+    />
+    <meta name="msapplication-TileImage" content="https://chswei.netlify.app/site/images/ms-icon-144x144.png?h=bb0b31801a4277bdb744215d551f2dfb3ddb71b825c154c46d07f9e8764eeb7b">
+    <meta name="theme-color" content="#6fd684" />
+
+    <meta
+      property="og:title"
+      content="使用 Hackmd 製作系上共筆的可行性？ - Chswei&#x27;s Blog"
+    />
+    <meta
+      property="og:description"
+      content=" 前幾天排版共筆排得很煩躁，腦中突然冒出用 Hackmd 製作系上共筆的想法。網上搜尋了一下，發現沒有人寫類似的文章（大概也沒有人會公布自己系上製作共筆的方式吧，除了以前黃豆泥學長有推廣過使用 Google Docs 製作共筆）。所以趁著整合考剛結束，理了一下想法，順手打下。
+  "
+    />
+    <meta
+      property="og:url"
+      content="https:&#x2F;&#x2F;chswei.netlify.app/mutual-note"
+    />
+    <meta property="og:site_name" content="Chswei&#x27;s Blog" />
+    
+    <meta
+      property="og:image"
+      content=""
+    />
+    
+    <meta name="twitter:card" content="summary" />
+    
+    <meta name="twitter:site" content="wujiyaker" />
+    <meta name="twitter:creator" content="wujiyaker" />
+    <meta
+      name="twitter:image:alt"
+      content="Chswei&#x27;s Blog"
+    />
+     
+    <meta name="title" content="使用 Hackmd 製作系上共筆的可行性？">
+<style>
+  .sidebar{
+    display: none;
+  }
+  @media (min-width: 67.5rem) {
+    .sidebar{
+      display: block;
+    }
+  }
+</style>
+
+  </head>
+
+  <body>
+    <section id="top"></section>
+    <section id="root" >
+      <main class="body-zone flex justify-between flex-1">
+          <section class="main flex-1">
+            <div class="main-inner px">
+              
+      <header id="overview">
+        <div class="pt">
+          <span>&gt;&gt;</span>
+          <a href="https://chswei.netlify.app/">首頁</a>
+          
+          <span class="divider">/</span>
+          <a class="category" href="https://chswei.netlify.app/categories/yi-xue/">醫學</a>
+          
+          <span class="divider">/</span>
+          
+          <a href="https://chswei.netlify.app/tags/medicine/">medicine</a>,
+          
+          <a href="https://chswei.netlify.app/tags/study/">study</a>
+          
+          
+          
+          </div>
+        
+        <div>
+          <h1 style="font-size:2rem;">使用 Hackmd 製作系上共筆的可行性？</h1>
+          <div class="muted">
+            <div>
+              發布於 2018-08-11 | 最後更新時間 2018-08-11 </div>
+        </div>
+  
+        </div>
+        
+        
+      </header>
+      <section>
+      
+        <section class="main">
+          
+          <div class="main-toc pt">
+            <details>
+              <summary>目錄</summary>
+              
+<section class="sidebar-table-content">
+  <ul >
+    <li><a href="#start">本文開始</a></li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/mutual-note/#shi-mo-shi-gong-bi">什麼是共筆？</a>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/mutual-note/#shi-mo-shi-hackmd">什麼是 Hackmd？</a>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/mutual-note/#shi-yong-hackmd-zhi-zuo-gong-bi-de-hao-chu">使用 Hackmd 製作共筆的好處？</a>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/mutual-note/#demo">Demo</a>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/mutual-note/#dai-ke-fu-de-wen-ti">待克服的問題</a>
+          
+              <ul>
+                  
+                      <li>
+                          <a href="https://chswei.netlify.app/blog/mutual-note/#1-gong-tong-bian-ji">1. 共同編輯</a>
+                      </li>
+                  
+                      <li>
+                          <a href="https://chswei.netlify.app/blog/mutual-note/#2-biao-ge">2. 表格</a>
+                      </li>
+                  
+                      <li>
+                          <a href="https://chswei.netlify.app/blog/mutual-note/#3-tu-pian">3. 圖片</a>
+                      </li>
+                  
+                      <li>
+                          <a href="https://chswei.netlify.app/blog/mutual-note/#4-shu-chu">4. 輸出</a>
+                      </li>
+                  
+              </ul>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/mutual-note/#zong-jie">總結</a>
+          
+      </li>
+  
+  </ul>
+</section>
+
+            </details>
+
+          </div>
+          
+          <section id="start"></section>
+          <article>
+            <p>前幾天排版共筆排得很煩躁，腦中突然冒出用 Hackmd 製作系上共筆的想法。網上搜尋了一下，發現沒有人寫類似的文章（大概也沒有人會公布自己系上製作共筆的方式吧，除了以前<a rel="noopener" target="_blank" href="https://youtu.be/Ur_uvrLKtQ4">黃豆泥</a>學長有推廣過使用 Google Docs 製作共筆）。所以趁著整合考剛結束，理了一下想法，順手打下。</p>
+<span id="continue-reading"></span><h2 id="shi-mo-shi-gong-bi">什麼是共筆？</h2>
+<p>共筆，共同筆記，由一群人共同製作的筆記。據我所知，其實不只有醫學系有這個制度，法律系以及一些會議、演講也都會製作共筆，方便同學和與會者共享知識內容 (像是使用下面提到的 Hackmd)。</p>
+<p>目前我們系上製作共筆的流程如下：組員 → 組長 → 組頭 → 學藝 。
+老師上完課後，由五到六個組員將投影片內容製作成共筆，接著組長排版、組頭審核內容，最後交給學藝進行最終把關並送印。</p>
+<h2 id="shi-mo-shi-hackmd">什麼是 Hackmd？</h2>
+<p>其實有點類似 Google Docs，同樣提供線上協作的文字編輯服務，但最大的不同點在於 Hackmd 使用了 Markdown 語法進行文件的撰寫。</p>
+<p>那什麼是 Markdown？</p>
+<blockquote>
+<p>Markdown 是一種輕量級標記式語言，它允許人們「使用易讀易寫的純文字格式編寫文件，然後轉換成有效的 XHTML（或者 HTML）文件」。</p>
+</blockquote>
+<p>這是<a rel="noopener" target="_blank" href="https://zh.wikipedia.org/wiki/Markdown">維基百科</a>上對於 Markdown 的介紹，重點就在於「易讀易寫」這四個字。我們可以使用一些簡單的符號輕鬆建立一篇排版工整且易於閱讀的文件，手甚至不需要離開鍵盤。比起 Word 必須使用滑鼠點來點去進行版面的調整，Markdown 可說是節省許多時間與麻煩。有興趣的人可以參考<a rel="noopener" target="_blank" href="https://markdown.tw/">這篇</a>詳細的 Markdown 語法教學。</p>
+<blockquote>
+<p>補充：其實 Markdown 有很多種版本，例如 <a rel="noopener" target="_blank" href="https://daringfireball.net/projects/markdown/">John Gruber 發明的原始版本</a>和 <a rel="noopener" target="_blank" href="https://help.github.com/categories/writing-on-github/">Github-flavored Markdown (GFM)</a> 等，不過最基本的功能都是一樣的。而 Hackmd 在最基本的 Markdown 功能之外，也有許多獨創的語法。</p>
+</blockquote>
+<h2 id="shi-yong-hackmd-zhi-zuo-gong-bi-de-hao-chu">使用 Hackmd 製作共筆的好處？</h2>
+<p>Word 是現今最為普遍使用的文書處理軟體，也是大多數人打文件的首選，系上的共筆製作當然也不例外。因為它太強大了，能夠使用很多複雜的功能，所以目前看來似乎沒有理由轉換成 Hackmd (Markdown)。</p>
+<p>說來很不可置信，其實還是有很多同學對於 Word 的功能不太熟悉，例如不會設定編號、不會調整圖文的版面配置等，也導致組長需要花費很多時間調整排版。雖然現在大多數的共筆都是修改自學長姐的檔案，版面不太需要調整，因此問題不大。但有時候老師一換，必須從零開始製作時，排版工作真的是一大災難。假如我們使用 Hackmd，整個製作流程也許可以更輕鬆寫意。</p>
+<p><del>（不過老實說，一個連 Word 都不肯好好學的人，怎麼會願意認識這一輩子可能都用不到的 Markdown 呢～）</del></p>
+<h2 id="demo">Demo</h2>
+<p><img src="https://drive.google.com/uc?export=view&amp;id=1pfy2zV6IjetJ2bNtrjkMz037hcGxlZy0" alt="demo" /></p>
+<p>在這種條列式的使用情境下，Hackmd 能做得跟 Word 不相上下，而右側文字實際上使用 Markdown 語法是長下面這樣：</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>### B. 定義與發生率(Definition and Incidence)
+</span><span>#### 一、定義、診斷
+</span><span>1. 急性胰臟炎是指一種胰臟急性發炎並且涉及其他區域的組織或遠處的器官系統的一個過程（1992 Atlanta Symposium）。
+</span><span>2. 以下3點符合2點即可診斷為急性胰臟炎
+</span><span>    * 典型的持續性的腹痛（++上或左上腹痛++、痛連背部、身體蜷曲會減緩痛感）
+</span><span>    * 血清中澱粉酶(amylase)、脂肪酶(lipase)的數值高於正常值三倍以上
+</span><span>    * 在腹部影像學檢查中有屬於典型急性胰臟炎表現（比如說胰臟腫大、偽囊腫等等的）
+</span><span>
+</span><span>#### 二、發生率
+</span><span>1. 急性胰臟炎在全球的發生率大概為 4.9\~73.4/100,000。西方盛行率約10~20 %左右，台灣偏低大概只有5 ~10 %。
+</span><span>2. **膽結石(gallstone)** 是世界上急性胰臟炎最常見的病因。西方國家甚至超過1/2的AP患者是因為膽結石！
+</span><span>3. 性別比方面：
+</span><span>    * 膽結石所造成的急性胰臟炎→女性患者&gt;男性患者
+</span><span>    * 喝酒所造成的急性胰臟炎→男性患者&gt;女性患者
+</span><span>
+</span><span>### C. 危險因子(Predisposing Conditions)
+</span><span>1. 在美國，75 %的AP患者與膽結石、酗酒這兩個因素有關；另外≤ 30 %的患者無明顯病因，稱為自發性胰臟炎(idiopathic pancreatitis)。
+</span><span>2. 在台灣，膽結石性胰臟炎佔41.9 %，酒精性佔14.9 %，原因不明佔27 %。
+</span><span>3. 下圖為常見的阻塞位置，大部分是在膽囊裡面，其實大多的結石都是無症狀(silence)，所以不一定會發現，但是當結石卡在遠端總膽管(CBD)附近時，會一起堵住胰管造成胰臟發炎，也有可能造成黃疸問題，因此看到黃疸得要考慮是肝臟還是膽管問題，而病人的主訴是痛的話就可能要優先考慮是膽道問題。
+</span><span>
+</span><span>![](https://i.imgur.com/R6xOaxQ.png)
+</span></code></pre>
+<p>可以看出 Markdown 是藉由各種符號來達到粗體、斜體、標號等效果，省了排版美化的時間。</p>
+<h2 id="dai-ke-fu-de-wen-ti">待克服的問題</h2>
+<h3 id="1-gong-tong-bian-ji">1. 共同編輯</h3>
+<p>Hackmd 有很多種筆記<a rel="noopener" target="_blank" href="https://hackmd.io/s/E1UakUq8#%E6%AC%8A%E9%99%90">權限</a>設置，要怎麼給予同學適合的權限是個滿重要的問題。</p>
+<blockquote>
+<p>可能的解決方法：全程使用「Editable」。</p>
+</blockquote>
+<h3 id="2-biao-ge">2. 表格</h3>
+<p>共筆中常常會使用表格來統整概念，偏偏我覺得 Markdown 的表格不太好用，功能太陽春了，像是合併儲存格等較進階的方式在 Markdown 就沒辦法使用。</p>
+<blockquote>
+<p>可能的解決方法：若要製作比較複雜的表格，可能要先在其他軟體中製作後再截圖貼到 Hackmd。(但這樣實在不太方便 )</p>
+</blockquote>
+<h3 id="3-tu-pian">3. 圖片</h3>
+<p>一般我們在 Word 中對於圖片的操作不外乎調整「大小」和「排列方式」。Markdown 中調整圖片大小容易，但對於排列方式的支援就不是那麼好，沒辦法文繞圖、置中等。</p>
+<blockquote>
+<p>可能的解決方法：無解。一開始我以為這會是個大問題，但後來發覺其實看習慣就還好。</p>
+</blockquote>
+<h3 id="4-shu-chu">4. 輸出</h3>
+<p>Hackmd 目前不支援 PDF 格式的輸出，對於印出紙本或是在平板上閱讀都不太方便。</p>
+<blockquote>
+<p>可能的解決方法：最簡易的方法就是使用瀏覽器(如 Chrome)輸出，只可惜有的格式會跑掉。</p>
+</blockquote>
+<h2 id="zong-jie">總結</h2>
+<p>儘管有一些問題需要克服，但整體而言，Hackmd 仍不失為一個製作共筆的好工具。現在大家都用學長姐的檔案輕鬆交差，大概也不可能改變製作過程，這篇文章只是在發牢騷罷了XD</p>
+
+          </article>
+
+          
+          <div id="email-comment" class="muted text-sm">
+            <hr class="w-full">
+            
+            <p>
+              如果你對於本文有任何想討論或分享的，歡迎<a href="mailto:mimir@hey.com?subject=%E5%9B%9E%E8%A6%86%EF%BC%9A%E4%BD%BF%E7%94%A8%20Hackmd%20%E8%A3%BD%E4%BD%9C%E7%B3%BB%E4%B8%8A%E5%85%B1%E7%AD%86%E7%9A%84%E5%8F%AF%E8%A1%8C%E6%80%A7%EF%BC%9F">來信</a>到：<code>mimir@hey.com</code> 找我聊聊！
+            </p>
+            
+            
+
+          </div>
+          
+
+        </section>
+        
+       
+      </section>
+
+
+              </div>
+            </section>
+
+          
+<aside class="sidebar px ">
+
+<h2>目錄</h2>
+
+<section class="sidebar-table-content">
+  <ul >
+    <li><a href="#start">本文開始</a></li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/mutual-note/#shi-mo-shi-gong-bi">什麼是共筆？</a>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/mutual-note/#shi-mo-shi-hackmd">什麼是 Hackmd？</a>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/mutual-note/#shi-yong-hackmd-zhi-zuo-gong-bi-de-hao-chu">使用 Hackmd 製作共筆的好處？</a>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/mutual-note/#demo">Demo</a>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/mutual-note/#dai-ke-fu-de-wen-ti">待克服的問題</a>
+          
+              <ul>
+                  
+                      <li>
+                          <a href="https://chswei.netlify.app/blog/mutual-note/#1-gong-tong-bian-ji">1. 共同編輯</a>
+                      </li>
+                  
+                      <li>
+                          <a href="https://chswei.netlify.app/blog/mutual-note/#2-biao-ge">2. 表格</a>
+                      </li>
+                  
+                      <li>
+                          <a href="https://chswei.netlify.app/blog/mutual-note/#3-tu-pian">3. 圖片</a>
+                      </li>
+                  
+                      <li>
+                          <a href="https://chswei.netlify.app/blog/mutual-note/#4-shu-chu">4. 輸出</a>
+                      </li>
+                  
+              </ul>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/mutual-note/#zong-jie">總結</a>
+          
+      </li>
+  
+  </ul>
+</section>
+
+
+</aside>
+
+
+
+      </main>
+      </section>
+    <section id="bottom"></section>
+  </body>
+</html>

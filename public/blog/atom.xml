@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW">
+	<title>Chswei&#x27;s Blog - 所有文章</title>
+	<subtitle>Chswei&#x27;s Blog</subtitle>
+	<link href="https://chswei.netlify.app/blog/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://chswei.netlify.app/blog/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2021-07-27T00:00:00+00:00</updated>
+	<id>https://chswei.netlify.app/blog/atom.xml</id>
+	<entry xml:lang="zh-TW">
+		<title>醫師二階國考考古題 Anki 卡片</title>
+		<published>2021-07-27T00:00:00+00:00</published>
+		<updated>2021-07-27T00:00:00+00:00</updated>
+		<link href="https://chswei.netlify.app/blog/md-exam-anki/" type="text/html"/>
+		<id>https://chswei.netlify.app/blog/md-exam-anki/</id>
+		<content type="html">&lt;p&gt;今年二階國考在歷經疫情延期和颱風攪局，最後總算是順利通過了。這次考試我採用了考古題戰術，在念完 FC (主要是內科、婦產科和一些小科) 後，剩下的時間都投入考古，並把考點做成 Anki 卡片，然後反覆一直看。準備期間也將 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;bit.ly&#x2F;3oLrQ5w&quot;&gt;Anki Deck&lt;&#x2F;a&gt; 分享給兩三個同學，事後看起來還算滿成功的。以前寫過一篇&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;chswei.netlify.app&#x2F;blog&#x2F;study-methods&#x2F;&quot;&gt;關於讀書方法&lt;&#x2F;a&gt;的文章，但都沒有實際長期使用 Anki，這次也算是個實驗吧，也將 Deck 分享出來，供需要的人參考。&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;</content>
+	</entry>
+	<entry xml:lang="zh-TW">
+		<title>在學重考心得</title>
+		<published>2020-04-14T00:00:00+00:00</published>
+		<updated>2020-04-14T00:00:00+00:00</updated>
+		<link href="https://chswei.netlify.app/blog/resit/" type="text/html"/>
+		<id>https://chswei.netlify.app/blog/resit/</id>
+		<content type="html">&lt;p&gt;突然想到以前重考時的&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.ptt.cc&#x2F;bbs&#x2F;RESIT&#x2F;M.1443491057.A.532.html&quot;&gt;心得&lt;&#x2F;a&gt;，當初是同學幫我 po 在 ptt 上，想說也把它放在這裡好了。之後也很幸運地幫助了&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.ptt.cc&#x2F;man&#x2F;RESIT&#x2F;D9C4&#x2F;D71B&#x2F;DFC5&#x2F;D4AD&#x2F;M.1489582344.A.6B6.html&quot;&gt;某位學弟&lt;&#x2F;a&gt;。&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;（寫於 2015&#x2F;08&#x2F;23） &lt;&#x2F;p&gt;
+&lt;p&gt;因為許多人的幫助與支持，小弟幸運地重考上了醫學系。在學重考是條艱辛的路，因此希望藉由這篇文章，讓有心走上這條路的人有個參考的方向。&lt;&#x2F;p&gt;
+&lt;p&gt;先說明一下背景，我在高中是三類組的，目標是醫學或中醫系(不考慮牙醫)。應屆指考成績不甚理想，分數在中醫系邊緣。在醫科的志願後，我填了台大財金。為什麼呢？由於國文、英文、數乙考得不錯，雖然自己從來沒想過要念財金，但考慮到未來出路頗佳，又是許多人夢寐以求的科系，就姑且試試看。然而放榜那一天看到自己與中醫系以 0.3 分失之交臂時，心中仍是不太甘心，萌生了重考的念頭。選擇在學重考的原因如下:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;我不喜歡重考班枯燥的生活方式。&lt;&#x2F;li&gt;
+&lt;li&gt;想換個環境念書。&lt;&#x2F;li&gt;
+&lt;li&gt;能在台大學習實在是個不可多得的好機會。
+&lt;br&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;關於在學重考，我想分作以下幾點來討論:&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;fan-sheng&quot;&gt;反省&lt;&#x2F;h2&gt;
+&lt;p&gt;準備在學重考前，最重要的一件事就是找出大考成績不理想的原因。像我認為自己考糟的原因最主要是「壓力太大」和「太容易緊張」，這也是我為何選擇在學重考的原因。在大學中，有許多事物能夠分散注意力，不至於整天都在高壓的環境下複習那些讀過好幾遍的課本知識。反省看似簡單，但它實實在在是重考成敗的關鍵，否則也只是白白浪費一年罷了。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;fu-xi&quot;&gt;複習&lt;&#x2F;h2&gt;
+&lt;p&gt;由於我複習的過程不算很有系統，且念書的方法和參考書因人而異，所以就不分享各科怎麼念。我想稍微討論「學測複習」與「大學課業」的時間分配。&lt;&#x2F;p&gt;
+&lt;p&gt;平常我都在複習學測，只有班上小考和期中期末考的前一週會拿出課本來念。話雖如此，小考幾乎是每個禮拜都有，再加上繁多的報告，時間真的不夠用，所以要如何分配時間是在學重考的關鍵。&lt;&#x2F;p&gt;
+&lt;p&gt;對我來說。由於自認為高三已經複習得很扎實，大考失利純粹是因為心理壓力，所以我的目標只是在這幾個月中維持先前的水準。通常我是用”寫題目”的方式來決定兩者時間的分配。學測模擬試題寫得不順時，就花多一點時間在”學測複習”，並回過頭翻參考書；寫得順時，就可以多念一點大學課業。總而言之，我認為只要不忘記自己重考的決心，知道自己在做什麼並堅持下去，學測複習與大學課業之間的時間分配一定會自行達到平衡的。&lt;&#x2F;p&gt;
+&lt;p&gt;(大學課業可顧可不顧，但我無法接受被當的感覺，所以算是滿認真地念。一學年下來，我在系上 122 人當中，排名第 10，證明人是有無窮潛力的!如果不打算顧大學課業的，這部分就自行略過吧。)&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;huo-dong&quot;&gt;活動&lt;&#x2F;h2&gt;
+&lt;p&gt;開學前參加了迎新宿營，之後就幾乎沒參加系上活動了。倘若行有餘力的話，我覺得參加一些活動也不無好處，可以多認識同學，又可以在這一年中增添難忘的回憶，但一定要適時評估自己的讀書進度，不要忘了真正該做的事。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;peng-you&quot;&gt;朋友&lt;&#x2F;h2&gt;
+&lt;p&gt;在學重考的事，我本來是打算默默進行，除了室友外(畢竟我都在宿舍念書，告知了比較方便)，不打算跟系上的人透露，因為萬一重考失敗，會有點尷尬與難堪。但開學後，我和少數幾個系上同學變得特別熟，因此閒聊的時候把這件事說了出來。我一直覺得我做對了，因為重考的這一年中，他們的鼓勵和解悶是我能夠撐下去的原因之一。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;du-chu&quot;&gt;獨處&lt;&#x2F;h2&gt;
+&lt;p&gt;重考生很多，但在學重考占的比例不高，因此身邊幾乎不會出現志同道合的同學。如果無法忍受他人玩樂時，自己卻要在宿舍或圖書館寂寞念書的人，千萬別嘗試在學重考，因為真的很痛苦。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;shen-qing&quot;&gt;申請&lt;&#x2F;h2&gt;
+&lt;p&gt;學測考得還不錯，因此我決定申請看看，畢竟指考物、化、生難度提高許多，對於幾個月來一直在念會計學、經濟學的我來說有點困難。但我沒有辦休學，而是一邊繼續念大學，一邊準備備審和面試。&lt;&#x2F;p&gt;
+&lt;p&gt;這個決定有好有壞，壞的是:因為我是個不太會說話的人，又要上課而沒時間練好面試，準備得不太充分，導致最後成績亂七八糟；好的是:我在台大的最後一學期修到許多自己感興趣的課(假如我申請失敗，這個好處恐怕讓人開心不起來)。申請入學這部分，我做得很失敗。除非對面試有十足的自信，我覺得還是休學準備比較好，找時間回到母校和學弟妹一起練習總比孤軍奮戰來得輕鬆。&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;在學重考其實是個很大的賭注，為了準備考試，勢必要放棄許多活動。倘若重考成功，並不會有任何損失，因為你會重新擁有大一生活，甚至還得到這難能可貴的一年；但假如失敗了，大學生活等於只有三年，代價不小。因此對自身能力與程度沒有一定自信的人，盡量不要走上這條路。老實說，準備重考的幾個月中，我複習的時間和強度大概高三時的三、四成左右。所以能夠重考成功，真的只能說是以前基礎打得頗牢固加上運氣極佳罷了。&lt;&#x2F;p&gt;
+&lt;p&gt;人生中遇到的任何經驗都是彌足珍貴的，重考的這一年當然也不例外。希望這篇能夠讓那些願意再給自己一次機會追逐夢想的人們一點幫助。&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="zh-TW">
+		<title>寫在成為 Clerk 前</title>
+		<published>2019-07-27T00:00:00+00:00</published>
+		<updated>2019-07-27T00:00:00+00:00</updated>
+		<link href="https://chswei.netlify.app/blog/preclerk/" type="text/html"/>
+		<id>https://chswei.netlify.app/blog/preclerk/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;drive.google.com&#x2F;uc?export=view&amp;amp;id=1fA23H0F3cot4QENMiZCI2iG8pWORFTaj&quot; alt=&quot;Clerk&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;剛考完一階醫師國考，再一個多月就要成為 Clerk 了。死讀書這麼長一段時間，如今即將進入臨床學習，總覺得有些無所適從。趁著這段空閒時間整理了過去幾年蒐集的前輩們的文章，希望之後對自己有些許幫助。&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;da-fang-xiang&quot;&gt;大方向&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;crazyclark.pixnet.net&#x2F;blog&#x2F;post&#x2F;20267088-%5B%E5%AD%B8%E9%95%B7%E5%A7%90%5D%E8%A6%8B%E5%AF%A6%E7%BF%92%E7%9A%84%E6%BA%96%E5%82%99?source=post_page---------------------------&quot;&gt;見實習的準備&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;http:&#x2F;&#x2F;transplant-id.blogspot.com&#x2F;2015&#x2F;09&#x2F;tips-for-clerks-and-interns.html?source=post_page---------------------------&quot;&gt;給實習醫師的學習建議（2007）&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;medium.com&#x2F;@gemwu&#x2F;%E5%85%A7%E7%A7%91clerkship%E8%A6%81%E6%80%8E%E9%BA%BCapproach-1-%E6%99%A8%E6%9C%83-32bf07b1580c&quot;&gt;內科clerkship要怎麼approach (1)：晨會&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;drlcs.blogspot.com&#x2F;2017&#x2F;08&#x2F;clerk.html?source=post_page---------------------------&quot;&gt;成為最強的路障 _ Clerk 醫院見習經驗分享&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;drzoomblog.wordpress.com&#x2F;2016&#x2F;09&#x2F;10&#x2F;%E4%BD%A0%E4%B8%80%E5%AE%9A%E8%A6%81%E7%95%B6%E8%B7%AF%E9%9A%9C%E5%97%8E%EF%BC%9F%EF%BC%8D%EF%BC%8Dkmu-clerk%E7%B6%93%E9%A9%97%E5%88%86%E4%BA%AB&#x2F;?source=post_page---------------------------&quot;&gt;你一定要當路障嗎？－－KMU Clerk經驗分享&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.ptt.cc&#x2F;bbs&#x2F;medstudent&#x2F;M.1541517798.A.B52.html?fbclid=IwAR270ODMbLF9ekQJIMxRNVtBuoaHBXV8TkaaY-zZIoWURxgcHJoms84ibaw&amp;amp;source=post_page---------------------------&quot;&gt;clerk生存之道&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.ptt.cc&#x2F;bbs&#x2F;medstudent&#x2F;M.1481684136.A.41B.html?fbclid=IwAR0JoNSGbimAohfcqEjbSDJFXe8haJffAGZHBLWPCWAeO-M3CgyRouxztCI&amp;amp;source=post_page---------------------------&quot;&gt;clerk要怎麼變強?&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;xue-xi-tips&quot;&gt;學習 Tips&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.facebook.com&#x2F;story.php?story_fbid=2007776675971853&amp;amp;id=100002186195693&amp;amp;source=post_page---------------------------&quot;&gt;如何將臨床瑣碎的知識建構成完整體系：Notion&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;medium.com&#x2F;@gemwu&#x2F;%E8%AE%93%E8%A1%A8%E6%A0%BC%E7%A5%9E%E5%99%A8%E8%AE%93%E7%95%B6%E9%86%AB%E7%94%9F%E8%AE%8A%E5%BE%97%E6%9B%B4%E6%9C%89%E7%B3%BB%E7%B5%B1-airtable%E4%B9%8B%E5%9F%BA%E6%9C%AC%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%B4%B9-%E4%BB%A5%E9%86%AB%E5%AD%B8%E7%82%BA%E4%BE%8B-5cba38613da1&quot;&gt;用用表格神器，當醫生更有效率！ — Airtable之基本功能介紹（以醫學為例）&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;transplant-id.blogspot.com&#x2F;2017&#x2F;09&#x2F;transforming-patient-list-to-todo-list.html?source=post_page---------------------------&quot;&gt;升臨床工作效率：把病人清單變成待辦清單&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;medium.com&#x2F;%E6%B3%A5%E5%B7%B4%E7%AC%AC%E4%B8%89%E6%94%BE%E9%80%81%E5%B1%80&#x2F;%E5%A6%82%E4%BD%95%E7%94%A8apple-pencil%E8%B7%9F%E6%9F%A5%E6%88%BF-b0acdf107c19&quot;&gt;如何用Apple pencil跟查房？&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;medium.com&#x2F;as-a-med-student&#x2F;%E9%86%AB%E5%AD%B8%E7%B3%BB%E7%9A%84%E5%8D%B7%E5%93%A5%E5%8D%B7%E5%93%A5%E5%A7%90%E5%80%91%E7%9A%84%E7%AD%86%E8%A8%98%E6%B3%95-a-case-series-d49a84859995&quot;&gt;醫學卷姐哥們的筆記法 — a case series&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;用 station 電腦常常需要做筆記或存 paper，但登各家雲端硬碟很麻煩，尤其是有開二步驗證時。另方面又有被盜帳的風險。這時可以開一個 google doc 文件，然後開連結共享編輯，接著到 bit.ly 去縮網址。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;shu-ji&quot;&gt;書籍&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;medium.com&#x2F;@gemwu&#x2F;approach-to-clerkship-3-%E5%8F%83%E8%80%83%E6%9B%B8-%E5%85%A7%E5%A4%96%E5%A9%A6%E5%85%92%E8%88%87%E5%90%84%E7%A7%91%E9%80%9A%E7%94%A8-ec7d10f0a198&quot;&gt;Approach to Clerkship (3)：參考書 — 內外婦兒與各科通用&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;medium.com&#x2F;as-a-med-student&#x2F;clerk-%E5%85%A7%E7%A7%91%E6%9B%B8%E5%96%AE-bc614fb97b39&quot;&gt;Clerk 內科書單&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.ptt.cc&#x2F;bbs&#x2F;medstudent&#x2F;M.1291482996.A.709.html?source=post_page---------------------------&quot;&gt;想請問哪些臨床用書對於clerk有幫助?-1&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.ptt.cc&#x2F;bbs&#x2F;medstudent&#x2F;M.1291631755.A.464.html?source=post_page---------------------------&quot;&gt;想請問哪些臨床用書對於clerk有幫助?-2&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;wang-zhan&quot;&gt;網站&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;medium.com&#x2F;as-a-med-student&#x2F;%E9%86%AB%E5%AD%B8%E7%94%9F%E7%9A%84%E8%87%AA%E5%AD%B8%E5%AD%B8%E7%BF%92%E8%B3%87%E6%BA%90%E5%88%97%E8%A1%A8-qd%E6%9C%8D%E7%94%A8-57ff15328d11&quot;&gt;醫學生的自學學習資源列表 — QD服用&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.ptt.cc&#x2F;bbs&#x2F;medstudent&#x2F;M.1496773624.A.599.html?fbclid=IwAR3g4Gvj4zxzNV__gb0Mr7HcfipY2Xv1dlTSkJDrBkd-XwLMnQlv87R8cs4&amp;amp;source=post_page---------------------------&quot;&gt;關於幾個不錯的原文書和期刊搜尋方式&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.ptt.cc&#x2F;bbs&#x2F;medstudent&#x2F;M.1229443629.A.11B.html?fbclid=IwAR2uovsBZ-CFCgDptkUOiRHZeEk3mw2gFRY9gOozM3A_FUnTttOVqg1Ymk8&amp;amp;source=post_page---------------------------&quot;&gt;推薦好用的期刊或資料庫&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;drlcs.blogspot.com&#x2F;2018&#x2F;01&#x2F;bookmark.html?source=post_page---------------------------&quot;&gt;常用醫學網站推薦&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.ptt.cc&#x2F;bbs&#x2F;medstudent&#x2F;M.1563326394.A.401.html?source=post_page---------------------------&quot;&gt;醫學影像教學線上網站-1&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.ptt.cc&#x2F;bbs&#x2F;medstudent&#x2F;M.1563365264.A.E26.html?source=post_page---------------------------&quot;&gt;醫學影像教學線上網站-2&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;apps&quot;&gt;Apps&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Medscape&lt;&#x2F;li&gt;
+&lt;li&gt;UpToDate&lt;&#x2F;li&gt;
+&lt;li&gt;Dynamed Plus&lt;&#x2F;li&gt;
+&lt;li&gt;MDCalc&lt;&#x2F;li&gt;
+&lt;li&gt;Drugs.com&lt;&#x2F;li&gt;
+&lt;li&gt;UBC Radiology&lt;&#x2F;li&gt;
+&lt;li&gt;Figure 1&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;這些文章是我覺得寫得不錯的，未必每個人都適用，所以還是要隨時間慢慢找出適合自己的方法。&lt;&#x2F;p&gt;
+&lt;p&gt;另外，可以發現文章的來源很有限，不外乎某幾個人的 medium、部落格和 PTT medstudent 版。除了自己所聞本來就較為侷限之外，針對剛進入臨床的菜鳥所寫的文章也真的不多。只希望以後我也能盡一份心力，寫寫類似的文章。&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="zh-TW">
+		<title>實用 Mac Apps 推薦</title>
+		<published>2018-09-23T00:00:00+00:00</published>
+		<updated>2018-09-23T00:00:00+00:00</updated>
+		<link href="https://chswei.netlify.app/blog/mac-apps/" type="text/html"/>
+		<id>https://chswei.netlify.app/blog/mac-apps/</id>
+		<content type="html">&lt;p&gt;從 Windows 轉換到 MacOS 剛滿三個月，大多適應良好，系統介面、鍵盤配置和 trackpad 手勢等都能很快上手。這段期間也探索了許多 Apps，推薦列表如下：&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h3 id=&quot;1-sheng-chan-li-gong-ju&quot;&gt;1. 生產力工具&lt;&#x2F;h3&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;名稱&lt;&#x2F;th&gt;&lt;th&gt;簡介&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;itunes.apple.com&#x2F;tw&#x2F;app&#x2F;alfred&#x2F;id405843582?mt=12&quot;&gt;Alfred&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;必裝神器！類似 Spotlight 的軟體，但功能遠遠不止這樣。它能讓你大大減少離開來回鍵盤和觸控板的時間，詳細教學可以參考&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;sspai.com&#x2F;post&#x2F;32979&quot;&gt;這篇&lt;&#x2F;a&gt;教學。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;itunes.apple.com&#x2F;tw&#x2F;app&#x2F;evernote-%E4%BF%9D%E6%8C%81%E4%BA%95%E7%84%B6%E6%9C%89%E5%BA%8F&#x2F;id406056744?mt=12&quot;&gt;Evernote&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;知名筆記軟體，應該不用多說，&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.playpcesor.com&#x2F;search&#x2F;label&#x2F;evernote&quot;&gt;電腦玩物&lt;&#x2F;a&gt;部落格上有許多使用訣竅。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;itunes.apple.com&#x2F;tw&#x2F;app&#x2F;notability&#x2F;id736189492?mt=12&quot;&gt;‎Notability&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;筆記軟體，我主要用來匯入 PDF 製作上課筆記。不過此軟體還是 iPad 配合 Apple Pencil 效果最佳。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;itunes.apple.com&#x2F;tw&#x2F;app&#x2F;bear&#x2F;id1091189122?mt=12&quot;&gt;Bear&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;我的寫作主力軟體，UI 乾淨漂亮，且支援 Markdown 語法。可參考&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;medium.com&#x2F;plaintech&#x2F;bear-notes-b7bae6073010&quot;&gt;這篇&lt;&#x2F;a&gt;的介紹。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;itunes.apple.com&#x2F;tw&#x2F;app&#x2F;ticktick-things-tasks-to-do&#x2F;id966085870?mt=12&quot;&gt;Ticktick&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;待辦清單軟體，免費版的功能就很齊全了，且 Windows、Mac、Android、iOS 都能下載，同步很方便。也有很多人推薦 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;itunes.apple.com&#x2F;tw&#x2F;app&#x2F;things-3&#x2F;id904280696?mt=12&quot;&gt;Things&lt;&#x2F;a&gt; 這個軟體，但有點貴...&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h3 id=&quot;2-xi-tong-guan-li-gong-ju&quot;&gt;2. 系統管理工具&lt;&#x2F;h3&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;名稱&lt;&#x2F;th&gt;&lt;th&gt;簡介&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;brew.sh&#x2F;index_zh-tw&quot;&gt;Homebrew&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;套件管理工具，讓你可以用一句指令來安裝軟體或套件，極為方便。嚴格來說不是 App，但還是列在這邊讓各位參考。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.coconut-flavour.com&#x2F;coconutbattery&#x2F;&quot;&gt;coconutBattery&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;查看電池健康度。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.crystalidea.com&#x2F;macs-fan-control&quot;&gt;Macs Fan Control&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;風扇控制軟體，同時也可查看機身各個部位的溫度。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;itunes.apple.com&#x2F;tw&#x2F;app&#x2F;magnet&#x2F;id441258766?mt=12&quot;&gt;Magnet&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;分割視窗軟體，最棒的是它支援「拖曳視窗到螢幕邊界後會自動分割」的功能。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;freemacsoft.net&#x2F;appcleaner&#x2F;&quot;&gt;AppCleaner&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;平時若要刪除肥大的軟體 (如 Adobe) 時，可能會有刪除不乾淨的情況。而 AppCleaner 就是最好解決的方法。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;itunes.apple.com&#x2F;tw&#x2F;app&#x2F;amphetamine&#x2F;id937984704?mt=12&quot;&gt;Amphetamine&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;在一段時間內，防止電腦進入睡眠狀態。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h3 id=&quot;3-kai-fa-gong-ju&quot;&gt;3. 開發工具&lt;&#x2F;h3&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;名稱&lt;&#x2F;th&gt;&lt;th&gt;簡介&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;code.visualstudio.com&#x2F;&quot;&gt;Visual Studio Code&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;Microsoft 開發的文字編輯器，完全免費，啟動速度也快。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.anaconda.com&#x2F;download&#x2F;&quot;&gt;Anaconda&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;Python 懶人包，快速安裝資料分析所需的大部分套件。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.iterm2.com&#x2F;&quot;&gt;iTerm&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;MacOS 內建 terminal 的替代品。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h3 id=&quot;4-qi-ta&quot;&gt;4. 其他&lt;&#x2F;h3&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;名稱&lt;&#x2F;th&gt;&lt;th&gt;簡介&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;apps.ankiweb.net&#x2F;&quot;&gt;Anki&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;實踐 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;chswei.github.io&#x2F;post&#x2F;medicine&#x2F;study-methods&#x2F;&quot;&gt;Spaced repetition&lt;&#x2F;a&gt; 讀書方法的記憶背誦軟體。可參考&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;medium.com&#x2F;as-a-med-student&#x2F;%E5%9C%8B%E8%80%83%E8%AE%80%E7%B4%AF%E4%BA%86%E5%AF%AB%E5%80%8Banki%E6%95%99%E5%AD%B8-part-i-7728d680e44a&quot;&gt;此篇&lt;&#x2F;a&gt;教學文章。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;lhc70000.github.io&#x2F;iina&#x2F;&quot;&gt;IINA&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;必裝神器！Mac 上最強大的播放器，支援幾乎所有影音格式。開源、UI 美觀。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;itunes.apple.com&#x2F;tw&#x2F;app&#x2F;enpass-password-manager&#x2F;id732710998?mt=12&quot;&gt;Enpass&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;密碼管理軟體。幾乎免費、預設 local 端儲存。替代品有 1password、LastPass...等。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;itunes.apple.com&#x2F;tw&#x2F;app&#x2F;reeder-3&#x2F;id880001334?mt=12&quot;&gt;Reeder&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;老牌 RSS 閱讀器。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+</content>
+	</entry>
+	<entry xml:lang="zh-TW">
+		<title>周易哲學</title>
+		<published>2018-09-04T00:00:00+00:00</published>
+		<updated>2018-09-04T00:00:00+00:00</updated>
+		<link href="https://chswei.netlify.app/blog/zhou-yi/" type="text/html"/>
+		<id>https://chswei.netlify.app/blog/zhou-yi/</id>
+		<content type="html">&lt;p&gt;最近打算重新開始學習易經。以前曾經使用的參考書籍是「&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.books.com.tw&#x2F;products&#x2F;0010515877&quot;&gt;樂天知命：傅佩榮談《易經》&lt;&#x2F;a&gt;」、「&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.books.com.tw&#x2F;products&#x2F;0010544544&quot;&gt;易經解讀：新世紀繼往開來的思想經典&lt;&#x2F;a&gt;」這兩本，要拿出來翻翻了。&lt;&#x2F;p&gt;
+&lt;p&gt;大概是受國中的國文老師影響，一直都很喜歡中國的歷史和傳統文化，也可以說是崇古吧，總之三年前在台大時修了一些如今看來很神奇的課，像是「周易哲學」、「太極拳」和「氣功」。說來也真是幸運，周易哲學剛好是哲學系知名的國學大師傅佩榮教授退休前開的最後一門課，能一瞻大師風采也算不虛此行了。&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;研究易經一般可分為「易理」和「象數」兩個部分，兩者不可偏廢。但以往我都只有使用象數進行占卦，甚少鑽研易理，這樣其實有點邪門歪道。俗話說：「善為易者不占。」是因為懂得易理之後就能運用己身的智慧去應對周圍事物的變化。也因此，最近才想要重新學習易經，期許自己能持續精進德性。&lt;&#x2F;p&gt;
+&lt;p&gt;（Btw，有人看到易經或占卦這些字眼可能會覺得是迷信或不科學。我只能說，每個人都有自己相信的事物和信念，沒有必要去否定你不了解的事情，除非你有真的深入了解它。）&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="zh-TW">
+		<title>Enpass 和 SizeUp</title>
+		<published>2018-08-24T00:00:00+00:00</published>
+		<updated>2018-08-24T00:00:00+00:00</updated>
+		<link href="https://chswei.netlify.app/blog/enpass-sizeup/" type="text/html"/>
+		<id>https://chswei.netlify.app/blog/enpass-sizeup/</id>
+		<content type="html">&lt;h3 id=&quot;enpass&quot;&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.enpass.io&quot;&gt;Enpass&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;最近突然對網路資安起了警戒，所以在比較了 1password、LastPass 等密碼管理軟體後，最後選了 Enpass。有幾個主要原因：幾乎免費、預設 local 端儲存、好用的 Safari extension、優秀的同步支援。&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h3 id=&quot;sizeup&quot;&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;http:&#x2F;&#x2F;www.irradiatedsoftware.com&#x2F;sizeup&#x2F;&quot;&gt;SizeUp&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;對比 Windows 10 使用快捷鍵分割視窗， Mac 內建的 Split View 使用起來很麻煩且不直覺。網路上大多推薦 Moom、Magnet、BetterSnapTool，但都是付費軟體。雖然也不是不願意付錢，但基於能省則省的原則，最後找到了 SizeUp，完完全全符合我的需求。 (過程中有找到一個 Alfred 的 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;http:&#x2F;&#x2F;projects.jga.me&#x2F;layouts&#x2F;&quot;&gt;workflow&lt;&#x2F;a&gt;，也能控制 layout，但似乎不是那麼完美)&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="zh-TW">
+		<title>使用 Hackmd 製作系上共筆的可行性？</title>
+		<published>2018-08-11T00:00:00+00:00</published>
+		<updated>2018-08-11T00:00:00+00:00</updated>
+		<link href="https://chswei.netlify.app/blog/mutual-note/" type="text/html"/>
+		<id>https://chswei.netlify.app/blog/mutual-note/</id>
+		<content type="html">&lt;p&gt;前幾天排版共筆排得很煩躁，腦中突然冒出用 Hackmd 製作系上共筆的想法。網上搜尋了一下，發現沒有人寫類似的文章（大概也沒有人會公布自己系上製作共筆的方式吧，除了以前&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;youtu.be&#x2F;Ur_uvrLKtQ4&quot;&gt;黃豆泥&lt;&#x2F;a&gt;學長有推廣過使用 Google Docs 製作共筆）。所以趁著整合考剛結束，理了一下想法，順手打下。&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;shi-mo-shi-gong-bi&quot;&gt;什麼是共筆？&lt;&#x2F;h2&gt;
+&lt;p&gt;共筆，共同筆記，由一群人共同製作的筆記。據我所知，其實不只有醫學系有這個制度，法律系以及一些會議、演講也都會製作共筆，方便同學和與會者共享知識內容 (像是使用下面提到的 Hackmd)。&lt;&#x2F;p&gt;
+&lt;p&gt;目前我們系上製作共筆的流程如下：組員 → 組長 → 組頭 → 學藝 。
+老師上完課後，由五到六個組員將投影片內容製作成共筆，接著組長排版、組頭審核內容，最後交給學藝進行最終把關並送印。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;shi-mo-shi-hackmd&quot;&gt;什麼是 Hackmd？&lt;&#x2F;h2&gt;
+&lt;p&gt;其實有點類似 Google Docs，同樣提供線上協作的文字編輯服務，但最大的不同點在於 Hackmd 使用了 Markdown 語法進行文件的撰寫。&lt;&#x2F;p&gt;
+&lt;p&gt;那什麼是 Markdown？&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Markdown 是一種輕量級標記式語言，它允許人們「使用易讀易寫的純文字格式編寫文件，然後轉換成有效的 XHTML（或者 HTML）文件」。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;這是&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;zh.wikipedia.org&#x2F;wiki&#x2F;Markdown&quot;&gt;維基百科&lt;&#x2F;a&gt;上對於 Markdown 的介紹，重點就在於「易讀易寫」這四個字。我們可以使用一些簡單的符號輕鬆建立一篇排版工整且易於閱讀的文件，手甚至不需要離開鍵盤。比起 Word 必須使用滑鼠點來點去進行版面的調整，Markdown 可說是節省許多時間與麻煩。有興趣的人可以參考&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;markdown.tw&#x2F;&quot;&gt;這篇&lt;&#x2F;a&gt;詳細的 Markdown 語法教學。&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;補充：其實 Markdown 有很多種版本，例如 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;daringfireball.net&#x2F;projects&#x2F;markdown&#x2F;&quot;&gt;John Gruber 發明的原始版本&lt;&#x2F;a&gt;和 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;help.github.com&#x2F;categories&#x2F;writing-on-github&#x2F;&quot;&gt;Github-flavored Markdown (GFM)&lt;&#x2F;a&gt; 等，不過最基本的功能都是一樣的。而 Hackmd 在最基本的 Markdown 功能之外，也有許多獨創的語法。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;shi-yong-hackmd-zhi-zuo-gong-bi-de-hao-chu&quot;&gt;使用 Hackmd 製作共筆的好處？&lt;&#x2F;h2&gt;
+&lt;p&gt;Word 是現今最為普遍使用的文書處理軟體，也是大多數人打文件的首選，系上的共筆製作當然也不例外。因為它太強大了，能夠使用很多複雜的功能，所以目前看來似乎沒有理由轉換成 Hackmd (Markdown)。&lt;&#x2F;p&gt;
+&lt;p&gt;說來很不可置信，其實還是有很多同學對於 Word 的功能不太熟悉，例如不會設定編號、不會調整圖文的版面配置等，也導致組長需要花費很多時間調整排版。雖然現在大多數的共筆都是修改自學長姐的檔案，版面不太需要調整，因此問題不大。但有時候老師一換，必須從零開始製作時，排版工作真的是一大災難。假如我們使用 Hackmd，整個製作流程也許可以更輕鬆寫意。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;del&gt;（不過老實說，一個連 Word 都不肯好好學的人，怎麼會願意認識這一輩子可能都用不到的 Markdown 呢～）&lt;&#x2F;del&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;demo&quot;&gt;Demo&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;drive.google.com&#x2F;uc?export=view&amp;amp;id=1pfy2zV6IjetJ2bNtrjkMz037hcGxlZy0&quot; alt=&quot;demo&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;在這種條列式的使用情境下，Hackmd 能做得跟 Word 不相上下，而右側文字實際上使用 Markdown 語法是長下面這樣：&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;### B. 定義與發生率(Definition and Incidence)
+&lt;&#x2F;span&gt;&lt;span&gt;#### 一、定義、診斷
+&lt;&#x2F;span&gt;&lt;span&gt;1. 急性胰臟炎是指一種胰臟急性發炎並且涉及其他區域的組織或遠處的器官系統的一個過程（1992 Atlanta Symposium）。
+&lt;&#x2F;span&gt;&lt;span&gt;2. 以下3點符合2點即可診斷為急性胰臟炎
+&lt;&#x2F;span&gt;&lt;span&gt;    * 典型的持續性的腹痛（++上或左上腹痛++、痛連背部、身體蜷曲會減緩痛感）
+&lt;&#x2F;span&gt;&lt;span&gt;    * 血清中澱粉酶(amylase)、脂肪酶(lipase)的數值高於正常值三倍以上
+&lt;&#x2F;span&gt;&lt;span&gt;    * 在腹部影像學檢查中有屬於典型急性胰臟炎表現（比如說胰臟腫大、偽囊腫等等的）
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;#### 二、發生率
+&lt;&#x2F;span&gt;&lt;span&gt;1. 急性胰臟炎在全球的發生率大概為 4.9\~73.4&#x2F;100,000。西方盛行率約10~20 %左右，台灣偏低大概只有5 ~10 %。
+&lt;&#x2F;span&gt;&lt;span&gt;2. **膽結石(gallstone)** 是世界上急性胰臟炎最常見的病因。西方國家甚至超過1&#x2F;2的AP患者是因為膽結石！
+&lt;&#x2F;span&gt;&lt;span&gt;3. 性別比方面：
+&lt;&#x2F;span&gt;&lt;span&gt;    * 膽結石所造成的急性胰臟炎→女性患者&amp;gt;男性患者
+&lt;&#x2F;span&gt;&lt;span&gt;    * 喝酒所造成的急性胰臟炎→男性患者&amp;gt;女性患者
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;### C. 危險因子(Predisposing Conditions)
+&lt;&#x2F;span&gt;&lt;span&gt;1. 在美國，75 %的AP患者與膽結石、酗酒這兩個因素有關；另外≤ 30 %的患者無明顯病因，稱為自發性胰臟炎(idiopathic pancreatitis)。
+&lt;&#x2F;span&gt;&lt;span&gt;2. 在台灣，膽結石性胰臟炎佔41.9 %，酒精性佔14.9 %，原因不明佔27 %。
+&lt;&#x2F;span&gt;&lt;span&gt;3. 下圖為常見的阻塞位置，大部分是在膽囊裡面，其實大多的結石都是無症狀(silence)，所以不一定會發現，但是當結石卡在遠端總膽管(CBD)附近時，會一起堵住胰管造成胰臟發炎，也有可能造成黃疸問題，因此看到黃疸得要考慮是肝臟還是膽管問題，而病人的主訴是痛的話就可能要優先考慮是膽道問題。
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;![](https:&#x2F;&#x2F;i.imgur.com&#x2F;R6xOaxQ.png)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;可以看出 Markdown 是藉由各種符號來達到粗體、斜體、標號等效果，省了排版美化的時間。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;dai-ke-fu-de-wen-ti&quot;&gt;待克服的問題&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;1-gong-tong-bian-ji&quot;&gt;1. 共同編輯&lt;&#x2F;h3&gt;
+&lt;p&gt;Hackmd 有很多種筆記&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;hackmd.io&#x2F;s&#x2F;E1UakUq8#%E6%AC%8A%E9%99%90&quot;&gt;權限&lt;&#x2F;a&gt;設置，要怎麼給予同學適合的權限是個滿重要的問題。&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;可能的解決方法：全程使用「Editable」。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h3 id=&quot;2-biao-ge&quot;&gt;2. 表格&lt;&#x2F;h3&gt;
+&lt;p&gt;共筆中常常會使用表格來統整概念，偏偏我覺得 Markdown 的表格不太好用，功能太陽春了，像是合併儲存格等較進階的方式在 Markdown 就沒辦法使用。&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;可能的解決方法：若要製作比較複雜的表格，可能要先在其他軟體中製作後再截圖貼到 Hackmd。(但這樣實在不太方便 )&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h3 id=&quot;3-tu-pian&quot;&gt;3. 圖片&lt;&#x2F;h3&gt;
+&lt;p&gt;一般我們在 Word 中對於圖片的操作不外乎調整「大小」和「排列方式」。Markdown 中調整圖片大小容易，但對於排列方式的支援就不是那麼好，沒辦法文繞圖、置中等。&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;可能的解決方法：無解。一開始我以為這會是個大問題，但後來發覺其實看習慣就還好。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h3 id=&quot;4-shu-chu&quot;&gt;4. 輸出&lt;&#x2F;h3&gt;
+&lt;p&gt;Hackmd 目前不支援 PDF 格式的輸出，對於印出紙本或是在平板上閱讀都不太方便。&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;可能的解決方法：最簡易的方法就是使用瀏覽器(如 Chrome)輸出，只可惜有的格式會跑掉。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;zong-jie&quot;&gt;總結&lt;&#x2F;h2&gt;
+&lt;p&gt;儘管有一些問題需要克服，但整體而言，Hackmd 仍不失為一個製作共筆的好工具。現在大家都用學長姐的檔案輕鬆交差，大概也不可能改變製作過程，這篇文章只是在發牢騷罷了XD&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="zh-TW">
+		<title>關於讀書方法</title>
+		<published>2018-08-11T00:00:00+00:00</published>
+		<updated>2018-08-11T00:00:00+00:00</updated>
+		<link href="https://chswei.netlify.app/blog/study-methods/" type="text/html"/>
+		<id>https://chswei.netlify.app/blog/study-methods/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;drive.google.com&#x2F;uc?export=view&amp;amp;id=1C7DNA0Fz0SxCXfOkDl49P_zICoSJLQ0n&quot; alt=&quot;Ali&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;還記得以前國中的時候老師要我上台跟同學分享讀書方法，當時說不出所以然，反正把課本多念幾遍就是了。這麼多年過去了，讀書方法一直沒什麼改變，考前預留一段足夠的時間開始複習，用螢光筆在課本或共筆上劃線做記號，有多餘的時間就做點筆記統整，然後至少把上課內容看兩遍，再寫寫考古題，成績就能保持在不錯的水準。因此也沒有特別想要去改進讀書方法。然而這種螢光筆劃線式的方法看似有效率，實際上內容完全沒有吸收進腦中，而且忘得很快，每次在生活中看到自己曾經學過的東西總會很興奮地跟旁人說「啊這個我學過耶」，但馬上又因為記憶模糊而支支吾吾地帶過，屢試不爽。&lt;&#x2F;p&gt;
+&lt;p&gt;今年寒假在 Coursera 參加一門叫作 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.coursera.org&#x2F;learn&#x2F;learning-how-to-learn&quot;&gt;Learning How to Learn&lt;&#x2F;a&gt; 的熱門課程，老師們以記憶形成的理論一步步教導該如何正確地學習，但後來我覺得講得太枯燥，所以並沒有看完所有的影片，也沒有認真應用在課業上 (好浪費XD)。然後最近發現一位叫作 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;channel&#x2F;UCoOae5nYA7VqaXzerajD0lg&quot;&gt;Ali Abdaal&lt;&#x2F;a&gt; 的 YouTuber。他是英國劍橋大學醫學院的學生，影片品質和可看度都還蠻高的，而其中一系列 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;playlist?list=PL7BImOT2srcGCCjBBwNvU5zaB9F30lWye&quot;&gt;Study Tips&lt;&#x2F;a&gt; 的影片真的讓我獲益良多，尤其醫學背景對我來說更具參考價值。&lt;&#x2F;p&gt;
+&lt;p&gt;這邊先列出影片中最重要的兩個方法：active recall 和 spaced repetition。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;active-recall&quot;&gt;Active Recall&lt;&#x2F;h2&gt;
+&lt;div class=&quot;youtube&quot;&gt;
+    &lt;iframe src=&quot;https:&#x2F;&#x2F;www.youtube-nocookie.com&#x2F;embed&#x2F;ukLnPbIffxE&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;&#x2F;iframe&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;Active Recall 顧名思義就是回想學習的內容。例如可以回想並總結今天所學的大架構是如何，然後這些大架構下面有哪些細節等。**這種從大腦提取記憶的過程能讓記憶更牢固、更長久。**一直以來因為我念書速度很慢，看完一個單元需要花很多時間，所以每次做完螢光筆的劃記就會懶得再耗神回想，但就是這種壞習慣讓我的記憶很不穩固，考完試就忘。&lt;&#x2F;p&gt;
+&lt;p&gt;此外，也可以搭配畫簡圖、心智圖等方式進行 active recall，畢竟我們對於圖像記憶比較拿手，也順便讓自己在回想的時候理清思緒。但無論使用何種方式，重點都是在那&lt;strong&gt;提取記憶的過程&lt;&#x2F;strong&gt;。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;spaced-repetition&quot;&gt;Spaced Repetition&lt;&#x2F;h2&gt;
+&lt;div class=&quot;youtube&quot;&gt;
+    &lt;iframe src=&quot;https:&#x2F;&#x2F;www.youtube-nocookie.com&#x2F;embed&#x2F;Z-zNHHpXoMM&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;&#x2F;iframe&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;Spaced Repetition (間隔重複) 其實就是耳熟能詳的&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;zh.wikipedia.org&#x2F;wiki&#x2F;%E9%81%97%E5%BF%98%E6%9B%B2%E7%BA%BF&quot;&gt;遺忘曲線&lt;&#x2F;a&gt;的應用。由於我們的短期記憶會隨著時間漸漸地遺忘，所以需要每隔一段時間進行複習來加強記憶，直到它成為長期記憶。結合前面說到的 active recall，我們可以每隔幾天就回想之前學過的內容 (而非重看螢光筆劃線的地方)，如此就能鞏固記憶。&lt;&#x2F;p&gt;
+&lt;p&gt;有一些 App 可以幫助我們進行 spaced repetition (如 Anki 和 Quizlet)，其中 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;apps.ankiweb.net&quot;&gt;Anki&lt;&#x2F;a&gt; 是 Ali 極其推薦的，有興趣的人可以搜尋看看。&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;這兩個讀書方法的好處在於不需要任何訓練，人人都可以很快上手，而且它們是從記憶的形成原理著手，所以適用於任何科目。So why not give it a try?&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="zh-TW">
+		<title>在 GitHub 部署 Hugo 靜態網站</title>
+		<published>2018-07-12T00:00:00+00:00</published>
+		<updated>2018-07-12T00:00:00+00:00</updated>
+		<link href="https://chswei.netlify.app/blog/hugo/" type="text/html"/>
+		<id>https://chswei.netlify.app/blog/hugo/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;drive.google.com&#x2F;uc?export=view&amp;amp;id=1JJZzwp6iRbQ54NbrwKNA4e-1GRVjDg70&quot; alt=&quot;hugo-1&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;第一次搭建個人網站，選擇了 Hugo。儘管&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;gohugo.io&#x2F;documentation&#x2F;&quot;&gt;官方文件&lt;&#x2F;a&gt;寫得很詳細，但 Programming 新手如我在建立的過程中還是遇到了一些困難，因此紀錄一下，希望能幫到跟我同樣情況的人。&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;以下分為兩部分介紹：本地建立檔案、部署到 GitHub。(使用 MacOS)
+(2018&#x2F;09&#x2F;01 補充 Windows 本地建立檔案方法在最下面)&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;di-yi-bu-fen-ben-di-jian-li-dang-an&quot;&gt;第一部分：本地建立檔案&lt;&#x2F;h2&gt;
+&lt;p&gt;老實說 Hugo 真的很人性化，簡單幾個步驟就能讓使用者建立網站的雛形。&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;1-da-kai-terminal-an-zhuang-homebrew&quot;&gt;1. 打開 terminal，安裝 Homebrew&lt;&#x2F;h4&gt;
+&lt;br&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;&#x2F;usr&#x2F;bin&#x2F;ruby -e &amp;quot;$(curl -fsSL https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;Homebrew&#x2F;install&#x2F;master&#x2F;install)&amp;quot;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h4 id=&quot;2-an-zhuang-hugo&quot;&gt;2. 安裝 Hugo&lt;&#x2F;h4&gt;
+&lt;br&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;brew install hugo
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h4 id=&quot;3-jian-li-xin-wang-zhan&quot;&gt;3. 建立新網站&lt;&#x2F;h4&gt;
+&lt;br&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;hugo new site website-hugo
+&lt;&#x2F;span&gt;&lt;span&gt;cd website-hugo
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;code&gt;website-hugo&lt;&#x2F;code&gt; 可以替換成任意名稱，但你也可以跟我一樣，避免麻煩。找到名為 &lt;code&gt;website-hugo&lt;&#x2F;code&gt; 的資料夾，觀察一下內部資料夾結構。&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;4-xin-zeng-zhu-ti-theme-ci-chu-yi-casper-wei-li&quot;&gt;4. 新增主題 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;themes.gohugo.io&quot;&gt;(theme)&lt;&#x2F;a&gt;：此處以 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;themes.gohugo.io&#x2F;casper&#x2F;&quot;&gt;Casper&lt;&#x2F;a&gt; 為例&lt;&#x2F;h4&gt;
+&lt;br&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;git clone https:&#x2F;&#x2F;github.com&#x2F;vjeantet&#x2F;hugo-theme-casper themes&#x2F;casper
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;你也可以選其他主題，進到該主題的 GitHub repo，將上面的網址改成 repo 的網址、&lt;code&gt;themes&#x2F;casper&lt;&#x2F;code&gt; 改成 &lt;code&gt;themes&#x2F;你的主題名稱&lt;&#x2F;code&gt;。&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;5-jiang-themes-casper-zhong-de-static-he-layouts-zi-liao-jia-fu-zhi-qu-dai-gen-mu-lu-zhong-de-static-he-layouts-zi-liao-jia&quot;&gt;5. 將 &#x2F;themes&#x2F;casper 中的 static 和 layouts 資料夾複製，取代根目錄中的 static 和 layouts 資料夾&lt;&#x2F;h4&gt;
+&lt;br&gt;
+&lt;h4 id=&quot;6-jian-li-xin-wen-zhang&quot;&gt;6. 建立新文章&lt;&#x2F;h4&gt;
+&lt;br&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;hugo new posts&#x2F;my-first-post.md
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;此指令會在 &lt;code&gt;&#x2F;content&#x2F;posts&lt;&#x2F;code&gt; 資料夾中建立 &lt;code&gt;my-first-post.md&lt;&#x2F;code&gt;。使用任意文字編輯器打開此 markdown 文件，將 draft 改成 false，文件內容任意。以後建立文章都是以此方式。&lt;&#x2F;p&gt;
+&lt;p&gt;使用文字編輯器打開 &lt;code&gt;config.toml&lt;&#x2F;code&gt;，並調整內容為上面這樣。&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;7-bian-ji-config-toml&quot;&gt;7. 編輯 config.toml&lt;&#x2F;h4&gt;
+&lt;br&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;baseURL = &amp;quot;https:&#x2F;&#x2F;chswei.github.io&#x2F;&amp;quot;    #改成你的GitHub帳號名稱
+&lt;&#x2F;span&gt;&lt;span&gt;languageCode = &amp;quot;zh-tw&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;title = &amp;quot;Chswei Blog&amp;quot;    #自由命名
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h4 id=&quot;8-ben-di-ce-shi&quot;&gt;8. 本地測試&lt;&#x2F;h4&gt;
+&lt;br&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;hugo server -D
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;執行完後，在瀏覽器中輸入網址 http:&#x2F;&#x2F;localhost:1313&#x2F; ，就可以看到網站的雛形了！&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;di-er-bu-fen-bu-shu-dao-github&quot;&gt;第二部分：部署到 GitHub&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;gohugo.io&#x2F;hosting-and-deployment&#x2F;hosting-on-github&#x2F;&quot;&gt;Hugo 部署在 GitHub 的方式&lt;&#x2F;a&gt;有兩種，這邊介紹部署個人唯一主頁的方式。&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;1-zai-github-jian-li-liang-ge-repo&quot;&gt;1. 在 GitHub 建立兩個 repo&lt;&#x2F;h4&gt;
+&lt;p&gt;在 GitHub 建立 &lt;code&gt;website-hugo&lt;&#x2F;code&gt; 和 &lt;code&gt;chswei.github.io&lt;&#x2F;code&gt; (改成自己的帳號名稱) 兩個 repo。&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;2-jian-li-public-zi-liao-jia&quot;&gt;2. 建立 &#x2F;public 資料夾&lt;&#x2F;h4&gt;
+&lt;br&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;hugo
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;執行 &lt;code&gt;hugo&lt;&#x2F;code&gt;，就會在 &lt;code&gt;website-hugo&lt;&#x2F;code&gt; 內產生名為 &lt;code&gt;public&lt;&#x2F;code&gt; 的資料夾。&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;3-jiang-public-zi-liao-jia-lian-jie-dao-github-shang-de-chswei-github-io&quot;&gt;3. 將 &#x2F;public 資料夾連結到 GitHub 上的 chswei.github.io&lt;&#x2F;h4&gt;
+&lt;br&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;cd public
+&lt;&#x2F;span&gt;&lt;span&gt;git init
+&lt;&#x2F;span&gt;&lt;span&gt;git remote add origin https:&#x2F;&#x2F;github.com&#x2F;chswei&#x2F;chswei.github.io.git
+&lt;&#x2F;span&gt;&lt;span&gt;git add .
+&lt;&#x2F;span&gt;&lt;span&gt;git commit -m &amp;quot;Initial commit&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;git push -u origin master
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h4 id=&quot;4-jiang-zheng-ge-website-hugo-zi-liao-jia-lian-jie-dao-github-shang-de-website-hugo&quot;&gt;4. 將整個 website-hugo 資料夾連結到 GitHub 上的 website-hugo&lt;&#x2F;h4&gt;
+&lt;br&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;cd ..&#x2F;
+&lt;&#x2F;span&gt;&lt;span&gt;git init
+&lt;&#x2F;span&gt;&lt;span&gt;git remote add origin https:&#x2F;&#x2F;github.com&#x2F;chswei&#x2F;website-hugo.git
+&lt;&#x2F;span&gt;&lt;span&gt;git add .
+&lt;&#x2F;span&gt;&lt;span&gt;git commit -m &amp;quot;Initial commit&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;git push -u origin master
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;在執行 &lt;code&gt;git add .&lt;&#x2F;code&gt; 時出現如下面的 warning 時不用在意&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;drive.google.com&#x2F;uc?export=view&amp;amp;id=1B0n1kmveax_NH1X5QP_dtNIiHcV6BHJs&quot; alt=&quot;hugo-2&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;等個幾分鐘，輸入網址 https:&#x2F;&#x2F;chswei.github.io&#x2F; 就大功告成囉！&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;drive.google.com&#x2F;uc?export=view&amp;amp;id=1XzHEqNLMsT41RClyQdbD3681B-6V4rYU&quot; alt=&quot;hugo-3&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;references&quot;&gt;References:&lt;&#x2F;h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;gohugo.io&#x2F;documentation&#x2F;&quot;&gt;Hugo Documentation&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;brent-li.github.io&#x2F;post&#x2F;build-personal-site-with-hugo&#x2F;&quot;&gt;用Hugo搭建个人网站&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;chengjunwang.com&#x2F;note&#x2F;note_archive&#x2F;2016-08-03-github&#x2F;&quot;&gt;Github个人网站维护&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;windows-10-ben-di-jian-li-dang-an-fang-fa&quot;&gt;Windows 10 本地建立檔案方法&lt;&#x2F;h2&gt;
+&lt;ol&gt;
+&lt;li&gt;打開檔案總管，進到 C 槽 (其實哪裡都可以)，建立名為 &lt;code&gt;Hugo&lt;&#x2F;code&gt; 的資料夾 (C:\Hugo)&lt;&#x2F;li&gt;
+&lt;li&gt;在 &lt;code&gt;Hugo&lt;&#x2F;code&gt; 資料夾內建立名為 &lt;code&gt;bin&lt;&#x2F;code&gt; 的資料夾 (C:\Hugo\bin)&lt;&#x2F;li&gt;
+&lt;li&gt;在 &lt;code&gt;Hugo&lt;&#x2F;code&gt; 資料夾內建立名為 &lt;code&gt;Sites&lt;&#x2F;code&gt; 的資料夾 (C:\Hugo\Sites)&lt;&#x2F;li&gt;
+&lt;li&gt;到 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;gohugoio&#x2F;hugo&#x2F;releases&quot;&gt;Releases·gohugoio&#x2F;Hugo·GitHub&lt;&#x2F;a&gt; 下載 &lt;code&gt;hugo_版本_Windows-bit32&#x2F;64.zip&lt;&#x2F;code&gt;，並解壓縮到 &lt;code&gt;C:\Hugo\bin&lt;&#x2F;code&gt;，可以發現裡面有包含&lt;code&gt;hugo.exe&lt;&#x2F;code&gt; 等三個檔案&lt;&#x2F;li&gt;
+&lt;li&gt;將 hugo 指令加到 Windows 的 PATH 設定，如下：
+&lt;ol&gt;
+&lt;li&gt;利用桌面左下的搜尋功能搜尋「檢視進階系統設定」&lt;&#x2F;li&gt;
+&lt;li&gt;點擊「環境變數」&lt;&#x2F;li&gt;
+&lt;li&gt;在「xxx 的使用者變數」中雙擊 「Path」那一列&lt;&#x2F;li&gt;
+&lt;li&gt;點擊「新增」，輸入 &lt;code&gt;C:\Hugo\bin&lt;&#x2F;code&gt; (其實就是輸入 &lt;code&gt;hugo.exe&lt;&#x2F;code&gt; 的路徑位置)，點擊每一個視窗的「確定」&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;然後從上面第一部分的第三步開始做下來就完成了 (可以使用 cmd 下指令)&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h4 id=&quot;references-1&quot;&gt;References:&lt;&#x2F;h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;bwaycer.github.io&#x2F;hugo_tutorial.hugo&#x2F;tutorials&#x2F;installing-on-windows&#x2F;&quot;&gt;Hugo - Installing on Windows&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=G7umPCU-8xc&amp;amp;list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3&amp;amp;index=2&quot;&gt;Installing Hugo on Windows | Hugo - Static Site Generator | Tutorial 2 - YouTube&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+</content>
+	</entry>
+	<entry xml:lang="zh-TW">
+		<title>在 Jupyter Notebook 上安裝 R (Windows 10)</title>
+		<published>2018-07-12T00:00:00+00:00</published>
+		<updated>2018-07-12T00:00:00+00:00</updated>
+		<link href="https://chswei.netlify.app/blog/r-kernel-for-jupyter-notebook/" type="text/html"/>
+		<id>https://chswei.netlify.app/blog/r-kernel-for-jupyter-notebook/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;drive.google.com&#x2F;uc?export=view&amp;amp;id=1OfEJF2Hs_GtYD93YkyXSrtq7ir1KOp20&quot; alt=&quot;IRkernel-1&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;最近為了某個目的，想在 Jupyter Notebook 上寫 R code。利用 IRkernel 就能達到這件事，然而在安裝的過程中發生了一些問題，因此做了很多搜尋，將操作步驟整理在此，希望能幫助到一些人，同時也紀錄自己對於電腦世界的懵懂無知。&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;an-zhuang-irkernel-de-qian-ti-requirements&quot;&gt;安裝 IRkernel 的前提 (Requirements)&lt;&#x2F;h3&gt;
+&lt;ol&gt;
+&lt;li&gt;安裝好 R （我的版本是 3.4.1，若還有安裝 RStudio 更好）。&lt;&#x2F;li&gt;
+&lt;li&gt;安裝好 Jupyter Notebook （我是用 Anaconda 安裝的）。 &lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h3 id=&quot;ci-lu-bu-tong-not-work-for-me&quot;&gt;此路不通 (Not Work for Me)&lt;&#x2F;h3&gt;
+&lt;p&gt;一開始我按照&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;http:&#x2F;&#x2F;white5168.blogspot.com&#x2F;2017&#x2F;09&#x2F;anaconda-rpythonr.html#.W0dfsWb3X-b&quot;&gt;這個網站&lt;&#x2F;a&gt;的步驟操作，在 Anaconda Prompt 內打入：&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;conda update anaconda
+&lt;&#x2F;span&gt;&lt;span&gt;conda install -c r r-essentials
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;在筆電和桌電上試驗都在第二步出現了 Error，沒辦法安裝，查了 google 和 stackoverflow 都找不到解答。（不過好多東西我都看不懂，所以也有可能是有解的。）之後還在 YouTube 看別人怎麼安裝，但對我來說還是不成功。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-fa-my-solution&quot;&gt;解法 (My Solution)&lt;&#x2F;h3&gt;
+&lt;p&gt;後來在某影片中的某片段看到一個似乎是 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;irkernel.github.io&quot;&gt;IRkernel 的官方網址&lt;&#x2F;a&gt;，按照裡面的方法後，就安裝成功了！（心得：看官方文件還是最準的 OTZ）&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;step-1&quot;&gt;Step 1&lt;&#x2F;h4&gt;
+&lt;p&gt;在 RStudio 的 Console 內打入：&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;R&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-R &quot;&gt;&lt;code class=&quot;language-R&quot; data-lang=&quot;R&quot;&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;install.packages&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;c&lt;&#x2F;span&gt;&lt;span&gt;(&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;repr&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;, &amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;IRdisplay&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;, &amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;evaluate&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;, &amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;crayon&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;, &amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;pbdZMQ&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;, &amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;devtools&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;, &amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;uuid&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;, &amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;digest&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;)) 
+&lt;&#x2F;span&gt;&lt;span&gt;devtools::&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;install_github&lt;&#x2F;span&gt;&lt;span&gt;(&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;IRkernel&#x2F;IRkernel&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h4 id=&quot;step-2-wrong&quot;&gt;Step 2 (Wrong)&lt;&#x2F;h4&gt;
+&lt;p&gt;在 RStudio 中的 Console 內打入：&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;R&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-R &quot;&gt;&lt;code class=&quot;language-R&quot; data-lang=&quot;R&quot;&gt;&lt;span&gt;IRkernel::&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;installspec&lt;&#x2F;span&gt;&lt;span&gt;()
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;結果出現 Error：&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;drive.google.com&#x2F;uc?export=view&amp;amp;id=17SqF4YwxLsY0L9M9M_4rn50AExQ7FJe1&quot; alt=&quot;IRkernel-2&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;後來在 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;stackoverflow.com&#x2F;questions&#x2F;44056164&#x2F;jupyter-client-has-to-be-installed-but-jupyter-kernelspec-version-exited-wit&#x2F;44108916&quot;&gt;Stackoverflow&lt;&#x2F;a&gt; 這篇上找到解法 (第二個回答)&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;step-2-correct&quot;&gt;Step 2 (Correct)&lt;&#x2F;h4&gt;
+&lt;p&gt;打開 Anaconda Prompt (或是用 Windows 內建的 cmd 好像也可以)，更改路徑到裝有 R.exe 的資料夾 (以下是我的路徑)：&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;cd &amp;quot;C:\Program Files\R\R-3.4.1\bin&amp;quot;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;drive.google.com&#x2F;uc?export=view&amp;amp;id=1KRVMtzqA4pF00tw_zRBlA0_2EVjauamZ&quot; alt=&quot;IRkernel-3&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;接著打入這行，進入 R。&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;R.exe
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;重新打入剛剛在 RStudio 中失敗的這行：&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;R&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-R &quot;&gt;&lt;code class=&quot;language-R&quot; data-lang=&quot;R&quot;&gt;&lt;span&gt;IRkernel::&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;installspec&lt;&#x2F;span&gt;&lt;span&gt;()
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;沒有出現錯誤！！！先關掉 R，不用儲存空間圖案：&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;R&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-R &quot;&gt;&lt;code class=&quot;language-R&quot; data-lang=&quot;R&quot;&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;q&lt;&#x2F;span&gt;&lt;span&gt;()
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h4 id=&quot;step-3&quot;&gt;Step 3&lt;&#x2F;h4&gt;
+&lt;p&gt;先回到你想要的路徑，再打開 Jupyter Notebook：&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;cd &amp;quot;你的某資料夾&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;jupyter notebook
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;出現 R 的選項了！！！&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;drive.google.com&#x2F;uc?export=view&amp;amp;id=1m--VIF2Ntj66It2A3al9QDkuUwQxKBFe&quot; alt=&quot;IRkernel-4&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;畫個圖試試看：&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;drive.google.com&#x2F;uc?export=view&amp;amp;id=1fswC_xyXuZR14G4kXOEFfuSV2h5RDcGQ&quot; alt=&quot;IRkernel-5&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;好感動啊！！！！！以上就是安裝 IRkernel 的方法，感謝大家看到這裡。&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="zh-TW">
+		<title>Python 中 sys.argv[] 配合 Shell Script 的使用方法</title>
+		<published>2018-07-12T00:00:00+00:00</published>
+		<updated>2018-07-12T00:00:00+00:00</updated>
+		<link href="https://chswei.netlify.app/blog/sysargv-shell/" type="text/html"/>
+		<id>https://chswei.netlify.app/blog/sysargv-shell/</id>
+		<content type="html">&lt;p&gt;最近在寫李宏毅老師的 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;ntumlta.github.io&#x2F;2017fall-ml-hw2&#x2F;&quot;&gt;ML 課程作業&lt;&#x2F;a&gt;時，第一次接觸了shell script，也終於弄懂 sys.argv[] 的用法。過程中看了網路上許多參考資料的介紹，總覺得對於我這個新手來說太過複雜，故在此稍作整理並紀錄。&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h3 id=&quot;di-yi-bu-jian-li-han-you-sys-argv-de-py-wen-jian&quot;&gt;第一步：建立含有 sys.argv[] 的 .py 文件&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;drive.google.com&#x2F;uc?export=view&amp;amp;id=1my49WdrYo4gpdlEVB3e9pQM4PWiGZXUd&quot; alt=&quot;shell-1&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;使用任意文字編輯器建立 .py 文件，如圖中的 test_code.py。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;di-er-bu-jian-li-sh-wen-jian&quot;&gt;第二步：建立 .sh 文件&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;drive.google.com&#x2F;uc?export=view&amp;amp;id=1OVYz4Ru-PpKyodKcYXLuoN4fkYKbbdH0&quot; alt=&quot;shell-2&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;在 terminal 或 cmd 輸入以下指令：&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;touch shell_name
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;touch 指令可以建立新的 .sh 文件，後面接你要的文件名稱，如圖中的 test_shell（注意這邊不用打副檔名 .sh）。&lt;&#x2F;p&gt;
+&lt;p&gt;好的，到目前為止，資料夾中已有兩個檔案：test_code.py 和 test_shell.sh&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;drive.google.com&#x2F;uc?export=view&amp;amp;id=1Sjn1cfv8Ra605qp6wsjcV34qg4izp1tT&quot; alt=&quot;shell-3&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;接下來我們要在 test_shell.sh 中打一些東西：&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;drive.google.com&#x2F;uc?export=view&amp;amp;id=1aBRQ3QrskXmil4xSpl5fDHd843oxuYkq&quot; alt=&quot;shell-4&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;#!&#x2F;bin&#x2F;bash
+&lt;&#x2F;span&gt;&lt;span&gt;python3 your_code.py $1...
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;ol&gt;
+&lt;li&gt;#!&#x2F;bin&#x2F;bash 這行告訴系統以 bash（一種 shell）執行這個 .sh 檔。&lt;&#x2F;li&gt;
+&lt;li&gt;python3 後面接要執行的 .py 文件，再後面接 $1、$2 … ，看你 .py 中 sys.argv[] 數字到多少就打到多少，因為 $1 之後會對應 sys.argv[1]、$2 會對應 sys.argv[2] … 以此類推。&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h3 id=&quot;di-san-bu-chuan-di-can-shu-passing-arguments&quot;&gt;第三步：傳遞參數 (passing arguments)&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;drive.google.com&#x2F;uc?export=view&amp;amp;id=1FYqp00RH_QW33bKQ_6c8O9AzSux19xi3&quot; alt=&quot;shell-5&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;在 terminal 或 cmd 輸入以下指令：&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;sh .&#x2F;shell_name arg1 arg2
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;sh 後面接 .sh 文件的路徑，再後面接你要傳遞給 sys.argv[1] 和 sys.argv[2] 的參數。&lt;strong&gt;也就是說，terminal 中的 arg1 傳遞參數給 .sh 文件中的 $1，$1 再傳遞給 .py 文件中的 sys.argv[1]。&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;那你可能會想，那 sys.argv[0] 呢？答案就在上面的輸出結果中。&lt;&#x2F;p&gt;
+&lt;p&gt;沒錯，sys.argv[0] 就是 test_shell.sh 中執行的 &lt;strong&gt;.py 文件名稱&lt;&#x2F;strong&gt; (test_code.py)&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.cnblogs.com&#x2F;aland-1415&#x2F;p&#x2F;6613449.html&quot;&gt;Python中 sys.argv[]的用法简明解释&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;docs.google.com&#x2F;presentation&#x2F;d&#x2F;1nOJkDRXDdORwkwibzX55w7jGOyB-rPjCOeRpwaZ82as&#x2F;edit#slide=id.g1d460c2d77_0_60&quot;&gt;李宏毅老師 ML 課程 HW2 TA Hour Slide&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+</content>
+	</entry>
+	<entry xml:lang="zh-TW">
+		<title>為什麼 R 比 MS Excel 更適合做資料分析？</title>
+		<published>2018-07-12T00:00:00+00:00</published>
+		<updated>2018-07-12T00:00:00+00:00</updated>
+		<link href="https://chswei.netlify.app/blog/why-r/" type="text/html"/>
+		<id>https://chswei.netlify.app/blog/why-r/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;drive.google.com&#x2F;uc?export=view&amp;amp;id=1DMYOODmo5Me-vs0TMaKz1L7EhzEftQWb&quot; alt=&quot;R&quot; &#x2F;&gt;
+&lt;em&gt;圖片來源：&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;zh.wikipedia.org&#x2F;wiki&#x2F;R%E8%AF%AD%E8%A8%80&quot;&gt;Wikipedia&lt;&#x2F;a&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;從六月中開始放暑假後，也學了快三個月的 R 語言。有一天我爸瞄到我正在打 code，就問這是什麼。我跟他簡單解釋說 R 是一個用來進行數據處理和分析的程式語言，沒想到他反問我為什麼不用 Excel 做就好。對耶！好問題！老實說，我之前並沒有仔細想過這件事，只是覺得學了一個程式語言好酷好潮，以後如果需要統計分析時就多了一個工具可以使用，如此而已。&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;平常使用 Excel 的頻率也不高，最多就是會使用常見函數和樞紐分析而已，R 也只有學了短短的 70 多天，討論這個題目其實說服力有點薄弱。不過對於剛踏入資料科學領域的我來說，這確實是個值得思考的問題，藉此了解各種工具的優缺點，未來也才能合理地運用它們。&lt;&#x2F;p&gt;
+&lt;p&gt;網路上已經有不少人討論過這個問題了，但我想結合自己學習和使用的心得，以研究人員、資料科學家（而非一般人）的角度，將 R 比 Excel 優秀的部分，依據我個人有感程度分成以下八點敘述：&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;yi-zai-xian-xing-reproducibility&quot;&gt;一、再現性 (Reproducibility)&lt;&#x2F;h3&gt;
+&lt;p&gt;某人用了某份數據做出了 A 結論，另一人也可以用相同的數據做出類似於 A 的結論，這就稱為再現性，是科學研究中十分重要的概念。
+在 R 中，包含資料的下載、讀取、清理和分析等操作，都是藉由「&lt;strong&gt;程式碼 (code)&lt;&#x2F;strong&gt;」執行，因此每個步驟都扎扎實實地以程式碼的形式被紀錄下來（甚至可以加上註解讓他人容易理解）。別人只要照著程式碼 run 一遍，便可得到相同的結果。而另一方面，Excel 是利用&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;zh.wikipedia.org&#x2F;wiki&#x2F;%E5%9B%BE%E5%BD%A2%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2&quot;&gt;圖形使用者介面 (GUI, Graphical User Interface)&lt;&#x2F;a&gt; 進行大部分的工作，幾乎所有的操作都可以藉由「&lt;strong&gt;滑鼠點擊&lt;&#x2F;strong&gt;」完成（VBA 例外），雖然簡單、方便、直覺，但除非我們詳細記錄了每一個操作步驟，不然別人是很難一眼看出我們是如何進行分析而得出結果的。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;er-zi-dong-hua&quot;&gt;二、自動化&lt;&#x2F;h3&gt;
+&lt;p&gt;自動化原本就是機器和電腦的優勢，R 可以讓人類教導機器，學習如何依照我們的想法，將單一且重複的工作自動完成，提升效率。當遇到相同格式的資料和數據時，我們可以使用同一份 R Script 進行處理及分析。反觀 Excel，因為是 GUI-based 的軟體，每個步驟都要經由人工點擊的方式進行，所以即使拿到同樣格式的資料，我們還是要從頭開始一步步處理。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;san-kai-yuan-open-source&quot;&gt;三、開源 (Open Source)&lt;&#x2F;h3&gt;
+&lt;p&gt;相對於微軟的付費產品 Excel，R 作為一個開源的語言，每個人都能免費下載，使用者們也可以貢獻自己的智慧結晶，將修改過或是全新的函數寫成&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;cran.r-project.org&#x2F;web&#x2F;packages&#x2F;&quot;&gt;套件 (package)&lt;&#x2F;a&gt;，擴充 R 的功能。2017 年初，CRAN 上的套件數量尚不足一萬個，但短短幾個月，已經上升到了 11418 個（截至 2017&#x2F;09&#x2F;15），而這個數目還不包含 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;http:&#x2F;&#x2F;www.bioconductor.org&#x2F;install&#x2F;&quot;&gt;Bioconductor&lt;&#x2F;a&gt; 上的套件呢，可見使用 R 的社群仍持續蓬勃發展。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;drive.google.com&#x2F;uc?export=view&amp;amp;id=173SlzmCZtzv2jjFbU7tnnAqqe1VwBwwJ&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;si-yi-yu-cao-zuo-da-xing-zi-liao&quot;&gt;四、易於操作大型資料&lt;&#x2F;h3&gt;
+&lt;p&gt;大家應該多多少少都有遇過開啟 Excel 檔時，因為資料量過於龐大而當機的狀況。在現今這個充滿數據的時代，上萬筆、甚至上百萬筆的巨量數據集隨處可見，Excel 對於這種資料的處理可能就不是這麼適合。在 R 中，數據集匯入後，它會儲存在後台，儘管我們沒辦法看到看到資料的全貌（要另外輸入其他指令），但卻能加速資料操作的效率。&lt;&#x2F;p&gt;
+&lt;p&gt;（然而不能忽略的是，R 能處理的資料大小也會受限於 RAM 的多寡。）&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;wu-hui-tu-gong-neng-qiang-da&quot;&gt;五、繪圖功能強大&lt;&#x2F;h3&gt;
+&lt;p&gt;Excel 的繪圖功能對於一般人來說其實已經很足夠了，經過一些方法美化後其實也還能看。但對於研究人員來說，想要將分析結果發表在期刊上，Excel 做出來的圖表還是力有未逮。而 R 的繪圖功能可以用「extraordinary」來形容，也許是因為 R 本來就大多是專業研究人員在使用吧。內建的繪圖函數已經十分優秀，另外又有人開發出 lattice 和 ggplot2 等套件，讓使用者能夠客製化自己想要的圖表，讓繪圖變得更容易且美觀。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;drive.google.com&#x2F;uc?export=view&amp;amp;id=1dbMVFM_uUXPzXvt351btcb_UXKfm7zQa&quot; alt=&quot;ggplot2&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;liu-ke-yi-du-qu-duo-zhong-dang-an-ge-shi&quot;&gt;六、可以讀取多種檔案格式&lt;&#x2F;h3&gt;
+&lt;p&gt;就我所知，Excel 只能開啟 xlsx、csv 和 txt 格式的檔案，但 R 除了這些格式之外，只要運用他人開發出來的套件，就能開啟如 json、xml、html 等格式的檔案。而通常 Open Data 或是網路爬蟲取得的資料也會是 csv、json 或 xml 的格式，此時 Excel 只有乾瞪眼的份。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;qi-tong-ji-fang-fa-qiang-da&quot;&gt;七、統計方法強大&lt;&#x2F;h3&gt;
+&lt;p&gt;R 當初就是為了統計分析而開發出來的語言，也因此有許多 Excel 中沒有的進階統計方法，這對於研究人員來說是個不能忽視的部分。&lt;&#x2F;p&gt;
+&lt;p&gt;（我統計太弱，寫不出什麼東西 XD）&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;ba-ban-ben-kong-zhi&quot;&gt;八、版本控制&lt;&#x2F;h3&gt;
+&lt;p&gt;有時候我們會需要和他人協作專案，此時&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;zh.m.wikipedia.org&#x2F;zh-tw&#x2F;%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6&quot;&gt;版本控制&lt;&#x2F;a&gt;就顯得很重要了。使用 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;git-scm.com&quot;&gt;Git&lt;&#x2F;a&gt; 能讓我們對資料夾進行版本控制。除了可以追蹤每個人更動的地方，它甚至可以回溯之前的版本，使錯誤發生時能即時挽回。而這個部分是 Excel 望塵莫及的。&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;na-excel-shi-mo-shi-hou-neng-pai-shang-yong-chang&quot;&gt;那 Excel 什麼時候能派上用場？&lt;&#x2F;h3&gt;
+&lt;p&gt;說了這麼多 R 的優點，那我們是不是可以摒棄 Excel 了呢？好像也不是這樣。我認為若想要對手上資料有個初步認識時，Excel 能讓我們很快速地看到資料長怎麼樣，方便我們規劃後續操作。更現實一點的問題是，R 是個程式語言，學習曲線較陡峭， 如果不是需要進行學術研究或是工作上需要，一般人應該也沒有理由去學。&lt;&#x2F;p&gt;
+&lt;p&gt;畢竟 Excel 的試算表 (speadsheet) 歷經了時間的考驗仍為多數人所使用，表示它還是不失為一個好設計，讓一般人能夠處理、分析資料，將結果視覺化呈現，使人了解資料背後的意義。正所謂「能捉老鼠的都是好貓」，不論是 R 還是 Excel，只要能根據不同狀況使用，幫助我們順利完成工作，那不都是好工具嗎？&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>

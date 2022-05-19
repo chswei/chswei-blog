@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW">
+	<title>Chswei&#x27;s Blog - clerk</title>
+	<subtitle>Chswei&#x27;s Blog</subtitle>
+	<link href="https://chswei.netlify.app/tags/clerk/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://chswei.netlify.app"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2019-07-27T00:00:00+00:00</updated>
+	<id>https://chswei.netlify.app/tags/clerk/atom.xml</id>
+	<entry xml:lang="zh-TW">
+		<title>寫在成為 Clerk 前</title>
+		<published>2019-07-27T00:00:00+00:00</published>
+		<updated>2019-07-27T00:00:00+00:00</updated>
+		<link href="https://chswei.netlify.app/blog/preclerk/" type="text/html"/>
+		<id>https://chswei.netlify.app/blog/preclerk/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;drive.google.com&#x2F;uc?export=view&amp;amp;id=1fA23H0F3cot4QENMiZCI2iG8pWORFTaj&quot; alt=&quot;Clerk&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;剛考完一階醫師國考，再一個多月就要成為 Clerk 了。死讀書這麼長一段時間，如今即將進入臨床學習，總覺得有些無所適從。趁著這段空閒時間整理了過去幾年蒐集的前輩們的文章，希望之後對自己有些許幫助。&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;da-fang-xiang&quot;&gt;大方向&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;crazyclark.pixnet.net&#x2F;blog&#x2F;post&#x2F;20267088-%5B%E5%AD%B8%E9%95%B7%E5%A7%90%5D%E8%A6%8B%E5%AF%A6%E7%BF%92%E7%9A%84%E6%BA%96%E5%82%99?source=post_page---------------------------&quot;&gt;見實習的準備&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;http:&#x2F;&#x2F;transplant-id.blogspot.com&#x2F;2015&#x2F;09&#x2F;tips-for-clerks-and-interns.html?source=post_page---------------------------&quot;&gt;給實習醫師的學習建議（2007）&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;medium.com&#x2F;@gemwu&#x2F;%E5%85%A7%E7%A7%91clerkship%E8%A6%81%E6%80%8E%E9%BA%BCapproach-1-%E6%99%A8%E6%9C%83-32bf07b1580c&quot;&gt;內科clerkship要怎麼approach (1)：晨會&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;drlcs.blogspot.com&#x2F;2017&#x2F;08&#x2F;clerk.html?source=post_page---------------------------&quot;&gt;成為最強的路障 _ Clerk 醫院見習經驗分享&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;drzoomblog.wordpress.com&#x2F;2016&#x2F;09&#x2F;10&#x2F;%E4%BD%A0%E4%B8%80%E5%AE%9A%E8%A6%81%E7%95%B6%E8%B7%AF%E9%9A%9C%E5%97%8E%EF%BC%9F%EF%BC%8D%EF%BC%8Dkmu-clerk%E7%B6%93%E9%A9%97%E5%88%86%E4%BA%AB&#x2F;?source=post_page---------------------------&quot;&gt;你一定要當路障嗎？－－KMU Clerk經驗分享&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.ptt.cc&#x2F;bbs&#x2F;medstudent&#x2F;M.1541517798.A.B52.html?fbclid=IwAR270ODMbLF9ekQJIMxRNVtBuoaHBXV8TkaaY-zZIoWURxgcHJoms84ibaw&amp;amp;source=post_page---------------------------&quot;&gt;clerk生存之道&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.ptt.cc&#x2F;bbs&#x2F;medstudent&#x2F;M.1481684136.A.41B.html?fbclid=IwAR0JoNSGbimAohfcqEjbSDJFXe8haJffAGZHBLWPCWAeO-M3CgyRouxztCI&amp;amp;source=post_page---------------------------&quot;&gt;clerk要怎麼變強?&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;xue-xi-tips&quot;&gt;學習 Tips&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.facebook.com&#x2F;story.php?story_fbid=2007776675971853&amp;amp;id=100002186195693&amp;amp;source=post_page---------------------------&quot;&gt;如何將臨床瑣碎的知識建構成完整體系：Notion&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;medium.com&#x2F;@gemwu&#x2F;%E8%AE%93%E8%A1%A8%E6%A0%BC%E7%A5%9E%E5%99%A8%E8%AE%93%E7%95%B6%E9%86%AB%E7%94%9F%E8%AE%8A%E5%BE%97%E6%9B%B4%E6%9C%89%E7%B3%BB%E7%B5%B1-airtable%E4%B9%8B%E5%9F%BA%E6%9C%AC%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%B4%B9-%E4%BB%A5%E9%86%AB%E5%AD%B8%E7%82%BA%E4%BE%8B-5cba38613da1&quot;&gt;用用表格神器，當醫生更有效率！ — Airtable之基本功能介紹（以醫學為例）&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;transplant-id.blogspot.com&#x2F;2017&#x2F;09&#x2F;transforming-patient-list-to-todo-list.html?source=post_page---------------------------&quot;&gt;升臨床工作效率：把病人清單變成待辦清單&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;medium.com&#x2F;%E6%B3%A5%E5%B7%B4%E7%AC%AC%E4%B8%89%E6%94%BE%E9%80%81%E5%B1%80&#x2F;%E5%A6%82%E4%BD%95%E7%94%A8apple-pencil%E8%B7%9F%E6%9F%A5%E6%88%BF-b0acdf107c19&quot;&gt;如何用Apple pencil跟查房？&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;medium.com&#x2F;as-a-med-student&#x2F;%E9%86%AB%E5%AD%B8%E7%B3%BB%E7%9A%84%E5%8D%B7%E5%93%A5%E5%8D%B7%E5%93%A5%E5%A7%90%E5%80%91%E7%9A%84%E7%AD%86%E8%A8%98%E6%B3%95-a-case-series-d49a84859995&quot;&gt;醫學卷姐哥們的筆記法 — a case series&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;用 station 電腦常常需要做筆記或存 paper，但登各家雲端硬碟很麻煩，尤其是有開二步驗證時。另方面又有被盜帳的風險。這時可以開一個 google doc 文件，然後開連結共享編輯，接著到 bit.ly 去縮網址。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;shu-ji&quot;&gt;書籍&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;medium.com&#x2F;@gemwu&#x2F;approach-to-clerkship-3-%E5%8F%83%E8%80%83%E6%9B%B8-%E5%85%A7%E5%A4%96%E5%A9%A6%E5%85%92%E8%88%87%E5%90%84%E7%A7%91%E9%80%9A%E7%94%A8-ec7d10f0a198&quot;&gt;Approach to Clerkship (3)：參考書 — 內外婦兒與各科通用&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;medium.com&#x2F;as-a-med-student&#x2F;clerk-%E5%85%A7%E7%A7%91%E6%9B%B8%E5%96%AE-bc614fb97b39&quot;&gt;Clerk 內科書單&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.ptt.cc&#x2F;bbs&#x2F;medstudent&#x2F;M.1291482996.A.709.html?source=post_page---------------------------&quot;&gt;想請問哪些臨床用書對於clerk有幫助?-1&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.ptt.cc&#x2F;bbs&#x2F;medstudent&#x2F;M.1291631755.A.464.html?source=post_page---------------------------&quot;&gt;想請問哪些臨床用書對於clerk有幫助?-2&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;wang-zhan&quot;&gt;網站&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;medium.com&#x2F;as-a-med-student&#x2F;%E9%86%AB%E5%AD%B8%E7%94%9F%E7%9A%84%E8%87%AA%E5%AD%B8%E5%AD%B8%E7%BF%92%E8%B3%87%E6%BA%90%E5%88%97%E8%A1%A8-qd%E6%9C%8D%E7%94%A8-57ff15328d11&quot;&gt;醫學生的自學學習資源列表 — QD服用&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.ptt.cc&#x2F;bbs&#x2F;medstudent&#x2F;M.1496773624.A.599.html?fbclid=IwAR3g4Gvj4zxzNV__gb0Mr7HcfipY2Xv1dlTSkJDrBkd-XwLMnQlv87R8cs4&amp;amp;source=post_page---------------------------&quot;&gt;關於幾個不錯的原文書和期刊搜尋方式&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.ptt.cc&#x2F;bbs&#x2F;medstudent&#x2F;M.1229443629.A.11B.html?fbclid=IwAR2uovsBZ-CFCgDptkUOiRHZeEk3mw2gFRY9gOozM3A_FUnTttOVqg1Ymk8&amp;amp;source=post_page---------------------------&quot;&gt;推薦好用的期刊或資料庫&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;drlcs.blogspot.com&#x2F;2018&#x2F;01&#x2F;bookmark.html?source=post_page---------------------------&quot;&gt;常用醫學網站推薦&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.ptt.cc&#x2F;bbs&#x2F;medstudent&#x2F;M.1563326394.A.401.html?source=post_page---------------------------&quot;&gt;醫學影像教學線上網站-1&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.ptt.cc&#x2F;bbs&#x2F;medstudent&#x2F;M.1563365264.A.E26.html?source=post_page---------------------------&quot;&gt;醫學影像教學線上網站-2&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;apps&quot;&gt;Apps&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Medscape&lt;&#x2F;li&gt;
+&lt;li&gt;UpToDate&lt;&#x2F;li&gt;
+&lt;li&gt;Dynamed Plus&lt;&#x2F;li&gt;
+&lt;li&gt;MDCalc&lt;&#x2F;li&gt;
+&lt;li&gt;Drugs.com&lt;&#x2F;li&gt;
+&lt;li&gt;UBC Radiology&lt;&#x2F;li&gt;
+&lt;li&gt;Figure 1&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;這些文章是我覺得寫得不錯的，未必每個人都適用，所以還是要隨時間慢慢找出適合自己的方法。&lt;&#x2F;p&gt;
+&lt;p&gt;另外，可以發現文章的來源很有限，不外乎某幾個人的 medium、部落格和 PTT medstudent 版。除了自己所聞本來就較為侷限之外，針對剛進入臨床的菜鳥所寫的文章也真的不多。只希望以後我也能盡一份心力，寫寫類似的文章。&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>

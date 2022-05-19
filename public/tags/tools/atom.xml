@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW">
+	<title>Chswei&#x27;s Blog - tools</title>
+	<subtitle>Chswei&#x27;s Blog</subtitle>
+	<link href="https://chswei.netlify.app/tags/tools/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://chswei.netlify.app"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2018-08-24T00:00:00+00:00</updated>
+	<id>https://chswei.netlify.app/tags/tools/atom.xml</id>
+	<entry xml:lang="zh-TW">
+		<title>Enpass 和 SizeUp</title>
+		<published>2018-08-24T00:00:00+00:00</published>
+		<updated>2018-08-24T00:00:00+00:00</updated>
+		<link href="https://chswei.netlify.app/blog/enpass-sizeup/" type="text/html"/>
+		<id>https://chswei.netlify.app/blog/enpass-sizeup/</id>
+		<content type="html">&lt;h3 id=&quot;enpass&quot;&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.enpass.io&quot;&gt;Enpass&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;最近突然對網路資安起了警戒，所以在比較了 1password、LastPass 等密碼管理軟體後，最後選了 Enpass。有幾個主要原因：幾乎免費、預設 local 端儲存、好用的 Safari extension、優秀的同步支援。&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h3 id=&quot;sizeup&quot;&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;http:&#x2F;&#x2F;www.irradiatedsoftware.com&#x2F;sizeup&#x2F;&quot;&gt;SizeUp&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;對比 Windows 10 使用快捷鍵分割視窗， Mac 內建的 Split View 使用起來很麻煩且不直覺。網路上大多推薦 Moom、Magnet、BetterSnapTool，但都是付費軟體。雖然也不是不願意付錢，但基於能省則省的原則，最後找到了 SizeUp，完完全全符合我的需求。 (過程中有找到一個 Alfred 的 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;http:&#x2F;&#x2F;projects.jga.me&#x2F;layouts&#x2F;&quot;&gt;workflow&lt;&#x2F;a&gt;，也能控制 layout，但似乎不是那麼完美)&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>

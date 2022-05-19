@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html
+  lang="zh-TW"
+  itemscope
+  itemtype="http://schema.org/Blog"
+>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+    />
+
+    <link rel="stylesheet" href="https://chswei.netlify.app/site/styles/site.css?h=19065fbe92d80ca58e7852a6e3a7c7b96beccf3f2831362569fc8d920edc6ad5">
+    <title>寫在成為 Clerk 前 - Chswei&#x27;s Blog</title>
+
+    
+    <meta
+      name="description"
+      itemprop="about"
+      content=" 剛考完一階醫師國考，再一個多月就要成為 Clerk 了。死讀書這麼長一段時間，如今即將進入臨床學習，總覺得有些無所適從。趁著這段空閒時間整理了過去幾年蒐集的前輩們的文章，希望之後對自己有些許幫助。
+  "
+    />
+    <meta
+      name="keywords"
+      itemprop="keywords"
+      content="醫學, 閱讀, 登山, 程式"
+    />
+    <meta name="author" itemprop="author" content="chswei" />
+    <meta itemprop="headline" content="Chswei&#x27;s Blog" />
+    <meta itemprop="copyrightYear" content="2022" />
+    <link rel="icon" href="https://chswei.netlify.app/site/images/favicon-32x32.png?h=59227f3723df6ad7b697ad43b9be38be8a62e2a581be7e34cfea92691bd024ca"
+    type="image/x-icon"> <link rel="apple-touch-icon" sizes="57x57" href="https://chswei.netlify.app/site/images/apple-icon-57x57.png?h=408d830a68a6226fbd7f63b71b83d4324e9cf87b474f9af17ccd944fac48f5a1"> <link
+    rel="apple-touch-icon" sizes="60x60" href="https://chswei.netlify.app/site/images/apple-icon-60x60.png?h=7b16952e0d30e9f4516f9146dd4d4447da55517250fbbb9618b63f7ef4edaf10"> <link
+    rel="apple-touch-icon" sizes="72x72" href="https://chswei.netlify.app/site/images/apple-icon-72x72.png?h=0ead6766307c21bbf9ef8a833436477f121e804d4f6abdce34534078868c8d7c"> <link
+    rel="apple-touch-icon" sizes="76x76" href="https://chswei.netlify.app/site/images/apple-icon-76x76.png?h=c23d60c28dae6b3a0e3cd8293bd1f06a829d6342cfc549d0f002b49e199ae859"> <link
+    rel="apple-touch-icon" sizes="114x114" href="https://chswei.netlify.app/site/images/apple-icon-114x114.png?h=f95034ae0d37d2cb2028e815c142d8e6a4cabbc4b061d23fa764f173aa41bc1b"> <link
+    rel="apple-touch-icon" sizes="120x120" href="https://chswei.netlify.app/site/images/apple-icon-120x120.png?h=d8ff6545cf8b66feb22cb62848c6ac6221e5903d900e23c12f1ec5a28efa2180"> <link
+    rel="apple-touch-icon" sizes="144x144" href="https://chswei.netlify.app/site/images/apple-icon-144x144.png?h=e3e7d49b544ab1ffb18d8f2a9ee690e99880a7fda89649abfd91d6de84c54b6f"> <link
+    rel="apple-touch-icon" sizes="152x152" href="https://chswei.netlify.app/site/images/apple-icon-152x152.png?h=ec080d1e6535eda34b86f64fe827900a8a5cb2e0f3d84a612fb47f61476a2427"> <link
+    rel="apple-touch-icon" sizes="180x180" href="https://chswei.netlify.app/site/images/apple-icon-180x180.png?h=453789d9d0e60dd2af117bd520ccbd11152685ba535fc744562a1580b7106c3e"> <link rel="icon"
+    type="image/png" sizes="192x192" href="https://chswei.netlify.app/site/images/android-icon-192x192.png?h=e511fd3bbc573548be28cce3e85f7c3f4400a168e49ca39ce93c211b35bc53eb"> <link rel="icon"
+    type="image/png" sizes="32x32" href="https://chswei.netlify.app/site/images/favicon-32x32.png?h=59227f3723df6ad7b697ad43b9be38be8a62e2a581be7e34cfea92691bd024ca"> <link rel="icon"
+    type="image/png" sizes="96x96" href="https://chswei.netlify.app/site/images/favicon-96x96.png?h=d7375531934aeccaacefe9e7351013eda12e236fa782899f7c22d552bf35769d"> <link rel="icon"
+    type="image/png" sizes="16x16" href="https://chswei.netlify.app/site/images/favicon-16x16.png?h=2fd128be34f69cfcdb2a2ed7a78c3ff39ad44efcc2d5880576b01e9cbcccc345"> <link rel="manifest"
+    href="https://chswei.netlify.app/site/images/manifest.json">
+    <meta
+      name="msapplication-TileColor"
+      content="#6fd684"
+    />
+    <meta name="msapplication-TileImage" content="https://chswei.netlify.app/site/images/ms-icon-144x144.png?h=bb0b31801a4277bdb744215d551f2dfb3ddb71b825c154c46d07f9e8764eeb7b">
+    <meta name="theme-color" content="#6fd684" />
+
+    <meta
+      property="og:title"
+      content="寫在成為 Clerk 前 - Chswei&#x27;s Blog"
+    />
+    <meta
+      property="og:description"
+      content=" 剛考完一階醫師國考，再一個多月就要成為 Clerk 了。死讀書這麼長一段時間，如今即將進入臨床學習，總覺得有些無所適從。趁著這段空閒時間整理了過去幾年蒐集的前輩們的文章，希望之後對自己有些許幫助。
+  "
+    />
+    <meta
+      property="og:url"
+      content="https:&#x2F;&#x2F;chswei.netlify.app/preclerk"
+    />
+    <meta property="og:site_name" content="Chswei&#x27;s Blog" />
+    
+    <meta
+      property="og:image"
+      content=""
+    />
+    
+    <meta name="twitter:card" content="summary" />
+    
+    <meta name="twitter:site" content="wujiyaker" />
+    <meta name="twitter:creator" content="wujiyaker" />
+    <meta
+      name="twitter:image:alt"
+      content="Chswei&#x27;s Blog"
+    />
+     
+    <meta name="title" content="寫在成為 Clerk 前">
+<style>
+  .sidebar{
+    display: none;
+  }
+  @media (min-width: 67.5rem) {
+    .sidebar{
+      display: block;
+    }
+  }
+</style>
+
+  </head>
+
+  <body>
+    <section id="top"></section>
+    <section id="root" >
+      <main class="body-zone flex justify-between flex-1">
+          <section class="main flex-1">
+            <div class="main-inner px">
+              
+      <header id="overview">
+        <div class="pt">
+          <span>&gt;&gt;</span>
+          <a href="https://chswei.netlify.app/">首頁</a>
+          
+          <span class="divider">/</span>
+          <a class="category" href="https://chswei.netlify.app/categories/yi-xue/">醫學</a>
+          
+          <span class="divider">/</span>
+          
+          <a href="https://chswei.netlify.app/tags/medicine/">medicine</a>,
+          
+          <a href="https://chswei.netlify.app/tags/clerk/">clerk</a>
+          
+          
+          
+          </div>
+        
+        <div>
+          <h1 style="font-size:2rem;">寫在成為 Clerk 前</h1>
+          <div class="muted">
+            <div>
+              發布於 2019-07-27 | 最後更新時間 2019-07-27 </div>
+        </div>
+  
+        </div>
+        
+        
+      </header>
+      <section>
+      
+        <section class="main">
+          
+          <div class="main-toc pt">
+            <details>
+              <summary>目錄</summary>
+              
+<section class="sidebar-table-content">
+  <ul >
+    <li><a href="#start">本文開始</a></li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/preclerk/#da-fang-xiang">大方向</a>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/preclerk/#xue-xi-tips">學習 Tips</a>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/preclerk/#shu-ji">書籍</a>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/preclerk/#wang-zhan">網站</a>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/preclerk/#apps">Apps</a>
+          
+      </li>
+  
+  </ul>
+</section>
+
+            </details>
+
+          </div>
+          
+          <section id="start"></section>
+          <article>
+            <p><img src="https://drive.google.com/uc?export=view&amp;id=1fA23H0F3cot4QENMiZCI2iG8pWORFTaj" alt="Clerk" /></p>
+<p>剛考完一階醫師國考，再一個多月就要成為 Clerk 了。死讀書這麼長一段時間，如今即將進入臨床學習，總覺得有些無所適從。趁著這段空閒時間整理了過去幾年蒐集的前輩們的文章，希望之後對自己有些許幫助。</p>
+<span id="continue-reading"></span><h2 id="da-fang-xiang">大方向</h2>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://crazyclark.pixnet.net/blog/post/20267088-%5B%E5%AD%B8%E9%95%B7%E5%A7%90%5D%E8%A6%8B%E5%AF%A6%E7%BF%92%E7%9A%84%E6%BA%96%E5%82%99?source=post_page---------------------------">見實習的準備</a></li>
+<li><a rel="noopener" target="_blank" href="http://transplant-id.blogspot.com/2015/09/tips-for-clerks-and-interns.html?source=post_page---------------------------">給實習醫師的學習建議（2007）</a></li>
+<li><a rel="noopener" target="_blank" href="https://medium.com/@gemwu/%E5%85%A7%E7%A7%91clerkship%E8%A6%81%E6%80%8E%E9%BA%BCapproach-1-%E6%99%A8%E6%9C%83-32bf07b1580c">內科clerkship要怎麼approach (1)：晨會</a></li>
+<li><a rel="noopener" target="_blank" href="https://drlcs.blogspot.com/2017/08/clerk.html?source=post_page---------------------------">成為最強的路障 _ Clerk 醫院見習經驗分享</a></li>
+<li><a rel="noopener" target="_blank" href="https://drzoomblog.wordpress.com/2016/09/10/%E4%BD%A0%E4%B8%80%E5%AE%9A%E8%A6%81%E7%95%B6%E8%B7%AF%E9%9A%9C%E5%97%8E%EF%BC%9F%EF%BC%8D%EF%BC%8Dkmu-clerk%E7%B6%93%E9%A9%97%E5%88%86%E4%BA%AB/?source=post_page---------------------------">你一定要當路障嗎？－－KMU Clerk經驗分享</a></li>
+<li><a rel="noopener" target="_blank" href="https://www.ptt.cc/bbs/medstudent/M.1541517798.A.B52.html?fbclid=IwAR270ODMbLF9ekQJIMxRNVtBuoaHBXV8TkaaY-zZIoWURxgcHJoms84ibaw&amp;source=post_page---------------------------">clerk生存之道</a></li>
+<li><a rel="noopener" target="_blank" href="https://www.ptt.cc/bbs/medstudent/M.1481684136.A.41B.html?fbclid=IwAR0JoNSGbimAohfcqEjbSDJFXe8haJffAGZHBLWPCWAeO-M3CgyRouxztCI&amp;source=post_page---------------------------">clerk要怎麼變強?</a></li>
+</ul>
+<h2 id="xue-xi-tips">學習 Tips</h2>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://www.facebook.com/story.php?story_fbid=2007776675971853&amp;id=100002186195693&amp;source=post_page---------------------------">如何將臨床瑣碎的知識建構成完整體系：Notion</a></li>
+<li><a rel="noopener" target="_blank" href="https://medium.com/@gemwu/%E8%AE%93%E8%A1%A8%E6%A0%BC%E7%A5%9E%E5%99%A8%E8%AE%93%E7%95%B6%E9%86%AB%E7%94%9F%E8%AE%8A%E5%BE%97%E6%9B%B4%E6%9C%89%E7%B3%BB%E7%B5%B1-airtable%E4%B9%8B%E5%9F%BA%E6%9C%AC%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%B4%B9-%E4%BB%A5%E9%86%AB%E5%AD%B8%E7%82%BA%E4%BE%8B-5cba38613da1">用用表格神器，當醫生更有效率！ — Airtable之基本功能介紹（以醫學為例）</a></li>
+<li><a rel="noopener" target="_blank" href="https://transplant-id.blogspot.com/2017/09/transforming-patient-list-to-todo-list.html?source=post_page---------------------------">升臨床工作效率：把病人清單變成待辦清單</a></li>
+<li><a rel="noopener" target="_blank" href="https://medium.com/%E6%B3%A5%E5%B7%B4%E7%AC%AC%E4%B8%89%E6%94%BE%E9%80%81%E5%B1%80/%E5%A6%82%E4%BD%95%E7%94%A8apple-pencil%E8%B7%9F%E6%9F%A5%E6%88%BF-b0acdf107c19">如何用Apple pencil跟查房？</a></li>
+<li><a rel="noopener" target="_blank" href="https://medium.com/as-a-med-student/%E9%86%AB%E5%AD%B8%E7%B3%BB%E7%9A%84%E5%8D%B7%E5%93%A5%E5%8D%B7%E5%93%A5%E5%A7%90%E5%80%91%E7%9A%84%E7%AD%86%E8%A8%98%E6%B3%95-a-case-series-d49a84859995">醫學卷姐哥們的筆記法 — a case series</a></li>
+<li>用 station 電腦常常需要做筆記或存 paper，但登各家雲端硬碟很麻煩，尤其是有開二步驗證時。另方面又有被盜帳的風險。這時可以開一個 google doc 文件，然後開連結共享編輯，接著到 bit.ly 去縮網址。</li>
+</ul>
+<h2 id="shu-ji">書籍</h2>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://medium.com/@gemwu/approach-to-clerkship-3-%E5%8F%83%E8%80%83%E6%9B%B8-%E5%85%A7%E5%A4%96%E5%A9%A6%E5%85%92%E8%88%87%E5%90%84%E7%A7%91%E9%80%9A%E7%94%A8-ec7d10f0a198">Approach to Clerkship (3)：參考書 — 內外婦兒與各科通用</a></li>
+<li><a rel="noopener" target="_blank" href="https://medium.com/as-a-med-student/clerk-%E5%85%A7%E7%A7%91%E6%9B%B8%E5%96%AE-bc614fb97b39">Clerk 內科書單</a></li>
+<li><a rel="noopener" target="_blank" href="https://www.ptt.cc/bbs/medstudent/M.1291482996.A.709.html?source=post_page---------------------------">想請問哪些臨床用書對於clerk有幫助?-1</a></li>
+<li><a rel="noopener" target="_blank" href="https://www.ptt.cc/bbs/medstudent/M.1291631755.A.464.html?source=post_page---------------------------">想請問哪些臨床用書對於clerk有幫助?-2</a></li>
+</ul>
+<h2 id="wang-zhan">網站</h2>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://medium.com/as-a-med-student/%E9%86%AB%E5%AD%B8%E7%94%9F%E7%9A%84%E8%87%AA%E5%AD%B8%E5%AD%B8%E7%BF%92%E8%B3%87%E6%BA%90%E5%88%97%E8%A1%A8-qd%E6%9C%8D%E7%94%A8-57ff15328d11">醫學生的自學學習資源列表 — QD服用</a></li>
+<li><a rel="noopener" target="_blank" href="https://www.ptt.cc/bbs/medstudent/M.1496773624.A.599.html?fbclid=IwAR3g4Gvj4zxzNV__gb0Mr7HcfipY2Xv1dlTSkJDrBkd-XwLMnQlv87R8cs4&amp;source=post_page---------------------------">關於幾個不錯的原文書和期刊搜尋方式</a></li>
+<li><a rel="noopener" target="_blank" href="https://www.ptt.cc/bbs/medstudent/M.1229443629.A.11B.html?fbclid=IwAR2uovsBZ-CFCgDptkUOiRHZeEk3mw2gFRY9gOozM3A_FUnTttOVqg1Ymk8&amp;source=post_page---------------------------">推薦好用的期刊或資料庫</a></li>
+<li><a rel="noopener" target="_blank" href="https://drlcs.blogspot.com/2018/01/bookmark.html?source=post_page---------------------------">常用醫學網站推薦</a></li>
+<li><a rel="noopener" target="_blank" href="https://www.ptt.cc/bbs/medstudent/M.1563326394.A.401.html?source=post_page---------------------------">醫學影像教學線上網站-1</a></li>
+<li><a rel="noopener" target="_blank" href="https://www.ptt.cc/bbs/medstudent/M.1563365264.A.E26.html?source=post_page---------------------------">醫學影像教學線上網站-2</a></li>
+</ul>
+<h2 id="apps">Apps</h2>
+<ul>
+<li>Medscape</li>
+<li>UpToDate</li>
+<li>Dynamed Plus</li>
+<li>MDCalc</li>
+<li>Drugs.com</li>
+<li>UBC Radiology</li>
+<li>Figure 1</li>
+</ul>
+<hr />
+<p>這些文章是我覺得寫得不錯的，未必每個人都適用，所以還是要隨時間慢慢找出適合自己的方法。</p>
+<p>另外，可以發現文章的來源很有限，不外乎某幾個人的 medium、部落格和 PTT medstudent 版。除了自己所聞本來就較為侷限之外，針對剛進入臨床的菜鳥所寫的文章也真的不多。只希望以後我也能盡一份心力，寫寫類似的文章。</p>
+
+          </article>
+
+          
+          <div id="email-comment" class="muted text-sm">
+            <hr class="w-full">
+            
+            <p>
+              如果你對於本文有任何想討論或分享的，歡迎<a href="mailto:mimir@hey.com?subject=%E5%9B%9E%E8%A6%86%EF%BC%9A%E5%AF%AB%E5%9C%A8%E6%88%90%E7%82%BA%20Clerk%20%E5%89%8D">來信</a>到：<code>mimir@hey.com</code> 找我聊聊！
+            </p>
+            
+            
+
+          </div>
+          
+
+        </section>
+        
+       
+      </section>
+
+
+              </div>
+            </section>
+
+          
+<aside class="sidebar px ">
+
+<h2>目錄</h2>
+
+<section class="sidebar-table-content">
+  <ul >
+    <li><a href="#start">本文開始</a></li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/preclerk/#da-fang-xiang">大方向</a>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/preclerk/#xue-xi-tips">學習 Tips</a>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/preclerk/#shu-ji">書籍</a>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/preclerk/#wang-zhan">網站</a>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/preclerk/#apps">Apps</a>
+          
+      </li>
+  
+  </ul>
+</section>
+
+
+</aside>
+
+
+
+      </main>
+      </section>
+    <section id="bottom"></section>
+  </body>
+</html>

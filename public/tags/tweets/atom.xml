@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Chswei&#x27;s Blog - Tweets</title>
+	<subtitle>Chswei&#x27;s Blog</subtitle>
+	<link href="https://chswei.netlify.app/tags/tweets/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://chswei.netlify.app"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-03-22T00:00:00+00:00</updated>
+	<id>https://chswei.netlify.app/tags/tweets/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Tweets</title>
+		<published>2022-03-10T00:00:00+00:00</published>
+		<updated>2022-03-22T00:00:00+00:00</updated>
+		<link href="https://chswei.netlify.app/en/thoughts/" type="text/html"/>
+		<id>https://chswei.netlify.app/en/thoughts/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;Hello World. - 2022.03.10&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;</content>
+	</entry>
+</feed>

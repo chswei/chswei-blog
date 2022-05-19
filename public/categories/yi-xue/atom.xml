@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW">
+	<title>Chswei&#x27;s Blog - 醫學</title>
+	<subtitle>Chswei&#x27;s Blog</subtitle>
+	<link href="https://chswei.netlify.app/categories/yi-xue/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://chswei.netlify.app"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2021-07-27T00:00:00+00:00</updated>
+	<id>https://chswei.netlify.app/categories/yi-xue/atom.xml</id>
+	<entry xml:lang="zh-TW">
+		<title>醫師二階國考考古題 Anki 卡片</title>
+		<published>2021-07-27T00:00:00+00:00</published>
+		<updated>2021-07-27T00:00:00+00:00</updated>
+		<link href="https://chswei.netlify.app/blog/md-exam-anki/" type="text/html"/>
+		<id>https://chswei.netlify.app/blog/md-exam-anki/</id>
+		<content type="html">&lt;p&gt;今年二階國考在歷經疫情延期和颱風攪局，最後總算是順利通過了。這次考試我採用了考古題戰術，在念完 FC (主要是內科、婦產科和一些小科) 後，剩下的時間都投入考古，並把考點做成 Anki 卡片，然後反覆一直看。準備期間也將 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;bit.ly&#x2F;3oLrQ5w&quot;&gt;Anki Deck&lt;&#x2F;a&gt; 分享給兩三個同學，事後看起來還算滿成功的。以前寫過一篇&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;chswei.netlify.app&#x2F;blog&#x2F;study-methods&#x2F;&quot;&gt;關於讀書方法&lt;&#x2F;a&gt;的文章，但都沒有實際長期使用 Anki，這次也算是個實驗吧，也將 Deck 分享出來，供需要的人參考。&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;</content>
+	</entry>
+	<entry xml:lang="zh-TW">
+		<title>寫在成為 Clerk 前</title>
+		<published>2019-07-27T00:00:00+00:00</published>
+		<updated>2019-07-27T00:00:00+00:00</updated>
+		<link href="https://chswei.netlify.app/blog/preclerk/" type="text/html"/>
+		<id>https://chswei.netlify.app/blog/preclerk/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;drive.google.com&#x2F;uc?export=view&amp;amp;id=1fA23H0F3cot4QENMiZCI2iG8pWORFTaj&quot; alt=&quot;Clerk&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;剛考完一階醫師國考，再一個多月就要成為 Clerk 了。死讀書這麼長一段時間，如今即將進入臨床學習，總覺得有些無所適從。趁著這段空閒時間整理了過去幾年蒐集的前輩們的文章，希望之後對自己有些許幫助。&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;da-fang-xiang&quot;&gt;大方向&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;crazyclark.pixnet.net&#x2F;blog&#x2F;post&#x2F;20267088-%5B%E5%AD%B8%E9%95%B7%E5%A7%90%5D%E8%A6%8B%E5%AF%A6%E7%BF%92%E7%9A%84%E6%BA%96%E5%82%99?source=post_page---------------------------&quot;&gt;見實習的準備&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;http:&#x2F;&#x2F;transplant-id.blogspot.com&#x2F;2015&#x2F;09&#x2F;tips-for-clerks-and-interns.html?source=post_page---------------------------&quot;&gt;給實習醫師的學習建議（2007）&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;medium.com&#x2F;@gemwu&#x2F;%E5%85%A7%E7%A7%91clerkship%E8%A6%81%E6%80%8E%E9%BA%BCapproach-1-%E6%99%A8%E6%9C%83-32bf07b1580c&quot;&gt;內科clerkship要怎麼approach (1)：晨會&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;drlcs.blogspot.com&#x2F;2017&#x2F;08&#x2F;clerk.html?source=post_page---------------------------&quot;&gt;成為最強的路障 _ Clerk 醫院見習經驗分享&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;drzoomblog.wordpress.com&#x2F;2016&#x2F;09&#x2F;10&#x2F;%E4%BD%A0%E4%B8%80%E5%AE%9A%E8%A6%81%E7%95%B6%E8%B7%AF%E9%9A%9C%E5%97%8E%EF%BC%9F%EF%BC%8D%EF%BC%8Dkmu-clerk%E7%B6%93%E9%A9%97%E5%88%86%E4%BA%AB&#x2F;?source=post_page---------------------------&quot;&gt;你一定要當路障嗎？－－KMU Clerk經驗分享&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.ptt.cc&#x2F;bbs&#x2F;medstudent&#x2F;M.1541517798.A.B52.html?fbclid=IwAR270ODMbLF9ekQJIMxRNVtBuoaHBXV8TkaaY-zZIoWURxgcHJoms84ibaw&amp;amp;source=post_page---------------------------&quot;&gt;clerk生存之道&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.ptt.cc&#x2F;bbs&#x2F;medstudent&#x2F;M.1481684136.A.41B.html?fbclid=IwAR0JoNSGbimAohfcqEjbSDJFXe8haJffAGZHBLWPCWAeO-M3CgyRouxztCI&amp;amp;source=post_page---------------------------&quot;&gt;clerk要怎麼變強?&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;xue-xi-tips&quot;&gt;學習 Tips&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.facebook.com&#x2F;story.php?story_fbid=2007776675971853&amp;amp;id=100002186195693&amp;amp;source=post_page---------------------------&quot;&gt;如何將臨床瑣碎的知識建構成完整體系：Notion&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;medium.com&#x2F;@gemwu&#x2F;%E8%AE%93%E8%A1%A8%E6%A0%BC%E7%A5%9E%E5%99%A8%E8%AE%93%E7%95%B6%E9%86%AB%E7%94%9F%E8%AE%8A%E5%BE%97%E6%9B%B4%E6%9C%89%E7%B3%BB%E7%B5%B1-airtable%E4%B9%8B%E5%9F%BA%E6%9C%AC%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%B4%B9-%E4%BB%A5%E9%86%AB%E5%AD%B8%E7%82%BA%E4%BE%8B-5cba38613da1&quot;&gt;用用表格神器，當醫生更有效率！ — Airtable之基本功能介紹（以醫學為例）&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;transplant-id.blogspot.com&#x2F;2017&#x2F;09&#x2F;transforming-patient-list-to-todo-list.html?source=post_page---------------------------&quot;&gt;升臨床工作效率：把病人清單變成待辦清單&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;medium.com&#x2F;%E6%B3%A5%E5%B7%B4%E7%AC%AC%E4%B8%89%E6%94%BE%E9%80%81%E5%B1%80&#x2F;%E5%A6%82%E4%BD%95%E7%94%A8apple-pencil%E8%B7%9F%E6%9F%A5%E6%88%BF-b0acdf107c19&quot;&gt;如何用Apple pencil跟查房？&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;medium.com&#x2F;as-a-med-student&#x2F;%E9%86%AB%E5%AD%B8%E7%B3%BB%E7%9A%84%E5%8D%B7%E5%93%A5%E5%8D%B7%E5%93%A5%E5%A7%90%E5%80%91%E7%9A%84%E7%AD%86%E8%A8%98%E6%B3%95-a-case-series-d49a84859995&quot;&gt;醫學卷姐哥們的筆記法 — a case series&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;用 station 電腦常常需要做筆記或存 paper，但登各家雲端硬碟很麻煩，尤其是有開二步驗證時。另方面又有被盜帳的風險。這時可以開一個 google doc 文件，然後開連結共享編輯，接著到 bit.ly 去縮網址。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;shu-ji&quot;&gt;書籍&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;medium.com&#x2F;@gemwu&#x2F;approach-to-clerkship-3-%E5%8F%83%E8%80%83%E6%9B%B8-%E5%85%A7%E5%A4%96%E5%A9%A6%E5%85%92%E8%88%87%E5%90%84%E7%A7%91%E9%80%9A%E7%94%A8-ec7d10f0a198&quot;&gt;Approach to Clerkship (3)：參考書 — 內外婦兒與各科通用&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;medium.com&#x2F;as-a-med-student&#x2F;clerk-%E5%85%A7%E7%A7%91%E6%9B%B8%E5%96%AE-bc614fb97b39&quot;&gt;Clerk 內科書單&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.ptt.cc&#x2F;bbs&#x2F;medstudent&#x2F;M.1291482996.A.709.html?source=post_page---------------------------&quot;&gt;想請問哪些臨床用書對於clerk有幫助?-1&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.ptt.cc&#x2F;bbs&#x2F;medstudent&#x2F;M.1291631755.A.464.html?source=post_page---------------------------&quot;&gt;想請問哪些臨床用書對於clerk有幫助?-2&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;wang-zhan&quot;&gt;網站&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;medium.com&#x2F;as-a-med-student&#x2F;%E9%86%AB%E5%AD%B8%E7%94%9F%E7%9A%84%E8%87%AA%E5%AD%B8%E5%AD%B8%E7%BF%92%E8%B3%87%E6%BA%90%E5%88%97%E8%A1%A8-qd%E6%9C%8D%E7%94%A8-57ff15328d11&quot;&gt;醫學生的自學學習資源列表 — QD服用&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.ptt.cc&#x2F;bbs&#x2F;medstudent&#x2F;M.1496773624.A.599.html?fbclid=IwAR3g4Gvj4zxzNV__gb0Mr7HcfipY2Xv1dlTSkJDrBkd-XwLMnQlv87R8cs4&amp;amp;source=post_page---------------------------&quot;&gt;關於幾個不錯的原文書和期刊搜尋方式&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.ptt.cc&#x2F;bbs&#x2F;medstudent&#x2F;M.1229443629.A.11B.html?fbclid=IwAR2uovsBZ-CFCgDptkUOiRHZeEk3mw2gFRY9gOozM3A_FUnTttOVqg1Ymk8&amp;amp;source=post_page---------------------------&quot;&gt;推薦好用的期刊或資料庫&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;drlcs.blogspot.com&#x2F;2018&#x2F;01&#x2F;bookmark.html?source=post_page---------------------------&quot;&gt;常用醫學網站推薦&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.ptt.cc&#x2F;bbs&#x2F;medstudent&#x2F;M.1563326394.A.401.html?source=post_page---------------------------&quot;&gt;醫學影像教學線上網站-1&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.ptt.cc&#x2F;bbs&#x2F;medstudent&#x2F;M.1563365264.A.E26.html?source=post_page---------------------------&quot;&gt;醫學影像教學線上網站-2&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;apps&quot;&gt;Apps&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Medscape&lt;&#x2F;li&gt;
+&lt;li&gt;UpToDate&lt;&#x2F;li&gt;
+&lt;li&gt;Dynamed Plus&lt;&#x2F;li&gt;
+&lt;li&gt;MDCalc&lt;&#x2F;li&gt;
+&lt;li&gt;Drugs.com&lt;&#x2F;li&gt;
+&lt;li&gt;UBC Radiology&lt;&#x2F;li&gt;
+&lt;li&gt;Figure 1&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;這些文章是我覺得寫得不錯的，未必每個人都適用，所以還是要隨時間慢慢找出適合自己的方法。&lt;&#x2F;p&gt;
+&lt;p&gt;另外，可以發現文章的來源很有限，不外乎某幾個人的 medium、部落格和 PTT medstudent 版。除了自己所聞本來就較為侷限之外，針對剛進入臨床的菜鳥所寫的文章也真的不多。只希望以後我也能盡一份心力，寫寫類似的文章。&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="zh-TW">
+		<title>使用 Hackmd 製作系上共筆的可行性？</title>
+		<published>2018-08-11T00:00:00+00:00</published>
+		<updated>2018-08-11T00:00:00+00:00</updated>
+		<link href="https://chswei.netlify.app/blog/mutual-note/" type="text/html"/>
+		<id>https://chswei.netlify.app/blog/mutual-note/</id>
+		<content type="html">&lt;p&gt;前幾天排版共筆排得很煩躁，腦中突然冒出用 Hackmd 製作系上共筆的想法。網上搜尋了一下，發現沒有人寫類似的文章（大概也沒有人會公布自己系上製作共筆的方式吧，除了以前&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;youtu.be&#x2F;Ur_uvrLKtQ4&quot;&gt;黃豆泥&lt;&#x2F;a&gt;學長有推廣過使用 Google Docs 製作共筆）。所以趁著整合考剛結束，理了一下想法，順手打下。&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;shi-mo-shi-gong-bi&quot;&gt;什麼是共筆？&lt;&#x2F;h2&gt;
+&lt;p&gt;共筆，共同筆記，由一群人共同製作的筆記。據我所知，其實不只有醫學系有這個制度，法律系以及一些會議、演講也都會製作共筆，方便同學和與會者共享知識內容 (像是使用下面提到的 Hackmd)。&lt;&#x2F;p&gt;
+&lt;p&gt;目前我們系上製作共筆的流程如下：組員 → 組長 → 組頭 → 學藝 。
+老師上完課後，由五到六個組員將投影片內容製作成共筆，接著組長排版、組頭審核內容，最後交給學藝進行最終把關並送印。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;shi-mo-shi-hackmd&quot;&gt;什麼是 Hackmd？&lt;&#x2F;h2&gt;
+&lt;p&gt;其實有點類似 Google Docs，同樣提供線上協作的文字編輯服務，但最大的不同點在於 Hackmd 使用了 Markdown 語法進行文件的撰寫。&lt;&#x2F;p&gt;
+&lt;p&gt;那什麼是 Markdown？&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Markdown 是一種輕量級標記式語言，它允許人們「使用易讀易寫的純文字格式編寫文件，然後轉換成有效的 XHTML（或者 HTML）文件」。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;這是&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;zh.wikipedia.org&#x2F;wiki&#x2F;Markdown&quot;&gt;維基百科&lt;&#x2F;a&gt;上對於 Markdown 的介紹，重點就在於「易讀易寫」這四個字。我們可以使用一些簡單的符號輕鬆建立一篇排版工整且易於閱讀的文件，手甚至不需要離開鍵盤。比起 Word 必須使用滑鼠點來點去進行版面的調整，Markdown 可說是節省許多時間與麻煩。有興趣的人可以參考&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;markdown.tw&#x2F;&quot;&gt;這篇&lt;&#x2F;a&gt;詳細的 Markdown 語法教學。&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;補充：其實 Markdown 有很多種版本，例如 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;daringfireball.net&#x2F;projects&#x2F;markdown&#x2F;&quot;&gt;John Gruber 發明的原始版本&lt;&#x2F;a&gt;和 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;help.github.com&#x2F;categories&#x2F;writing-on-github&#x2F;&quot;&gt;Github-flavored Markdown (GFM)&lt;&#x2F;a&gt; 等，不過最基本的功能都是一樣的。而 Hackmd 在最基本的 Markdown 功能之外，也有許多獨創的語法。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;shi-yong-hackmd-zhi-zuo-gong-bi-de-hao-chu&quot;&gt;使用 Hackmd 製作共筆的好處？&lt;&#x2F;h2&gt;
+&lt;p&gt;Word 是現今最為普遍使用的文書處理軟體，也是大多數人打文件的首選，系上的共筆製作當然也不例外。因為它太強大了，能夠使用很多複雜的功能，所以目前看來似乎沒有理由轉換成 Hackmd (Markdown)。&lt;&#x2F;p&gt;
+&lt;p&gt;說來很不可置信，其實還是有很多同學對於 Word 的功能不太熟悉，例如不會設定編號、不會調整圖文的版面配置等，也導致組長需要花費很多時間調整排版。雖然現在大多數的共筆都是修改自學長姐的檔案，版面不太需要調整，因此問題不大。但有時候老師一換，必須從零開始製作時，排版工作真的是一大災難。假如我們使用 Hackmd，整個製作流程也許可以更輕鬆寫意。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;del&gt;（不過老實說，一個連 Word 都不肯好好學的人，怎麼會願意認識這一輩子可能都用不到的 Markdown 呢～）&lt;&#x2F;del&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;demo&quot;&gt;Demo&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;drive.google.com&#x2F;uc?export=view&amp;amp;id=1pfy2zV6IjetJ2bNtrjkMz037hcGxlZy0&quot; alt=&quot;demo&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;在這種條列式的使用情境下，Hackmd 能做得跟 Word 不相上下，而右側文字實際上使用 Markdown 語法是長下面這樣：&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;### B. 定義與發生率(Definition and Incidence)
+&lt;&#x2F;span&gt;&lt;span&gt;#### 一、定義、診斷
+&lt;&#x2F;span&gt;&lt;span&gt;1. 急性胰臟炎是指一種胰臟急性發炎並且涉及其他區域的組織或遠處的器官系統的一個過程（1992 Atlanta Symposium）。
+&lt;&#x2F;span&gt;&lt;span&gt;2. 以下3點符合2點即可診斷為急性胰臟炎
+&lt;&#x2F;span&gt;&lt;span&gt;    * 典型的持續性的腹痛（++上或左上腹痛++、痛連背部、身體蜷曲會減緩痛感）
+&lt;&#x2F;span&gt;&lt;span&gt;    * 血清中澱粉酶(amylase)、脂肪酶(lipase)的數值高於正常值三倍以上
+&lt;&#x2F;span&gt;&lt;span&gt;    * 在腹部影像學檢查中有屬於典型急性胰臟炎表現（比如說胰臟腫大、偽囊腫等等的）
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;#### 二、發生率
+&lt;&#x2F;span&gt;&lt;span&gt;1. 急性胰臟炎在全球的發生率大概為 4.9\~73.4&#x2F;100,000。西方盛行率約10~20 %左右，台灣偏低大概只有5 ~10 %。
+&lt;&#x2F;span&gt;&lt;span&gt;2. **膽結石(gallstone)** 是世界上急性胰臟炎最常見的病因。西方國家甚至超過1&#x2F;2的AP患者是因為膽結石！
+&lt;&#x2F;span&gt;&lt;span&gt;3. 性別比方面：
+&lt;&#x2F;span&gt;&lt;span&gt;    * 膽結石所造成的急性胰臟炎→女性患者&amp;gt;男性患者
+&lt;&#x2F;span&gt;&lt;span&gt;    * 喝酒所造成的急性胰臟炎→男性患者&amp;gt;女性患者
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;### C. 危險因子(Predisposing Conditions)
+&lt;&#x2F;span&gt;&lt;span&gt;1. 在美國，75 %的AP患者與膽結石、酗酒這兩個因素有關；另外≤ 30 %的患者無明顯病因，稱為自發性胰臟炎(idiopathic pancreatitis)。
+&lt;&#x2F;span&gt;&lt;span&gt;2. 在台灣，膽結石性胰臟炎佔41.9 %，酒精性佔14.9 %，原因不明佔27 %。
+&lt;&#x2F;span&gt;&lt;span&gt;3. 下圖為常見的阻塞位置，大部分是在膽囊裡面，其實大多的結石都是無症狀(silence)，所以不一定會發現，但是當結石卡在遠端總膽管(CBD)附近時，會一起堵住胰管造成胰臟發炎，也有可能造成黃疸問題，因此看到黃疸得要考慮是肝臟還是膽管問題，而病人的主訴是痛的話就可能要優先考慮是膽道問題。
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;![](https:&#x2F;&#x2F;i.imgur.com&#x2F;R6xOaxQ.png)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;可以看出 Markdown 是藉由各種符號來達到粗體、斜體、標號等效果，省了排版美化的時間。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;dai-ke-fu-de-wen-ti&quot;&gt;待克服的問題&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;1-gong-tong-bian-ji&quot;&gt;1. 共同編輯&lt;&#x2F;h3&gt;
+&lt;p&gt;Hackmd 有很多種筆記&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;hackmd.io&#x2F;s&#x2F;E1UakUq8#%E6%AC%8A%E9%99%90&quot;&gt;權限&lt;&#x2F;a&gt;設置，要怎麼給予同學適合的權限是個滿重要的問題。&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;可能的解決方法：全程使用「Editable」。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h3 id=&quot;2-biao-ge&quot;&gt;2. 表格&lt;&#x2F;h3&gt;
+&lt;p&gt;共筆中常常會使用表格來統整概念，偏偏我覺得 Markdown 的表格不太好用，功能太陽春了，像是合併儲存格等較進階的方式在 Markdown 就沒辦法使用。&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;可能的解決方法：若要製作比較複雜的表格，可能要先在其他軟體中製作後再截圖貼到 Hackmd。(但這樣實在不太方便 )&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h3 id=&quot;3-tu-pian&quot;&gt;3. 圖片&lt;&#x2F;h3&gt;
+&lt;p&gt;一般我們在 Word 中對於圖片的操作不外乎調整「大小」和「排列方式」。Markdown 中調整圖片大小容易，但對於排列方式的支援就不是那麼好，沒辦法文繞圖、置中等。&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;可能的解決方法：無解。一開始我以為這會是個大問題，但後來發覺其實看習慣就還好。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h3 id=&quot;4-shu-chu&quot;&gt;4. 輸出&lt;&#x2F;h3&gt;
+&lt;p&gt;Hackmd 目前不支援 PDF 格式的輸出，對於印出紙本或是在平板上閱讀都不太方便。&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;可能的解決方法：最簡易的方法就是使用瀏覽器(如 Chrome)輸出，只可惜有的格式會跑掉。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;zong-jie&quot;&gt;總結&lt;&#x2F;h2&gt;
+&lt;p&gt;儘管有一些問題需要克服，但整體而言，Hackmd 仍不失為一個製作共筆的好工具。現在大家都用學長姐的檔案輕鬆交差，大概也不可能改變製作過程，這篇文章只是在發牢騷罷了XD&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="zh-TW">
+		<title>關於讀書方法</title>
+		<published>2018-08-11T00:00:00+00:00</published>
+		<updated>2018-08-11T00:00:00+00:00</updated>
+		<link href="https://chswei.netlify.app/blog/study-methods/" type="text/html"/>
+		<id>https://chswei.netlify.app/blog/study-methods/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;drive.google.com&#x2F;uc?export=view&amp;amp;id=1C7DNA0Fz0SxCXfOkDl49P_zICoSJLQ0n&quot; alt=&quot;Ali&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;還記得以前國中的時候老師要我上台跟同學分享讀書方法，當時說不出所以然，反正把課本多念幾遍就是了。這麼多年過去了，讀書方法一直沒什麼改變，考前預留一段足夠的時間開始複習，用螢光筆在課本或共筆上劃線做記號，有多餘的時間就做點筆記統整，然後至少把上課內容看兩遍，再寫寫考古題，成績就能保持在不錯的水準。因此也沒有特別想要去改進讀書方法。然而這種螢光筆劃線式的方法看似有效率，實際上內容完全沒有吸收進腦中，而且忘得很快，每次在生活中看到自己曾經學過的東西總會很興奮地跟旁人說「啊這個我學過耶」，但馬上又因為記憶模糊而支支吾吾地帶過，屢試不爽。&lt;&#x2F;p&gt;
+&lt;p&gt;今年寒假在 Coursera 參加一門叫作 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.coursera.org&#x2F;learn&#x2F;learning-how-to-learn&quot;&gt;Learning How to Learn&lt;&#x2F;a&gt; 的熱門課程，老師們以記憶形成的理論一步步教導該如何正確地學習，但後來我覺得講得太枯燥，所以並沒有看完所有的影片，也沒有認真應用在課業上 (好浪費XD)。然後最近發現一位叫作 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;channel&#x2F;UCoOae5nYA7VqaXzerajD0lg&quot;&gt;Ali Abdaal&lt;&#x2F;a&gt; 的 YouTuber。他是英國劍橋大學醫學院的學生，影片品質和可看度都還蠻高的，而其中一系列 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;playlist?list=PL7BImOT2srcGCCjBBwNvU5zaB9F30lWye&quot;&gt;Study Tips&lt;&#x2F;a&gt; 的影片真的讓我獲益良多，尤其醫學背景對我來說更具參考價值。&lt;&#x2F;p&gt;
+&lt;p&gt;這邊先列出影片中最重要的兩個方法：active recall 和 spaced repetition。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;active-recall&quot;&gt;Active Recall&lt;&#x2F;h2&gt;
+&lt;div class=&quot;youtube&quot;&gt;
+    &lt;iframe src=&quot;https:&#x2F;&#x2F;www.youtube-nocookie.com&#x2F;embed&#x2F;ukLnPbIffxE&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;&#x2F;iframe&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;Active Recall 顧名思義就是回想學習的內容。例如可以回想並總結今天所學的大架構是如何，然後這些大架構下面有哪些細節等。**這種從大腦提取記憶的過程能讓記憶更牢固、更長久。**一直以來因為我念書速度很慢，看完一個單元需要花很多時間，所以每次做完螢光筆的劃記就會懶得再耗神回想，但就是這種壞習慣讓我的記憶很不穩固，考完試就忘。&lt;&#x2F;p&gt;
+&lt;p&gt;此外，也可以搭配畫簡圖、心智圖等方式進行 active recall，畢竟我們對於圖像記憶比較拿手，也順便讓自己在回想的時候理清思緒。但無論使用何種方式，重點都是在那&lt;strong&gt;提取記憶的過程&lt;&#x2F;strong&gt;。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;spaced-repetition&quot;&gt;Spaced Repetition&lt;&#x2F;h2&gt;
+&lt;div class=&quot;youtube&quot;&gt;
+    &lt;iframe src=&quot;https:&#x2F;&#x2F;www.youtube-nocookie.com&#x2F;embed&#x2F;Z-zNHHpXoMM&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;&#x2F;iframe&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;Spaced Repetition (間隔重複) 其實就是耳熟能詳的&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;zh.wikipedia.org&#x2F;wiki&#x2F;%E9%81%97%E5%BF%98%E6%9B%B2%E7%BA%BF&quot;&gt;遺忘曲線&lt;&#x2F;a&gt;的應用。由於我們的短期記憶會隨著時間漸漸地遺忘，所以需要每隔一段時間進行複習來加強記憶，直到它成為長期記憶。結合前面說到的 active recall，我們可以每隔幾天就回想之前學過的內容 (而非重看螢光筆劃線的地方)，如此就能鞏固記憶。&lt;&#x2F;p&gt;
+&lt;p&gt;有一些 App 可以幫助我們進行 spaced repetition (如 Anki 和 Quizlet)，其中 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;apps.ankiweb.net&quot;&gt;Anki&lt;&#x2F;a&gt; 是 Ali 極其推薦的，有興趣的人可以搜尋看看。&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;這兩個讀書方法的好處在於不需要任何訓練，人人都可以很快上手，而且它們是從記憶的形成原理著手，所以適用於任何科目。So why not give it a try?&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>

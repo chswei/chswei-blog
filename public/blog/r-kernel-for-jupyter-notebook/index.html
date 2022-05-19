@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html
+  lang="zh-TW"
+  itemscope
+  itemtype="http://schema.org/Blog"
+>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+    />
+
+    <link rel="stylesheet" href="https://chswei.netlify.app/site/styles/site.css?h=19065fbe92d80ca58e7852a6e3a7c7b96beccf3f2831362569fc8d920edc6ad5">
+    <title>在 Jupyter Notebook 上安裝 R (Windows 10) - Chswei&#x27;s Blog</title>
+
+    
+    <meta
+      name="description"
+      itemprop="about"
+      content=" 最近為了某個目的，想在 Jupyter Notebook 上寫 R code。利用 IRkernel 就能達到這件事，然而在安裝的過程中發生了一些問題，因此做了很多搜尋，將操作步驟整理在此，希望能幫助到一些人，同時也紀錄自己對於電腦世界的懵懂無知。
+  "
+    />
+    <meta
+      name="keywords"
+      itemprop="keywords"
+      content="醫學, 閱讀, 登山, 程式"
+    />
+    <meta name="author" itemprop="author" content="chswei" />
+    <meta itemprop="headline" content="Chswei&#x27;s Blog" />
+    <meta itemprop="copyrightYear" content="2022" />
+    <link rel="icon" href="https://chswei.netlify.app/site/images/favicon-32x32.png?h=59227f3723df6ad7b697ad43b9be38be8a62e2a581be7e34cfea92691bd024ca"
+    type="image/x-icon"> <link rel="apple-touch-icon" sizes="57x57" href="https://chswei.netlify.app/site/images/apple-icon-57x57.png?h=408d830a68a6226fbd7f63b71b83d4324e9cf87b474f9af17ccd944fac48f5a1"> <link
+    rel="apple-touch-icon" sizes="60x60" href="https://chswei.netlify.app/site/images/apple-icon-60x60.png?h=7b16952e0d30e9f4516f9146dd4d4447da55517250fbbb9618b63f7ef4edaf10"> <link
+    rel="apple-touch-icon" sizes="72x72" href="https://chswei.netlify.app/site/images/apple-icon-72x72.png?h=0ead6766307c21bbf9ef8a833436477f121e804d4f6abdce34534078868c8d7c"> <link
+    rel="apple-touch-icon" sizes="76x76" href="https://chswei.netlify.app/site/images/apple-icon-76x76.png?h=c23d60c28dae6b3a0e3cd8293bd1f06a829d6342cfc549d0f002b49e199ae859"> <link
+    rel="apple-touch-icon" sizes="114x114" href="https://chswei.netlify.app/site/images/apple-icon-114x114.png?h=f95034ae0d37d2cb2028e815c142d8e6a4cabbc4b061d23fa764f173aa41bc1b"> <link
+    rel="apple-touch-icon" sizes="120x120" href="https://chswei.netlify.app/site/images/apple-icon-120x120.png?h=d8ff6545cf8b66feb22cb62848c6ac6221e5903d900e23c12f1ec5a28efa2180"> <link
+    rel="apple-touch-icon" sizes="144x144" href="https://chswei.netlify.app/site/images/apple-icon-144x144.png?h=e3e7d49b544ab1ffb18d8f2a9ee690e99880a7fda89649abfd91d6de84c54b6f"> <link
+    rel="apple-touch-icon" sizes="152x152" href="https://chswei.netlify.app/site/images/apple-icon-152x152.png?h=ec080d1e6535eda34b86f64fe827900a8a5cb2e0f3d84a612fb47f61476a2427"> <link
+    rel="apple-touch-icon" sizes="180x180" href="https://chswei.netlify.app/site/images/apple-icon-180x180.png?h=453789d9d0e60dd2af117bd520ccbd11152685ba535fc744562a1580b7106c3e"> <link rel="icon"
+    type="image/png" sizes="192x192" href="https://chswei.netlify.app/site/images/android-icon-192x192.png?h=e511fd3bbc573548be28cce3e85f7c3f4400a168e49ca39ce93c211b35bc53eb"> <link rel="icon"
+    type="image/png" sizes="32x32" href="https://chswei.netlify.app/site/images/favicon-32x32.png?h=59227f3723df6ad7b697ad43b9be38be8a62e2a581be7e34cfea92691bd024ca"> <link rel="icon"
+    type="image/png" sizes="96x96" href="https://chswei.netlify.app/site/images/favicon-96x96.png?h=d7375531934aeccaacefe9e7351013eda12e236fa782899f7c22d552bf35769d"> <link rel="icon"
+    type="image/png" sizes="16x16" href="https://chswei.netlify.app/site/images/favicon-16x16.png?h=2fd128be34f69cfcdb2a2ed7a78c3ff39ad44efcc2d5880576b01e9cbcccc345"> <link rel="manifest"
+    href="https://chswei.netlify.app/site/images/manifest.json">
+    <meta
+      name="msapplication-TileColor"
+      content="#6fd684"
+    />
+    <meta name="msapplication-TileImage" content="https://chswei.netlify.app/site/images/ms-icon-144x144.png?h=bb0b31801a4277bdb744215d551f2dfb3ddb71b825c154c46d07f9e8764eeb7b">
+    <meta name="theme-color" content="#6fd684" />
+
+    <meta
+      property="og:title"
+      content="在 Jupyter Notebook 上安裝 R (Windows 10) - Chswei&#x27;s Blog"
+    />
+    <meta
+      property="og:description"
+      content=" 最近為了某個目的，想在 Jupyter Notebook 上寫 R code。利用 IRkernel 就能達到這件事，然而在安裝的過程中發生了一些問題，因此做了很多搜尋，將操作步驟整理在此，希望能幫助到一些人，同時也紀錄自己對於電腦世界的懵懂無知。
+  "
+    />
+    <meta
+      property="og:url"
+      content="https:&#x2F;&#x2F;chswei.netlify.app/r-kernel-for-jupyter-notebook"
+    />
+    <meta property="og:site_name" content="Chswei&#x27;s Blog" />
+    
+    <meta
+      property="og:image"
+      content=""
+    />
+    
+    <meta name="twitter:card" content="summary" />
+    
+    <meta name="twitter:site" content="wujiyaker" />
+    <meta name="twitter:creator" content="wujiyaker" />
+    <meta
+      name="twitter:image:alt"
+      content="Chswei&#x27;s Blog"
+    />
+     
+    <meta name="title" content="在 Jupyter Notebook 上安裝 R (Windows 10)">
+<style>
+  .sidebar{
+    display: none;
+  }
+  @media (min-width: 67.5rem) {
+    .sidebar{
+      display: block;
+    }
+  }
+</style>
+
+  </head>
+
+  <body>
+    <section id="top"></section>
+    <section id="root" >
+      <main class="body-zone flex justify-between flex-1">
+          <section class="main flex-1">
+            <div class="main-inner px">
+              
+      <header id="overview">
+        <div class="pt">
+          <span>&gt;&gt;</span>
+          <a href="https://chswei.netlify.app/">首頁</a>
+          
+          <span class="divider">/</span>
+          <a class="category" href="https://chswei.netlify.app/categories/xing-qu/">興趣</a>
+          
+          <span class="divider">/</span>
+          
+          <a href="https://chswei.netlify.app/tags/programming/">programming</a>,
+          
+          <a href="https://chswei.netlify.app/tags/r/">R</a>
+          
+          
+          
+          </div>
+        
+        <div>
+          <h1 style="font-size:2rem;">在 Jupyter Notebook 上安裝 R (Windows 10)</h1>
+          <div class="muted">
+            <div>
+              發布於 2018-07-12 | 最後更新時間 2018-07-12 </div>
+        </div>
+  
+        </div>
+        
+        
+      </header>
+      <section>
+      
+        <section class="main">
+          
+          <div class="main-toc pt">
+            <details>
+              <summary>目錄</summary>
+              
+<section class="sidebar-table-content">
+  <ul >
+    <li><a href="#start">本文開始</a></li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/r-kernel-for-jupyter-notebook/#an-zhuang-irkernel-de-qian-ti-requirements">安裝 IRkernel 的前提 (Requirements)</a>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/r-kernel-for-jupyter-notebook/#ci-lu-bu-tong-not-work-for-me">此路不通 (Not Work for Me)</a>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/r-kernel-for-jupyter-notebook/#jie-fa-my-solution">解法 (My Solution)</a>
+          
+              <ul>
+                  
+                      <li>
+                          <a href="https://chswei.netlify.app/blog/r-kernel-for-jupyter-notebook/#step-1">Step 1</a>
+                      </li>
+                  
+                      <li>
+                          <a href="https://chswei.netlify.app/blog/r-kernel-for-jupyter-notebook/#step-2-wrong">Step 2 (Wrong)</a>
+                      </li>
+                  
+                      <li>
+                          <a href="https://chswei.netlify.app/blog/r-kernel-for-jupyter-notebook/#step-2-correct">Step 2 (Correct)</a>
+                      </li>
+                  
+                      <li>
+                          <a href="https://chswei.netlify.app/blog/r-kernel-for-jupyter-notebook/#step-3">Step 3</a>
+                      </li>
+                  
+              </ul>
+          
+      </li>
+  
+  </ul>
+</section>
+
+            </details>
+
+          </div>
+          
+          <section id="start"></section>
+          <article>
+            <p><img src="https://drive.google.com/uc?export=view&amp;id=1OfEJF2Hs_GtYD93YkyXSrtq7ir1KOp20" alt="IRkernel-1" /></p>
+<p>最近為了某個目的，想在 Jupyter Notebook 上寫 R code。利用 IRkernel 就能達到這件事，然而在安裝的過程中發生了一些問題，因此做了很多搜尋，將操作步驟整理在此，希望能幫助到一些人，同時也紀錄自己對於電腦世界的懵懂無知。</p>
+<span id="continue-reading"></span>
+<hr />
+<h3 id="an-zhuang-irkernel-de-qian-ti-requirements">安裝 IRkernel 的前提 (Requirements)</h3>
+<ol>
+<li>安裝好 R （我的版本是 3.4.1，若還有安裝 RStudio 更好）。</li>
+<li>安裝好 Jupyter Notebook （我是用 Anaconda 安裝的）。 </li>
+</ol>
+<h3 id="ci-lu-bu-tong-not-work-for-me">此路不通 (Not Work for Me)</h3>
+<p>一開始我按照<a rel="noopener" target="_blank" href="http://white5168.blogspot.com/2017/09/anaconda-rpythonr.html#.W0dfsWb3X-b">這個網站</a>的步驟操作，在 Anaconda Prompt 內打入：</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>conda update anaconda
+</span><span>conda install -c r r-essentials
+</span></code></pre>
+<p>在筆電和桌電上試驗都在第二步出現了 Error，沒辦法安裝，查了 google 和 stackoverflow 都找不到解答。（不過好多東西我都看不懂，所以也有可能是有解的。）之後還在 YouTube 看別人怎麼安裝，但對我來說還是不成功。</p>
+<h3 id="jie-fa-my-solution">解法 (My Solution)</h3>
+<p>後來在某影片中的某片段看到一個似乎是 <a rel="noopener" target="_blank" href="https://irkernel.github.io">IRkernel 的官方網址</a>，按照裡面的方法後，就安裝成功了！（心得：看官方文件還是最準的 OTZ）</p>
+<h4 id="step-1">Step 1</h4>
+<p>在 RStudio 的 Console 內打入：</p>
+<pre data-lang="R" style="background-color:#2b303b;color:#c0c5ce;" class="language-R "><code class="language-R" data-lang="R"><span style="color:#96b5b4;">install.packages</span><span>(</span><span style="color:#96b5b4;">c</span><span>(&#39;</span><span style="color:#a3be8c;">repr</span><span>&#39;, &#39;</span><span style="color:#a3be8c;">IRdisplay</span><span>&#39;, &#39;</span><span style="color:#a3be8c;">evaluate</span><span>&#39;, &#39;</span><span style="color:#a3be8c;">crayon</span><span>&#39;, &#39;</span><span style="color:#a3be8c;">pbdZMQ</span><span>&#39;, &#39;</span><span style="color:#a3be8c;">devtools</span><span>&#39;, &#39;</span><span style="color:#a3be8c;">uuid</span><span>&#39;, &#39;</span><span style="color:#a3be8c;">digest</span><span>&#39;)) 
+</span><span>devtools::</span><span style="color:#bf616a;">install_github</span><span>(&#39;</span><span style="color:#a3be8c;">IRkernel/IRkernel</span><span>&#39;)
+</span></code></pre>
+<h4 id="step-2-wrong">Step 2 (Wrong)</h4>
+<p>在 RStudio 中的 Console 內打入：</p>
+<pre data-lang="R" style="background-color:#2b303b;color:#c0c5ce;" class="language-R "><code class="language-R" data-lang="R"><span>IRkernel::</span><span style="color:#bf616a;">installspec</span><span>()
+</span></code></pre>
+<p>結果出現 Error：</p>
+<p><img src="https://drive.google.com/uc?export=view&amp;id=17SqF4YwxLsY0L9M9M_4rn50AExQ7FJe1" alt="IRkernel-2" /></p>
+<p>後來在 <a rel="noopener" target="_blank" href="https://stackoverflow.com/questions/44056164/jupyter-client-has-to-be-installed-but-jupyter-kernelspec-version-exited-wit/44108916">Stackoverflow</a> 這篇上找到解法 (第二個回答)</p>
+<h4 id="step-2-correct">Step 2 (Correct)</h4>
+<p>打開 Anaconda Prompt (或是用 Windows 內建的 cmd 好像也可以)，更改路徑到裝有 R.exe 的資料夾 (以下是我的路徑)：</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>cd &quot;C:\Program Files\R\R-3.4.1\bin&quot;
+</span></code></pre>
+<p><img src="https://drive.google.com/uc?export=view&amp;id=1KRVMtzqA4pF00tw_zRBlA0_2EVjauamZ" alt="IRkernel-3" /></p>
+<p>接著打入這行，進入 R。</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>R.exe
+</span></code></pre>
+<p>重新打入剛剛在 RStudio 中失敗的這行：</p>
+<pre data-lang="R" style="background-color:#2b303b;color:#c0c5ce;" class="language-R "><code class="language-R" data-lang="R"><span>IRkernel::</span><span style="color:#bf616a;">installspec</span><span>()
+</span></code></pre>
+<p>沒有出現錯誤！！！先關掉 R，不用儲存空間圖案：</p>
+<pre data-lang="R" style="background-color:#2b303b;color:#c0c5ce;" class="language-R "><code class="language-R" data-lang="R"><span style="color:#96b5b4;">q</span><span>()
+</span></code></pre>
+<h4 id="step-3">Step 3</h4>
+<p>先回到你想要的路徑，再打開 Jupyter Notebook：</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>cd &quot;你的某資料夾&quot;
+</span><span>jupyter notebook
+</span></code></pre>
+<p>出現 R 的選項了！！！</p>
+<p><img src="https://drive.google.com/uc?export=view&amp;id=1m--VIF2Ntj66It2A3al9QDkuUwQxKBFe" alt="IRkernel-4" /></p>
+<p>畫個圖試試看：</p>
+<p><img src="https://drive.google.com/uc?export=view&amp;id=1fswC_xyXuZR14G4kXOEFfuSV2h5RDcGQ" alt="IRkernel-5" /></p>
+<p>好感動啊！！！！！以上就是安裝 IRkernel 的方法，感謝大家看到這裡。</p>
+
+          </article>
+
+          
+          <div id="email-comment" class="muted text-sm">
+            <hr class="w-full">
+            
+            <p>
+              如果你對於本文有任何想討論或分享的，歡迎<a href="mailto:mimir@hey.com?subject=%E5%9B%9E%E8%A6%86%EF%BC%9A%E5%9C%A8%20Jupyter%20Notebook%20%E4%B8%8A%E5%AE%89%E8%A3%9D%20R%20%28Windows%2010%29">來信</a>到：<code>mimir@hey.com</code> 找我聊聊！
+            </p>
+            
+            
+
+          </div>
+          
+
+        </section>
+        
+       
+      </section>
+
+
+              </div>
+            </section>
+
+          
+<aside class="sidebar px ">
+
+<h2>目錄</h2>
+
+<section class="sidebar-table-content">
+  <ul >
+    <li><a href="#start">本文開始</a></li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/r-kernel-for-jupyter-notebook/#an-zhuang-irkernel-de-qian-ti-requirements">安裝 IRkernel 的前提 (Requirements)</a>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/r-kernel-for-jupyter-notebook/#ci-lu-bu-tong-not-work-for-me">此路不通 (Not Work for Me)</a>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/r-kernel-for-jupyter-notebook/#jie-fa-my-solution">解法 (My Solution)</a>
+          
+              <ul>
+                  
+                      <li>
+                          <a href="https://chswei.netlify.app/blog/r-kernel-for-jupyter-notebook/#step-1">Step 1</a>
+                      </li>
+                  
+                      <li>
+                          <a href="https://chswei.netlify.app/blog/r-kernel-for-jupyter-notebook/#step-2-wrong">Step 2 (Wrong)</a>
+                      </li>
+                  
+                      <li>
+                          <a href="https://chswei.netlify.app/blog/r-kernel-for-jupyter-notebook/#step-2-correct">Step 2 (Correct)</a>
+                      </li>
+                  
+                      <li>
+                          <a href="https://chswei.netlify.app/blog/r-kernel-for-jupyter-notebook/#step-3">Step 3</a>
+                      </li>
+                  
+              </ul>
+          
+      </li>
+  
+  </ul>
+</section>
+
+
+</aside>
+
+
+
+      </main>
+      </section>
+    <section id="bottom"></section>
+  </body>
+</html>

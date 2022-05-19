@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-TW">
+	<title>Chswei&#x27;s Blog - hugo</title>
+	<subtitle>Chswei&#x27;s Blog</subtitle>
+	<link href="https://chswei.netlify.app/tags/hugo/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://chswei.netlify.app"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2018-07-12T00:00:00+00:00</updated>
+	<id>https://chswei.netlify.app/tags/hugo/atom.xml</id>
+	<entry xml:lang="zh-TW">
+		<title>在 GitHub 部署 Hugo 靜態網站</title>
+		<published>2018-07-12T00:00:00+00:00</published>
+		<updated>2018-07-12T00:00:00+00:00</updated>
+		<link href="https://chswei.netlify.app/blog/hugo/" type="text/html"/>
+		<id>https://chswei.netlify.app/blog/hugo/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;drive.google.com&#x2F;uc?export=view&amp;amp;id=1JJZzwp6iRbQ54NbrwKNA4e-1GRVjDg70&quot; alt=&quot;hugo-1&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;第一次搭建個人網站，選擇了 Hugo。儘管&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;gohugo.io&#x2F;documentation&#x2F;&quot;&gt;官方文件&lt;&#x2F;a&gt;寫得很詳細，但 Programming 新手如我在建立的過程中還是遇到了一些困難，因此紀錄一下，希望能幫到跟我同樣情況的人。&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;以下分為兩部分介紹：本地建立檔案、部署到 GitHub。(使用 MacOS)
+(2018&#x2F;09&#x2F;01 補充 Windows 本地建立檔案方法在最下面)&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;di-yi-bu-fen-ben-di-jian-li-dang-an&quot;&gt;第一部分：本地建立檔案&lt;&#x2F;h2&gt;
+&lt;p&gt;老實說 Hugo 真的很人性化，簡單幾個步驟就能讓使用者建立網站的雛形。&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;1-da-kai-terminal-an-zhuang-homebrew&quot;&gt;1. 打開 terminal，安裝 Homebrew&lt;&#x2F;h4&gt;
+&lt;br&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;&#x2F;usr&#x2F;bin&#x2F;ruby -e &amp;quot;$(curl -fsSL https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;Homebrew&#x2F;install&#x2F;master&#x2F;install)&amp;quot;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h4 id=&quot;2-an-zhuang-hugo&quot;&gt;2. 安裝 Hugo&lt;&#x2F;h4&gt;
+&lt;br&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;brew install hugo
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h4 id=&quot;3-jian-li-xin-wang-zhan&quot;&gt;3. 建立新網站&lt;&#x2F;h4&gt;
+&lt;br&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;hugo new site website-hugo
+&lt;&#x2F;span&gt;&lt;span&gt;cd website-hugo
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;code&gt;website-hugo&lt;&#x2F;code&gt; 可以替換成任意名稱，但你也可以跟我一樣，避免麻煩。找到名為 &lt;code&gt;website-hugo&lt;&#x2F;code&gt; 的資料夾，觀察一下內部資料夾結構。&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;4-xin-zeng-zhu-ti-theme-ci-chu-yi-casper-wei-li&quot;&gt;4. 新增主題 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;themes.gohugo.io&quot;&gt;(theme)&lt;&#x2F;a&gt;：此處以 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;themes.gohugo.io&#x2F;casper&#x2F;&quot;&gt;Casper&lt;&#x2F;a&gt; 為例&lt;&#x2F;h4&gt;
+&lt;br&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;git clone https:&#x2F;&#x2F;github.com&#x2F;vjeantet&#x2F;hugo-theme-casper themes&#x2F;casper
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;你也可以選其他主題，進到該主題的 GitHub repo，將上面的網址改成 repo 的網址、&lt;code&gt;themes&#x2F;casper&lt;&#x2F;code&gt; 改成 &lt;code&gt;themes&#x2F;你的主題名稱&lt;&#x2F;code&gt;。&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;5-jiang-themes-casper-zhong-de-static-he-layouts-zi-liao-jia-fu-zhi-qu-dai-gen-mu-lu-zhong-de-static-he-layouts-zi-liao-jia&quot;&gt;5. 將 &#x2F;themes&#x2F;casper 中的 static 和 layouts 資料夾複製，取代根目錄中的 static 和 layouts 資料夾&lt;&#x2F;h4&gt;
+&lt;br&gt;
+&lt;h4 id=&quot;6-jian-li-xin-wen-zhang&quot;&gt;6. 建立新文章&lt;&#x2F;h4&gt;
+&lt;br&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;hugo new posts&#x2F;my-first-post.md
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;此指令會在 &lt;code&gt;&#x2F;content&#x2F;posts&lt;&#x2F;code&gt; 資料夾中建立 &lt;code&gt;my-first-post.md&lt;&#x2F;code&gt;。使用任意文字編輯器打開此 markdown 文件，將 draft 改成 false，文件內容任意。以後建立文章都是以此方式。&lt;&#x2F;p&gt;
+&lt;p&gt;使用文字編輯器打開 &lt;code&gt;config.toml&lt;&#x2F;code&gt;，並調整內容為上面這樣。&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;7-bian-ji-config-toml&quot;&gt;7. 編輯 config.toml&lt;&#x2F;h4&gt;
+&lt;br&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;baseURL = &amp;quot;https:&#x2F;&#x2F;chswei.github.io&#x2F;&amp;quot;    #改成你的GitHub帳號名稱
+&lt;&#x2F;span&gt;&lt;span&gt;languageCode = &amp;quot;zh-tw&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;title = &amp;quot;Chswei Blog&amp;quot;    #自由命名
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h4 id=&quot;8-ben-di-ce-shi&quot;&gt;8. 本地測試&lt;&#x2F;h4&gt;
+&lt;br&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;hugo server -D
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;執行完後，在瀏覽器中輸入網址 http:&#x2F;&#x2F;localhost:1313&#x2F; ，就可以看到網站的雛形了！&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;di-er-bu-fen-bu-shu-dao-github&quot;&gt;第二部分：部署到 GitHub&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;gohugo.io&#x2F;hosting-and-deployment&#x2F;hosting-on-github&#x2F;&quot;&gt;Hugo 部署在 GitHub 的方式&lt;&#x2F;a&gt;有兩種，這邊介紹部署個人唯一主頁的方式。&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;1-zai-github-jian-li-liang-ge-repo&quot;&gt;1. 在 GitHub 建立兩個 repo&lt;&#x2F;h4&gt;
+&lt;p&gt;在 GitHub 建立 &lt;code&gt;website-hugo&lt;&#x2F;code&gt; 和 &lt;code&gt;chswei.github.io&lt;&#x2F;code&gt; (改成自己的帳號名稱) 兩個 repo。&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;2-jian-li-public-zi-liao-jia&quot;&gt;2. 建立 &#x2F;public 資料夾&lt;&#x2F;h4&gt;
+&lt;br&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;hugo
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;執行 &lt;code&gt;hugo&lt;&#x2F;code&gt;，就會在 &lt;code&gt;website-hugo&lt;&#x2F;code&gt; 內產生名為 &lt;code&gt;public&lt;&#x2F;code&gt; 的資料夾。&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;3-jiang-public-zi-liao-jia-lian-jie-dao-github-shang-de-chswei-github-io&quot;&gt;3. 將 &#x2F;public 資料夾連結到 GitHub 上的 chswei.github.io&lt;&#x2F;h4&gt;
+&lt;br&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;cd public
+&lt;&#x2F;span&gt;&lt;span&gt;git init
+&lt;&#x2F;span&gt;&lt;span&gt;git remote add origin https:&#x2F;&#x2F;github.com&#x2F;chswei&#x2F;chswei.github.io.git
+&lt;&#x2F;span&gt;&lt;span&gt;git add .
+&lt;&#x2F;span&gt;&lt;span&gt;git commit -m &amp;quot;Initial commit&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;git push -u origin master
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h4 id=&quot;4-jiang-zheng-ge-website-hugo-zi-liao-jia-lian-jie-dao-github-shang-de-website-hugo&quot;&gt;4. 將整個 website-hugo 資料夾連結到 GitHub 上的 website-hugo&lt;&#x2F;h4&gt;
+&lt;br&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;cd ..&#x2F;
+&lt;&#x2F;span&gt;&lt;span&gt;git init
+&lt;&#x2F;span&gt;&lt;span&gt;git remote add origin https:&#x2F;&#x2F;github.com&#x2F;chswei&#x2F;website-hugo.git
+&lt;&#x2F;span&gt;&lt;span&gt;git add .
+&lt;&#x2F;span&gt;&lt;span&gt;git commit -m &amp;quot;Initial commit&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;git push -u origin master
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;在執行 &lt;code&gt;git add .&lt;&#x2F;code&gt; 時出現如下面的 warning 時不用在意&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;drive.google.com&#x2F;uc?export=view&amp;amp;id=1B0n1kmveax_NH1X5QP_dtNIiHcV6BHJs&quot; alt=&quot;hugo-2&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;等個幾分鐘，輸入網址 https:&#x2F;&#x2F;chswei.github.io&#x2F; 就大功告成囉！&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;drive.google.com&#x2F;uc?export=view&amp;amp;id=1XzHEqNLMsT41RClyQdbD3681B-6V4rYU&quot; alt=&quot;hugo-3&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;references&quot;&gt;References:&lt;&#x2F;h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;gohugo.io&#x2F;documentation&#x2F;&quot;&gt;Hugo Documentation&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;brent-li.github.io&#x2F;post&#x2F;build-personal-site-with-hugo&#x2F;&quot;&gt;用Hugo搭建个人网站&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;chengjunwang.com&#x2F;note&#x2F;note_archive&#x2F;2016-08-03-github&#x2F;&quot;&gt;Github个人网站维护&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;windows-10-ben-di-jian-li-dang-an-fang-fa&quot;&gt;Windows 10 本地建立檔案方法&lt;&#x2F;h2&gt;
+&lt;ol&gt;
+&lt;li&gt;打開檔案總管，進到 C 槽 (其實哪裡都可以)，建立名為 &lt;code&gt;Hugo&lt;&#x2F;code&gt; 的資料夾 (C:\Hugo)&lt;&#x2F;li&gt;
+&lt;li&gt;在 &lt;code&gt;Hugo&lt;&#x2F;code&gt; 資料夾內建立名為 &lt;code&gt;bin&lt;&#x2F;code&gt; 的資料夾 (C:\Hugo\bin)&lt;&#x2F;li&gt;
+&lt;li&gt;在 &lt;code&gt;Hugo&lt;&#x2F;code&gt; 資料夾內建立名為 &lt;code&gt;Sites&lt;&#x2F;code&gt; 的資料夾 (C:\Hugo\Sites)&lt;&#x2F;li&gt;
+&lt;li&gt;到 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;gohugoio&#x2F;hugo&#x2F;releases&quot;&gt;Releases·gohugoio&#x2F;Hugo·GitHub&lt;&#x2F;a&gt; 下載 &lt;code&gt;hugo_版本_Windows-bit32&#x2F;64.zip&lt;&#x2F;code&gt;，並解壓縮到 &lt;code&gt;C:\Hugo\bin&lt;&#x2F;code&gt;，可以發現裡面有包含&lt;code&gt;hugo.exe&lt;&#x2F;code&gt; 等三個檔案&lt;&#x2F;li&gt;
+&lt;li&gt;將 hugo 指令加到 Windows 的 PATH 設定，如下：
+&lt;ol&gt;
+&lt;li&gt;利用桌面左下的搜尋功能搜尋「檢視進階系統設定」&lt;&#x2F;li&gt;
+&lt;li&gt;點擊「環境變數」&lt;&#x2F;li&gt;
+&lt;li&gt;在「xxx 的使用者變數」中雙擊 「Path」那一列&lt;&#x2F;li&gt;
+&lt;li&gt;點擊「新增」，輸入 &lt;code&gt;C:\Hugo\bin&lt;&#x2F;code&gt; (其實就是輸入 &lt;code&gt;hugo.exe&lt;&#x2F;code&gt; 的路徑位置)，點擊每一個視窗的「確定」&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;然後從上面第一部分的第三步開始做下來就完成了 (可以使用 cmd 下指令)&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h4 id=&quot;references-1&quot;&gt;References:&lt;&#x2F;h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;bwaycer.github.io&#x2F;hugo_tutorial.hugo&#x2F;tutorials&#x2F;installing-on-windows&#x2F;&quot;&gt;Hugo - Installing on Windows&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=G7umPCU-8xc&amp;amp;list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3&amp;amp;index=2&quot;&gt;Installing Hugo on Windows | Hugo - Static Site Generator | Tutorial 2 - YouTube&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+</content>
+	</entry>
+</feed>
