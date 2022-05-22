@@ -13,12 +13,52 @@
         <loc>https://chswei.netlify.app/blog/</loc>
     </url>
     <url>
+        <loc>https://chswei.netlify.app/blog/1984/</loc>
+        <lastmod>2022-03-07</lastmod>
+    </url>
+    <url>
+        <loc>https://chswei.netlify.app/blog/atomic-habits/</loc>
+        <lastmod>2022-02-13</lastmod>
+    </url>
+    <url>
+        <loc>https://chswei.netlify.app/blog/banshengyuan/</loc>
+        <lastmod>2022-03-24</lastmod>
+    </url>
+    <url>
+        <loc>https://chswei.netlify.app/blog/book-shareholder/</loc>
+        <lastmod>2021-07-29</lastmod>
+    </url>
+    <url>
+        <loc>https://chswei.netlify.app/blog/eat-the-buddha/</loc>
+        <lastmod>2022-04-05</lastmod>
+    </url>
+    <url>
         <loc>https://chswei.netlify.app/blog/enpass-sizeup/</loc>
         <lastmod>2018-08-24</lastmod>
     </url>
     <url>
+        <loc>https://chswei.netlify.app/blog/etf4million/</loc>
+        <lastmod>2022-03-02</lastmod>
+    </url>
+    <url>
+        <loc>https://chswei.netlify.app/blog/hehuan-north-west/</loc>
+        <lastmod>2022-04-23</lastmod>
+    </url>
+    <url>
+        <loc>https://chswei.netlify.app/blog/how-to-be-human-in-the-age-of-the-machine/</loc>
+        <lastmod>2022-03-17</lastmod>
+    </url>
+    <url>
+        <loc>https://chswei.netlify.app/blog/how-to-not-die-alone/</loc>
+        <lastmod>2022-03-31</lastmod>
+    </url>
+    <url>
         <loc>https://chswei.netlify.app/blog/hugo/</loc>
         <lastmod>2018-07-12</lastmod>
+    </url>
+    <url>
+        <loc>https://chswei.netlify.app/blog/into-thin-air/</loc>
+        <lastmod>2022-05-09</lastmod>
     </url>
     <url>
         <loc>https://chswei.netlify.app/blog/mac-apps/</loc>
@@ -29,11 +69,22 @@
         <lastmod>2021-07-27</lastmod>
     </url>
     <url>
+        <loc>https://chswei.netlify.app/blog/mountain-knows/</loc>
+        <lastmod>2022-04-12</lastmod>
+    </url>
+    <url>
         <loc>https://chswei.netlify.app/blog/mutual-note/</loc>
         <lastmod>2018-08-11</lastmod>
     </url>
     <url>
+        <loc>https://chswei.netlify.app/blog/ordinary-lives-in-north-korea/</loc>
+        <lastmod>2022-02-17</lastmod>
+    </url>
+    <url>
         <loc>https://chswei.netlify.app/blog/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://chswei.netlify.app/blog/page/2/</loc>
     </url>
     <url>
         <loc>https://chswei.netlify.app/blog/preclerk/</loc>
@@ -56,8 +107,32 @@
         <lastmod>2018-07-12</lastmod>
     </url>
     <url>
+        <loc>https://chswei.netlify.app/blog/the-bitcoin-investing-laws/</loc>
+        <lastmod>2022-01-30</lastmod>
+    </url>
+    <url>
+        <loc>https://chswei.netlify.app/blog/the-four-pillars-of-investing/</loc>
+        <lastmod>2022-01-20</lastmod>
+    </url>
+    <url>
+        <loc>https://chswei.netlify.app/blog/the-infinite-machine/</loc>
+        <lastmod>2022-02-03</lastmod>
+    </url>
+    <url>
+        <loc>https://chswei.netlify.app/blog/the-power-of-output/</loc>
+        <lastmod>2022-02-06</lastmod>
+    </url>
+    <url>
         <loc>https://chswei.netlify.app/blog/why-r/</loc>
         <lastmod>2018-07-12</lastmod>
+    </url>
+    <url>
+        <loc>https://chswei.netlify.app/blog/why-we-sleep/</loc>
+        <lastmod>2022-02-28</lastmod>
+    </url>
+    <url>
+        <loc>https://chswei.netlify.app/blog/xunyangji/</loc>
+        <lastmod>2022-04-17</lastmod>
     </url>
     <url>
         <loc>https://chswei.netlify.app/blog/zhou-yi/</loc>
@@ -67,28 +142,40 @@
         <loc>https://chswei.netlify.app/categories/</loc>
     </url>
     <url>
+        <loc>https://chswei.netlify.app/categories/cheng-shi/</loc>
+    </url>
+    <url>
+        <loc>https://chswei.netlify.app/categories/cheng-shi/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://chswei.netlify.app/categories/deng-shan/</loc>
+    </url>
+    <url>
+        <loc>https://chswei.netlify.app/categories/deng-shan/page/1/</loc>
+    </url>
+    <url>
         <loc>https://chswei.netlify.app/categories/misc/</loc>
     </url>
     <url>
         <loc>https://chswei.netlify.app/categories/misc/page/1/</loc>
     </url>
     <url>
-        <loc>https://chswei.netlify.app/categories/thoughts/</loc>
-    </url>
-    <url>
-        <loc>https://chswei.netlify.app/categories/thoughts/page/1/</loc>
-    </url>
-    <url>
-        <loc>https://chswei.netlify.app/categories/xing-qu/</loc>
-    </url>
-    <url>
-        <loc>https://chswei.netlify.app/categories/xing-qu/page/1/</loc>
-    </url>
-    <url>
         <loc>https://chswei.netlify.app/categories/yi-xue/</loc>
     </url>
     <url>
         <loc>https://chswei.netlify.app/categories/yi-xue/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://chswei.netlify.app/categories/yue-du/</loc>
+    </url>
+    <url>
+        <loc>https://chswei.netlify.app/categories/yue-du/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://chswei.netlify.app/categories/za-ji/</loc>
+    </url>
+    <url>
+        <loc>https://chswei.netlify.app/categories/za-ji/page/1/</loc>
     </url>
     <url>
         <loc>https://chswei.netlify.app/en/</loc>
@@ -152,6 +239,12 @@
         <loc>https://chswei.netlify.app/tags/medicine/page/1/</loc>
     </url>
     <url>
+        <loc>https://chswei.netlify.app/tags/mountaineering/</loc>
+    </url>
+    <url>
+        <loc>https://chswei.netlify.app/tags/mountaineering/page/1/</loc>
+    </url>
+    <url>
         <loc>https://chswei.netlify.app/tags/programming/</loc>
     </url>
     <url>
@@ -170,16 +263,16 @@
         <loc>https://chswei.netlify.app/tags/r/page/1/</loc>
     </url>
     <url>
+        <loc>https://chswei.netlify.app/tags/reading/</loc>
+    </url>
+    <url>
+        <loc>https://chswei.netlify.app/tags/reading/page/1/</loc>
+    </url>
+    <url>
         <loc>https://chswei.netlify.app/tags/study/</loc>
     </url>
     <url>
         <loc>https://chswei.netlify.app/tags/study/page/1/</loc>
-    </url>
-    <url>
-        <loc>https://chswei.netlify.app/tags/thoughts/</loc>
-    </url>
-    <url>
-        <loc>https://chswei.netlify.app/tags/thoughts/page/1/</loc>
     </url>
     <url>
         <loc>https://chswei.netlify.app/tags/tools/</loc>

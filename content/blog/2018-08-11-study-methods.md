@@ -4,9 +4,8 @@ date: 2018-08-11
 updated: 2018-08-11
 taxonomies:
   categories: 
-    - 醫學
+    - 雜記
   tags: 
-    - medicine
     - anki
     - study
 ---
@@ -15,7 +14,7 @@ taxonomies:
 
 還記得以前國中的時候老師要我上台跟同學分享讀書方法，當時說不出所以然，反正把課本多念幾遍就是了。這麼多年過去了，讀書方法一直沒什麼改變，考前預留一段足夠的時間開始複習，用螢光筆在課本或共筆上劃線做記號，有多餘的時間就做點筆記統整，然後至少把上課內容看兩遍，再寫寫考古題，成績就能保持在不錯的水準。因此也沒有特別想要去改進讀書方法。然而這種螢光筆劃線式的方法看似有效率，實際上內容完全沒有吸收進腦中，而且忘得很快，每次在生活中看到自己曾經學過的東西總會很興奮地跟旁人說「啊這個我學過耶」，但馬上又因為記憶模糊而支支吾吾地帶過，屢試不爽。
 
-
+<!-- more -->
 
 今年寒假在 Coursera 參加一門叫作 [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn) 的熱門課程，老師們以記憶形成的理論一步步教導該如何正確地學習，但後來我覺得講得太枯燥，所以並沒有看完所有的影片，也沒有認真應用在課業上 (好浪費XD)。然後最近發現一位叫作 [Ali Abdaal](https://www.youtube.com/channel/UCoOae5nYA7VqaXzerajD0lg) 的 YouTuber。他是英國劍橋大學醫學院的學生，影片品質和可看度都還蠻高的，而其中一系列 [Study Tips](https://www.youtube.com/playlist?list=PL7BImOT2srcGCCjBBwNvU5zaB9F30lWye) 的影片真的讓我獲益良多，尤其醫學背景對我來說更具參考價值。
 

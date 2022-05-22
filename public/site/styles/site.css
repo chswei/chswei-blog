@@ -88,9 +88,7 @@ body {
   margin-right: auto;
   max-width: 120rem;
 }
-h1,
-h2,
-h3 {
+h1 {
   padding-top: 1.4rem;
   padding-bottom: 1.4rem;
   margin-bottom: 1rem;
@@ -99,12 +97,19 @@ h3 {
   border-bottom: 1px solid var(--colors-divider);
   position: relative;
 }
+h2,
+h3 {
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+  margin-bottom: 0rem;
+  line-height: 1.1;
+  font-weight: 500;
+  position: relative;
+}
 .no-border {
   border: none;
 }
-h1::after,
-h2::after,
-h3::after {
+h1::after {
   padding: 0;
   margin: 0;
   display: block;
@@ -308,7 +313,7 @@ a.muted,
 }
 
 article {
-  padding-bottom: 2rem;
+  padding-bottom: 0rem;
 }
 article:last-of-type {
   padding-bottom: 0;

@@ -4,7 +4,7 @@ date: 2018-07-12
 updated: 2018-07-12
 taxonomies:
   categories: 
-    - 興趣
+    - 程式
   tags: 
     - programming
     - R

@@ -10,7 +10,7 @@ draft: false
 
 ### 讀者
 
-閒暇時在家喜歡閱讀書籍，有一個 [Instagram 粉絲專頁](https://www.instagram.com/read_yuele/)。會同步發表讀書心得在[這個網站](https://chswei.netlify.app/yue-du)。
+閒暇時在家喜歡閱讀書籍，有一個 [Instagram 粉絲專頁](https://www.instagram.com/read_yuele/)。會同步發表讀書心得在[這個網站](https://chswei.netlify.app/categories/yue-du)。
 
 ### 登山愛好者
 

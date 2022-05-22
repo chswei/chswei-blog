@@ -5,8 +5,47 @@
 	<link href="https://chswei.netlify.app/tags/tools/atom.xml" rel="self" type="application/atom+xml"/>
   <link href="https://chswei.netlify.app"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2018-08-24T00:00:00+00:00</updated>
+	<updated>2018-09-23T00:00:00+00:00</updated>
 	<id>https://chswei.netlify.app/tags/tools/atom.xml</id>
+	<entry xml:lang="zh-TW">
+		<title>實用 Mac Apps 推薦</title>
+		<published>2018-09-23T00:00:00+00:00</published>
+		<updated>2018-09-23T00:00:00+00:00</updated>
+		<link href="https://chswei.netlify.app/blog/mac-apps/" type="text/html"/>
+		<id>https://chswei.netlify.app/blog/mac-apps/</id>
+		<content type="html">&lt;p&gt;從 Windows 轉換到 MacOS 剛滿三個月，大多適應良好，系統介面、鍵盤配置和 trackpad 手勢等都能很快上手。這段期間也探索了許多 Apps，推薦列表如下：&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h3 id=&quot;1-sheng-chan-li-gong-ju&quot;&gt;1. 生產力工具&lt;&#x2F;h3&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;名稱&lt;&#x2F;th&gt;&lt;th&gt;簡介&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;itunes.apple.com&#x2F;tw&#x2F;app&#x2F;alfred&#x2F;id405843582?mt=12&quot;&gt;Alfred&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;必裝神器！類似 Spotlight 的軟體，但功能遠遠不止這樣。它能讓你大大減少離開來回鍵盤和觸控板的時間，詳細教學可以參考&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;sspai.com&#x2F;post&#x2F;32979&quot;&gt;這篇&lt;&#x2F;a&gt;教學。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;itunes.apple.com&#x2F;tw&#x2F;app&#x2F;evernote-%E4%BF%9D%E6%8C%81%E4%BA%95%E7%84%B6%E6%9C%89%E5%BA%8F&#x2F;id406056744?mt=12&quot;&gt;Evernote&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;知名筆記軟體，應該不用多說，&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.playpcesor.com&#x2F;search&#x2F;label&#x2F;evernote&quot;&gt;電腦玩物&lt;&#x2F;a&gt;部落格上有許多使用訣竅。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;itunes.apple.com&#x2F;tw&#x2F;app&#x2F;notability&#x2F;id736189492?mt=12&quot;&gt;‎Notability&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;筆記軟體，我主要用來匯入 PDF 製作上課筆記。不過此軟體還是 iPad 配合 Apple Pencil 效果最佳。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;itunes.apple.com&#x2F;tw&#x2F;app&#x2F;bear&#x2F;id1091189122?mt=12&quot;&gt;Bear&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;我的寫作主力軟體，UI 乾淨漂亮，且支援 Markdown 語法。可參考&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;medium.com&#x2F;plaintech&#x2F;bear-notes-b7bae6073010&quot;&gt;這篇&lt;&#x2F;a&gt;的介紹。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;itunes.apple.com&#x2F;tw&#x2F;app&#x2F;ticktick-things-tasks-to-do&#x2F;id966085870?mt=12&quot;&gt;Ticktick&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;待辦清單軟體，免費版的功能就很齊全了，且 Windows、Mac、Android、iOS 都能下載，同步很方便。也有很多人推薦 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;itunes.apple.com&#x2F;tw&#x2F;app&#x2F;things-3&#x2F;id904280696?mt=12&quot;&gt;Things&lt;&#x2F;a&gt; 這個軟體，但有點貴...&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h3 id=&quot;2-xi-tong-guan-li-gong-ju&quot;&gt;2. 系統管理工具&lt;&#x2F;h3&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;名稱&lt;&#x2F;th&gt;&lt;th&gt;簡介&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;brew.sh&#x2F;index_zh-tw&quot;&gt;Homebrew&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;套件管理工具，讓你可以用一句指令來安裝軟體或套件，極為方便。嚴格來說不是 App，但還是列在這邊讓各位參考。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.coconut-flavour.com&#x2F;coconutbattery&#x2F;&quot;&gt;coconutBattery&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;查看電池健康度。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.crystalidea.com&#x2F;macs-fan-control&quot;&gt;Macs Fan Control&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;風扇控制軟體，同時也可查看機身各個部位的溫度。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;itunes.apple.com&#x2F;tw&#x2F;app&#x2F;magnet&#x2F;id441258766?mt=12&quot;&gt;Magnet&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;分割視窗軟體，最棒的是它支援「拖曳視窗到螢幕邊界後會自動分割」的功能。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;freemacsoft.net&#x2F;appcleaner&#x2F;&quot;&gt;AppCleaner&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;平時若要刪除肥大的軟體 (如 Adobe) 時，可能會有刪除不乾淨的情況。而 AppCleaner 就是最好解決的方法。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;itunes.apple.com&#x2F;tw&#x2F;app&#x2F;amphetamine&#x2F;id937984704?mt=12&quot;&gt;Amphetamine&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;在一段時間內，防止電腦進入睡眠狀態。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h3 id=&quot;3-kai-fa-gong-ju&quot;&gt;3. 開發工具&lt;&#x2F;h3&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;名稱&lt;&#x2F;th&gt;&lt;th&gt;簡介&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;code.visualstudio.com&#x2F;&quot;&gt;Visual Studio Code&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;Microsoft 開發的文字編輯器，完全免費，啟動速度也快。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.anaconda.com&#x2F;download&#x2F;&quot;&gt;Anaconda&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;Python 懶人包，快速安裝資料分析所需的大部分套件。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.iterm2.com&#x2F;&quot;&gt;iTerm&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;MacOS 內建 terminal 的替代品。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h3 id=&quot;4-qi-ta&quot;&gt;4. 其他&lt;&#x2F;h3&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;名稱&lt;&#x2F;th&gt;&lt;th&gt;簡介&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;apps.ankiweb.net&#x2F;&quot;&gt;Anki&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;實踐 &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;chswei.github.io&#x2F;post&#x2F;medicine&#x2F;study-methods&#x2F;&quot;&gt;Spaced repetition&lt;&#x2F;a&gt; 讀書方法的記憶背誦軟體。可參考&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;medium.com&#x2F;as-a-med-student&#x2F;%E5%9C%8B%E8%80%83%E8%AE%80%E7%B4%AF%E4%BA%86%E5%AF%AB%E5%80%8Banki%E6%95%99%E5%AD%B8-part-i-7728d680e44a&quot;&gt;此篇&lt;&#x2F;a&gt;教學文章。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;lhc70000.github.io&#x2F;iina&#x2F;&quot;&gt;IINA&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;必裝神器！Mac 上最強大的播放器，支援幾乎所有影音格式。開源、UI 美觀。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;itunes.apple.com&#x2F;tw&#x2F;app&#x2F;enpass-password-manager&#x2F;id732710998?mt=12&quot;&gt;Enpass&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;密碼管理軟體。幾乎免費、預設 local 端儲存。替代品有 1password、LastPass...等。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;itunes.apple.com&#x2F;tw&#x2F;app&#x2F;reeder-3&#x2F;id880001334?mt=12&quot;&gt;Reeder&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;老牌 RSS 閱讀器。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+</content>
+	</entry>
 	<entry xml:lang="zh-TW">
 		<title>Enpass 和 SizeUp</title>
 		<published>2018-08-24T00:00:00+00:00</published>

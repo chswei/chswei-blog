@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html
+  lang="zh-TW"
+  itemscope
+  itemtype="http://schema.org/Blog"
+>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+    />
+
+    <link rel="stylesheet" href="https://chswei.netlify.app/site/styles/site.css?h=d0620f8f9a9ceb9070dbfc987c3aa54213459688457dcd5ede069598d299952e">
+    <title>【閱讀筆記】打開演算法黑箱 - Hannah Fry - Chswei&#x27;s Blog</title>
+
+    
+    <meta
+      name="description"
+      itemprop="about"
+      content=" 
+  "
+    />
+    <meta
+      name="keywords"
+      itemprop="keywords"
+      content="醫學, 閱讀, 登山, 程式"
+    />
+    <meta name="author" itemprop="author" content="chswei" />
+    <meta itemprop="headline" content="Chswei&#x27;s Blog" />
+    <meta itemprop="copyrightYear" content="2022" />
+    <link rel="icon" href="https://chswei.netlify.app/site/images/favicon-32x32.png?h=59227f3723df6ad7b697ad43b9be38be8a62e2a581be7e34cfea92691bd024ca"
+    type="image/x-icon"> <link rel="apple-touch-icon" sizes="57x57" href="https://chswei.netlify.app/site/images/apple-icon-57x57.png?h=408d830a68a6226fbd7f63b71b83d4324e9cf87b474f9af17ccd944fac48f5a1"> <link
+    rel="apple-touch-icon" sizes="60x60" href="https://chswei.netlify.app/site/images/apple-icon-60x60.png?h=7b16952e0d30e9f4516f9146dd4d4447da55517250fbbb9618b63f7ef4edaf10"> <link
+    rel="apple-touch-icon" sizes="72x72" href="https://chswei.netlify.app/site/images/apple-icon-72x72.png?h=0ead6766307c21bbf9ef8a833436477f121e804d4f6abdce34534078868c8d7c"> <link
+    rel="apple-touch-icon" sizes="76x76" href="https://chswei.netlify.app/site/images/apple-icon-76x76.png?h=c23d60c28dae6b3a0e3cd8293bd1f06a829d6342cfc549d0f002b49e199ae859"> <link
+    rel="apple-touch-icon" sizes="114x114" href="https://chswei.netlify.app/site/images/apple-icon-114x114.png?h=f95034ae0d37d2cb2028e815c142d8e6a4cabbc4b061d23fa764f173aa41bc1b"> <link
+    rel="apple-touch-icon" sizes="120x120" href="https://chswei.netlify.app/site/images/apple-icon-120x120.png?h=d8ff6545cf8b66feb22cb62848c6ac6221e5903d900e23c12f1ec5a28efa2180"> <link
+    rel="apple-touch-icon" sizes="144x144" href="https://chswei.netlify.app/site/images/apple-icon-144x144.png?h=e3e7d49b544ab1ffb18d8f2a9ee690e99880a7fda89649abfd91d6de84c54b6f"> <link
+    rel="apple-touch-icon" sizes="152x152" href="https://chswei.netlify.app/site/images/apple-icon-152x152.png?h=ec080d1e6535eda34b86f64fe827900a8a5cb2e0f3d84a612fb47f61476a2427"> <link
+    rel="apple-touch-icon" sizes="180x180" href="https://chswei.netlify.app/site/images/apple-icon-180x180.png?h=453789d9d0e60dd2af117bd520ccbd11152685ba535fc744562a1580b7106c3e"> <link rel="icon"
+    type="image/png" sizes="192x192" href="https://chswei.netlify.app/site/images/android-icon-192x192.png?h=e511fd3bbc573548be28cce3e85f7c3f4400a168e49ca39ce93c211b35bc53eb"> <link rel="icon"
+    type="image/png" sizes="32x32" href="https://chswei.netlify.app/site/images/favicon-32x32.png?h=59227f3723df6ad7b697ad43b9be38be8a62e2a581be7e34cfea92691bd024ca"> <link rel="icon"
+    type="image/png" sizes="96x96" href="https://chswei.netlify.app/site/images/favicon-96x96.png?h=d7375531934aeccaacefe9e7351013eda12e236fa782899f7c22d552bf35769d"> <link rel="icon"
+    type="image/png" sizes="16x16" href="https://chswei.netlify.app/site/images/favicon-16x16.png?h=2fd128be34f69cfcdb2a2ed7a78c3ff39ad44efcc2d5880576b01e9cbcccc345"> <link rel="manifest"
+    href="https://chswei.netlify.app/site/images/manifest.json">
+    <meta
+      name="msapplication-TileColor"
+      content="#6fd684"
+    />
+    <meta name="msapplication-TileImage" content="https://chswei.netlify.app/site/images/ms-icon-144x144.png?h=bb0b31801a4277bdb744215d551f2dfb3ddb71b825c154c46d07f9e8764eeb7b">
+    <meta name="theme-color" content="#6fd684" />
+
+    <meta
+      property="og:title"
+      content="【閱讀筆記】打開演算法黑箱 - Hannah Fry - Chswei&#x27;s Blog"
+    />
+    <meta
+      property="og:description"
+      content=" 
+  "
+    />
+    <meta
+      property="og:url"
+      content="https:&#x2F;&#x2F;chswei.netlify.app/how-to-be-human-in-the-age-of-the-machine"
+    />
+    <meta property="og:site_name" content="Chswei&#x27;s Blog" />
+    
+    <meta
+      property="og:image"
+      content=""
+    />
+    
+    <meta name="twitter:card" content="summary" />
+    
+    <meta name="twitter:site" content="wujiyaker" />
+    <meta name="twitter:creator" content="wujiyaker" />
+    <meta
+      name="twitter:image:alt"
+      content="Chswei&#x27;s Blog"
+    />
+     
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-QYGC470RBB"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-QYGC470RBB");
+    </script>
+    
+    <meta name="title" content="【閱讀筆記】打開演算法黑箱 - Hannah Fry">
+<style>
+  .sidebar{
+    display: none;
+  }
+  @media (min-width: 67.5rem) {
+    .sidebar{
+      display: block;
+    }
+  }
+</style>
+
+  </head>
+
+  <body>
+    <section id="top"></section>
+    <section id="root" >
+      <main class="body-zone flex justify-between flex-1">
+          <section class="main flex-1">
+            <div class="main-inner px">
+              
+      <header id="overview">
+        <div class="pt">
+          <span>&gt;&gt;</span>
+          <a href="https://chswei.netlify.app/">首頁</a>
+          
+          <span class="divider">/</span>
+          <a class="category" href="https://chswei.netlify.app/categories/yue-du/">閱讀</a>
+          
+          <span class="divider">/</span>
+          
+          <a href="https://chswei.netlify.app/tags/reading/">reading</a>
+          
+          
+          
+          </div>
+        
+        <div>
+          <h1 style="font-size:2rem;">【閱讀筆記】打開演算法黑箱 - Hannah Fry</h1>
+          <div class="muted">
+            <div>
+              發布於 2022-03-17 | 最後更新時間 2022-03-17 </div>
+        </div>
+  
+        </div>
+        
+        
+      </header>
+      <section>
+      
+        <section class="main">
+          
+          <div class="main-toc pt">
+            <details>
+              <summary>目錄</summary>
+              
+<section class="sidebar-table-content">
+  <ul >
+    <li><a href="#start">本文開始</a></li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/how-to-be-human-in-the-age-of-the-machine/#yi-zi-liao">一、資料</a>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/how-to-be-human-in-the-age-of-the-machine/#er-si-fa">二、司法</a>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/how-to-be-human-in-the-age-of-the-machine/#san-yi-liao">三、醫療</a>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/how-to-be-human-in-the-age-of-the-machine/#si-che-liang">四、車輛</a>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/how-to-be-human-in-the-age-of-the-machine/#wu-fan-zui">五、犯罪</a>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/how-to-be-human-in-the-age-of-the-machine/#liu-yi-shu">六、藝術</a>
+          
+      </li>
+  
+  </ul>
+</section>
+
+            </details>
+
+          </div>
+          
+          <section id="start"></section>
+          <article>
+            <p><img src="https://lh3.googleusercontent.com/pw/AM-JKLV_e3TxYNm1LpZByqJ0KSDlq-PhNecAYJpjlv7scbS6CxIhTs71vDOHuc5uDqpEes-S3WL4Go0NSUXrtYMMDF-kpAeF4ZyOY19XlGELRFSxZeLVXqbvLwCch7NWf_zsHEZhVCobYr2amM0VYXeduOCrEQ=s1080-no?authuser=0" alt="" /></p>
+<span id="continue-reading"></span>
+<p>「演算法，一種按步驟解決問題或達成某種目的之程序，尤其是藉由電腦。」</p>
+<p>本書分別從六個領域探討演算法在讓我們生活變得更加便利與進步的同時，人們是怎麼過於依賴和相信它們，並把自己的權力交出去。舉例來說，有人因為相信 google map 的導航路線差點掉下懸崖。又如搜尋引擎建議的搜尋結果決定我們看到什麼內容，進而影響選舉的結果，但人們不曉得自己正被操弄。</p>
+<p>演算法會犯錯、會不公正，但人類也不是完美的。我們應該將演算法定位成人類出錯時會進行矯正救濟的角色，和人類以夥伴關係一起合作，善用彼此的強項，包容彼此的缺點，而非全然交給演算法做主。我想這是這本書想帶給我們的啟示。</p>
+<hr />
+<h2 id="yi-zi-liao">一、資料</h2>
+<p>這些隱藏在背景畫面中的演算法，正運用你不知道它們擁有且絕不主動提供的資料謀利。它們已經把你最個人、最隱私的秘密，變成一種商品。每次當你把資料雙手奉上，資訊就被蒐集賣給資料仲介。這些資料被整合起來，然後創造出僅此一份、鉅細靡遺的檔案，一份針對你的數位分身所做的個人簡介資料檔。這些資料可以作為精準投放廣告、推斷個人身分、甚至公民評分系統等用途。</p>
+<h2 id="er-si-fa">二、司法</h2>
+<p>只要法官有自己評估案件的自由，便會有大量的不一致狀況。容許法官有自由裁量的空間，意味著容許這個系統含有運氣的成份。利用隨機森林的演算法，以隨機分段的資料，建立數千個較小的決策樹，接著要求每一個決策樹投票，取所有答覆的平均值。市面上有很多種類似的系統可以預測罪犯再犯風險，並評估可否交保。然而要小心偽陰性與偽陽性，在公平與誤判的天秤上取得平衡。</p>
+<h2 id="san-yi-liao">三、醫療</h2>
+<ol>
+<li>醫生有跟多面向大概是演算法永遠無法複製的，同理心是其中一項。</li>
+<li>人類在特異度上表現好，而演算法則是在靈敏度上更勝一籌。兩者的合作模式，可以提升準確度又可節省時間。不過跟司法領域一樣，要擔心過度診斷造成的過度治療。</li>
+<li>華生不會一直是個幻想，但要讓他成真， 我們需要放棄隱私權，我們的紀錄可能受到危害、遭竊取或被用來對付我們。例如世界上很多國家可以拒絕糖尿病患投保或治療。</li>
+<li>提供唾液樣本給基因體及生物科技公司，換得你的遺傳性狀報告，與此同時，該公司也累積了巨大的基因資訊資料庫。如果你授權同意 (有 80% 的客戶這麼做)，該公司會將你的基因資料以匿名的形式賣給其他研究夥伴，如學者和製藥公司賺取可觀的利潤。每當你寄出樣本換取商用基因報告，有件事應當牢記在心：你不是在使用產品，你就是產品。</li>
+</ol>
+<h2 id="si-che-liang">四、車輛</h2>
+<p>太過依賴自動系統的潛藏危機，像是導致人類能力的退化，例如法航 447 號空難。沒有在注意狀況的駕駛人，就在你需要對路況最了解的那一刻，你將會是最不清楚的那個；加上缺乏練習，在你得處理需要最高階技巧的狀況時，你的準備將會是極盡可能的差。讓機器的技能與人類的技能互補，像是 Volvo 的自動緊急煞車 (守護神模式，而非司機模式)</p>
+<h2 id="wu-fan-zui">五、犯罪</h2>
+<p>演算法只能預測未來發生某些事件的風險，而非預測事情本身。演算法能讓人們更容易事先阻止潛在的犯罪，但演算法誤差也可能會錯誤地犧牲無辜者。人們為了前者會願意犧牲後者到什麼程度？</p>
+<h2 id="liu-yi-shu">六、藝術</h2>
+<p>托爾斯泰說，藝術不是手工藝品，而是傳達藝術家所體驗到的感受。那麼演算法所製作的作品可以稱作藝術嗎？</p>
+
+          </article>
+
+          
+          <div id="email-comment" class="muted text-sm">
+            <hr class="w-full">
+            
+            <p>
+              如果你對於本文有任何想討論或分享的，歡迎<a href="mailto:terrance.365b8cbf@nicoric.com?subject=%E5%9B%9E%E8%A6%86%EF%BC%9A%E3%80%90%E9%96%B1%E8%AE%80%E7%AD%86%E8%A8%98%E3%80%91%E6%89%93%E9%96%8B%E6%BC%94%E7%AE%97%E6%B3%95%E9%BB%91%E7%AE%B1%20-%20Hannah%20Fry">來信</a>到：<code>terrance.365b8cbf@nicoric.com</code> 找我聊聊！
+            </p>
+            
+            
+
+          </div>
+          
+
+        </section>
+        
+       
+      </section>
+
+
+              </div>
+            </section>
+
+          
+<aside class="sidebar px ">
+
+<h2>目錄</h2>
+
+<section class="sidebar-table-content">
+  <ul >
+    <li><a href="#start">本文開始</a></li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/how-to-be-human-in-the-age-of-the-machine/#yi-zi-liao">一、資料</a>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/how-to-be-human-in-the-age-of-the-machine/#er-si-fa">二、司法</a>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/how-to-be-human-in-the-age-of-the-machine/#san-yi-liao">三、醫療</a>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/how-to-be-human-in-the-age-of-the-machine/#si-che-liang">四、車輛</a>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/how-to-be-human-in-the-age-of-the-machine/#wu-fan-zui">五、犯罪</a>
+          
+      </li>
+  
+      <li>
+          <a href="https://chswei.netlify.app/blog/how-to-be-human-in-the-age-of-the-machine/#liu-yi-shu">六、藝術</a>
+          
+      </li>
+  
+  </ul>
+</section>
+
+
+</aside>
+
+
+
+      </main>
+      </section>
+    <section id="bottom"></section>
+  </body>
+</html>

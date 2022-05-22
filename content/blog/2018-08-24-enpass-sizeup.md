@@ -4,10 +4,10 @@ date: 2018-08-24
 updated: 2018-08-24
 taxonomies:
   categories: 
-    - Thoughts
+    - 雜記
   tags: 
     - tools
-    - mac
+    - Mac
 ---
 
 ### [Enpass](https://www.enpass.io)

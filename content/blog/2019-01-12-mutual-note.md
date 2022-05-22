@@ -4,10 +4,7 @@ date: 2018-08-11
 updated: 2018-08-11
 taxonomies:
   categories: 
-    - 醫學
-  tags: 
-    - medicine
-    - study
+    - 雜記
 ---
 
 前幾天排版共筆排得很煩躁，腦中突然冒出用 Hackmd 製作系上共筆的想法。網上搜尋了一下，發現沒有人寫類似的文章（大概也沒有人會公布自己系上製作共筆的方式吧，除了以前[黃豆泥](https://youtu.be/Ur_uvrLKtQ4)學長有推廣過使用 Google Docs 製作共筆）。所以趁著整合考剛結束，理了一下想法，順手打下。
