@@ -40,11 +40,11 @@ include_content = false
 
 [extra]
 author = "chswei"
-email = "mimir@hey.com"
+email = "terrance.365b8cbf@nicoric.com"
 theme_color = "#6fd684"
 
 ### THIRD PARTY
-# google_analytics = "UA-012345-67"
+google_analytics = "316136003"
 
 ### SOCIAL MEDIA
 image = "https://pinchlime.com/logo.png"
