@@ -9,7 +9,7 @@ taxonomies:
     - mountaineering
 ---
 
-![](https://lh3.googleusercontent.com/pw/AM-JKLWeNt2AY5AZnm9PClaZ17PpXhKFCco-cHjGQdd2bS7aghdJxJlC5kwGcTc6KLgncTs117PxcnudPg0QN9P8mmV0J1ZV77p9OE-Cvgwft18KJZPcm_-k5P49VYFM4BxXLVLPwL9UB5B0zL_fzLwOS3cUrg=w1854-h1390-no?authuser=0)
+![](https://drive.google.com/uc?export=view&id=1YanWovAoj4DvxQBN4SBFDBkHtW2WDKMY)
 
 睽違四年再次登上三千公尺以上的高山，心中有說不出的感動。前一晚幾乎沒睡然後半夜兩點多起登，原本很擔心會有高山反應，幸好還是順利登頂了 (不過路上超滑，摔了兩三次，不知道是我的問題還是鞋子的問題...必須檢討)。
 

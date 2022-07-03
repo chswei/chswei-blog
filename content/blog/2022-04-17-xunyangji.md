@@ -9,7 +9,7 @@ taxonomies:
     - reading
 ---
 
-![](https://lh3.googleusercontent.com/pw/AM-JKLVgDrnoVo2joPer5DQAsJg6k-beQsg3HoD4Cerc-EAF61rtU9G2GgF90v7psJwnv_NgO0-wQpy6arGUtS0T5ij5lXxi3I3adWDSKQCGodvT3R8FBLiDtzm0aur6H6MHYSU76PzkqWDNIhnpSs6W8euGMw=s1080-no?authuser=0)
+![](https://drive.google.com/uc?export=view&id=11zkDQ94mzjeiKXCsPWF6TT0izVqUSDjl)
 
 <!-- more -->
 
